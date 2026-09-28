@@ -1,0 +1,1952 @@
+[
+  {
+    "id": 2,
+    "domain": "key_terms_and_definitions",
+    "question": "A company outsources its email hosting to a cloud provider instead of running its own mail servers. Which ITIL concept best explains why the company no longer needs to buy hardware, patch servers, or manage uptime themselves?",
+    "options": {
+      "D": "The company achieved outcomes without any provider involvement.",
+      "A": "The product configuration was hidden from the customer.",
+      "B": "The service transfers certain costs and risks to the provider.",
+      "C": "Utility and warranty became irrelevant once outsourced, which is not accurate."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (The service transfers certain costs and risks to the provider.): this is exactly what ITIL means when it says a service lets a customer achieve outcomes without owning specific costs and risks. Option A is not part of the service definition. Option D is false, since outcomes always require provider involvement. Option C is wrong, since utility and warranty remain essential regardless of who manages the infrastructure."
+  },
+  {
+    "id": 6,
+    "domain": "key_terms_and_definitions",
+    "question": "Which statement correctly distinguishes a service from a product in ITIL terms?",
+    "options": {
+      "D": "A product is a resource configuration, a service is an outcome-facilitating relationship.",
+      "A": "A product typically costs more money than a service.",
+      "B": "A service is a physical item while a product is intangible.",
+      "C": "Products are for internal use only, services are for external customers."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (A product is a resource configuration, a service is an outcome-facilitating relationship.): this precisely matches the ITIL definitions covered in this chapter. Option A is not part of either definition and is not generally true. Option B reverses common usage and is not the ITIL distinction at all. Option C is a false generalization not supported by ITIL."
+  },
+  {
+    "id": 20,
+    "domain": "key_terms_and_definitions",
+    "question": "In a hospital scenario, the IT department builds and maintains a laboratory information system used by doctors to receive test results faster. Which stakeholder role does the IT department occupy in this internal arrangement?",
+    "options": {
+      "A": "A provider, the organization that agrees to deliver the service.",
+      "B": "A user, the person who uses the service on a daily basis.",
+      "C": "A sponsor, the party who authorizes the budget for the service.",
+      "D": "A customer, the person who defines requirements and owns outcomes."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (A provider, the organization that agrees to deliver the service.): the IT department is the party agreeing to deliver and support the service to the rest of the hospital. Option B is wrong, doctors and nurses are the users. Option C is wrong, the finance department approving budget would be the sponsor. Option D is wrong, the Chief Medical Officer defining requirements would more likely be the customer."
+  },
+  {
+    "id": 25,
+    "domain": "key_terms_and_definitions",
+    "question": "Which of the following most accurately reflects ITIL (Version 5)'s relationship to ITIL 4?",
+    "options": {
+      "B": "It builds directly on ITIL 4 rather than replacing its core concepts.",
+      "A": "It largely replaces every ITIL 4 definition with new terminology.",
+      "C": "It removes the concepts of service and value mostly.",
+      "D": "It applies only to organizations that rarely used ITIL 4."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (It builds directly on ITIL 4 rather than replacing its core concepts.): the chapter states plainly that core ITIL 4 definitions remain unchanged under ITIL (Version 5). Option A is false and contradicts the framework's own stated approach. Option C is incorrect, these concepts remain foundational. Option D is an unsupported and illogical restriction."
+  },
+  {
+    "id": 33,
+    "domain": "key_terms_and_definitions",
+    "question": "A company's IT helpdesk resolves an enormous number of tickets every week, yet employees still report that their core problems are never actually fixed. What might this suggest about the helpdesk's approach, relating to concepts introduced in this chapter?",
+    "options": {
+      "D": "The helpdesk may be focused on activity rather than genuine value co-creation with employees.",
+      "A": "The helpdesk has achieved perfect value co-creation by definition.",
+      "B": "Ticket volume alone typically guarantees strong customer value.",
+      "C": "This scenario has nothing to do with value or outcomes, which some training materials describe in a simplified way."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (The helpdesk may be focused on activity rather than genuine value co-creation with employees.): high volume without addressing real needs suggests a disconnect from stakeholder perspective and true collaborative value creation. Option A is contradicted by the employees' own dissatisfaction. Option B is false and is a common exam trap, since volume does not equal value. Option C is incorrect, this scenario directly illustrates value concepts from this chapter."
+  },
+  {
+    "id": 35,
+    "domain": "key_terms_and_definitions",
+    "question": "A city government configures roads, traffic signals, and maintenance crews as its transportation infrastructure. This configuration is best described using which ITIL term?",
+    "options": {
+      "D": "A product, a configuration of an organization's own resources.",
+      "A": "An outcome, the resulting benefit a stakeholder experiences from an output.",
+      "B": "A sponsor, the party who authorizes the budget for the service.",
+      "C": "Warranty, the assurance that a service will meet agreed requirements."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (A product, a configuration of an organization's own resources.): the arranged resources, roads, signals, and crews, match the ITIL definition of a product as a configuration of resources designed to offer value. Option A describes a resulting benefit, not the resource configuration itself. Option B describes a stakeholder role unrelated to this scenario. Option C describes a reliability concept covered in the next chapter."
+  },
+  {
+    "id": 38,
+    "domain": "key_terms_and_definitions",
+    "question": "A retail bank builds an internal fraud detection engine using its own data scientists, servers, and rules engine. Which ITIL term best applies to this engine on its own, before any specific case is being actively processed?",
+    "options": {
+      "C": "A product, a configuration of an organization's own resources.",
+      "A": "A service, the active relationship that produces a real outcome.",
+      "B": "An outcome, the resulting benefit a stakeholder experiences from an output.",
+      "D": "A user, the person who uses the service on a daily basis."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (A product, a configuration of an organization's own resources.): the fraud detection engine, as a configuration of the bank's own resources, matches the product definition. Option A would apply once the engine is actively catching a specific fraudulent transaction and producing a benefit. Option B describes a resulting benefit rather than the resource configuration. Option D names a stakeholder role, not a description of the engine itself."
+  },
+  {
+    "id": 39,
+    "domain": "key_terms_and_definitions",
+    "question": "Which of the following statements about stakeholders is most accurate?",
+    "options": {
+      "B": "The same individual can simultaneously hold the customer, sponsor, and user roles.",
+      "A": "Customer, sponsor, and user must typically be three separate people.",
+      "C": "Only large organizations can have distinct sponsor and customer roles.",
+      "D": "A provider can rarely also be a customer of another service."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (The same individual can simultaneously hold the customer, sponsor, and user roles.): the small business owner example in this chapter demonstrates this directly. Option A is contradicted by that same example. Option C is an unsupported and false generalization. Option D is incorrect, an organization can be a provider of one service and a customer of a completely different one."
+  },
+  {
+    "id": 49,
+    "domain": "key_terms_and_definitions",
+    "question": "A logistics company builds a fleet management platform, its product, then offers 'route optimization,' 'driver safety monitoring,' and 'fuel cost tracking' as three separate customer offerings. What does this best demonstrate?",
+    "options": {
+      "D": "A single product being packaged into multiple distinct services.",
+      "A": "Three unrelated products with no shared resources, which is not accurate here.",
+      "B": "A violation of ITIL's product and service definitions.",
+      "C": "An outcome being mistaken for a product, confusing two separate concepts."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (A single product being packaged into multiple distinct services.): this mirrors the restaurant and video conferencing examples in the chapter, where one underlying product supports several separate services. Option A is incorrect, they clearly share the same underlying platform. Option B is false, this is a textbook example of correct ITIL product and service structuring. Option C confuses two unrelated concepts."
+  },
+  {
+    "id": 74,
+    "domain": "key_terms_and_definitions",
+    "question": "Which best captures why a provider absorbing risk on behalf of a customer is considered part of the value the service creates?",
+    "options": {
+      "C": "Because reduced risk exposure is itself a benefit the customer perceives and cares about.",
+      "A": "Because risk has no connection to how customers judge value.",
+      "B": "Because only sponsors are capable of perceiving reduced risk as beneficial.",
+      "D": "Because providers are required by law to eliminate all risk mostly."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Because reduced risk exposure is itself a benefit the customer perceives and cares about.): this ties the service definition's cost and risk language directly back to the earlier definition of value as a perceived benefit. Option A contradicts the chapter's own framing of risk as part of the customer's perceived benefit. Option B is an unsupported and arbitrary restriction. Option D overstates the claim, since risk is reduced, not entirely eliminated."
+  },
+  {
+    "id": 87,
+    "domain": "key_terms_and_definitions",
+    "question": "Which of the four warranty factors is being described when an online ticket sales website crashes the instant a popular concert goes on sale due to overwhelming demand?",
+    "options": {
+      "D": "Capacity, whether the service can handle the expected volume of demand.",
+      "A": "Availability, whether the service is accessible whenever it is needed.",
+      "B": "Security, whether the service protects information from unauthorized access.",
+      "C": "Continuity, whether the service can recover quickly after a disruption."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Capacity, whether the service can handle the expected volume of demand.): the failure occurs specifically because the system cannot handle the expected volume of demand, which is exactly what capacity measures. Option A would apply if the site were simply down at a random time unrelated to demand volume. Option B relates to protecting information, not handling traffic volume. Option C relates to recovery after a disruption, not handling a demand surge."
+  },
+  {
+    "id": 90,
+    "domain": "key_terms_and_definitions",
+    "question": "Which of the four warranty factors is being described when a banking app works perfectly during the day but is completely down every night?",
+    "options": {
+      "A": "Availability, whether the service is accessible whenever it is needed.",
+      "B": "Capacity, whether the service can handle the expected volume of demand.",
+      "C": "Security, whether the service protects information from unauthorized access.",
+      "D": "Continuity, whether the service can recover quickly after a disruption."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (Availability, whether the service is accessible whenever it is needed.): being accessible when the customer needs it is exactly what availability measures, and this scenario shows a clear, predictable accessibility gap. Option B relates to handling volume of demand, not scheduled downtime. Option C relates to unauthorized access, unrelated here. Option D relates to recovery after a disruption, not routine nightly outages."
+  },
+  {
+    "id": 104,
+    "domain": "key_terms_and_definitions",
+    "question": "Continuing the airline kiosk scenario, passengers now spend far less time in line and reach their gate with less stress. Which term best describes this benefit?",
+    "options": {
+      "B": "An outcome, the resulting benefit a stakeholder experiences from an output.",
+      "A": "An output, the direct deliverable produced by completing an activity, though the precise scope can vary between organizations.",
+      "C": "Utility, the functionality a service offers to meet a particular need.",
+      "D": "Capacity, whether the service can handle the expected volume of demand."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (An outcome, the resulting benefit a stakeholder experiences from an output.): reduced waiting time and stress is the real world benefit passengers experience because of the kiosks, distinct from the kiosks themselves. Option A describes the deliverable, not the benefit. Option C describes functionality fit for purpose, a related but separate concept. Option D describes one specific warranty factor, not the overall benefit."
+  },
+  {
+    "id": 107,
+    "domain": "key_terms_and_definitions",
+    "question": "A hospital launches an online appointment booking portal. Which term best describes the newly launched booking page itself?",
+    "options": {
+      "D": "An output, the direct deliverable produced by completing an activity.",
+      "A": "An outcome, the resulting benefit a stakeholder experiences from an output.",
+      "B": "Warranty, the assurance that a service will meet agreed requirements.",
+      "C": "A user, the person who uses the service on a daily basis."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (An output, the direct deliverable produced by completing an activity.): the launched booking page is the direct deliverable produced by the development activity. Option A would describe the resulting patient benefit from using it. Option B is an unrelated reliability concept. Option C names a stakeholder role, not a deliverable."
+  },
+  {
+    "id": 108,
+    "domain": "key_terms_and_definitions",
+    "question": "Patients can now book a specialist appointment in minutes instead of waiting on hold for twenty minutes. Which term best describes this improvement?",
+    "options": {
+      "D": "An outcome, the resulting benefit a stakeholder experiences from an output.",
+      "A": "An output, the direct deliverable produced by completing an activity.",
+      "B": "Utility, the functionality a service offers to meet a particular need.",
+      "C": "Security, whether the service protects information from unauthorized access."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (An outcome, the resulting benefit a stakeholder experiences from an output.): the faster, less frustrating booking experience is the real benefit patients experience, distinct from the portal itself. Option A describes the deliverable, not the benefit. Option B describes functionality, a related but separate concept. Option C describes one specific warranty factor, not the overall benefit being described here."
+  },
+  {
+    "id": 116,
+    "domain": "key_terms_and_definitions",
+    "question": "Which of the following best represents a scenario where utility is present but warranty is clearly absent?",
+    "options": {
+      "D": "A feature-complete inventory system that is offline for six hours every single day.",
+      "A": "A feature-complete inventory system that is available around the clock.",
+      "B": "An inventory system missing key features but typically online, which blends two related ideas from the wider framework.",
+      "C": "An inventory system missing key features and frequently offline."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (A feature-complete inventory system that is offline for six hours every single day.): this isolates strong utility against clearly poor warranty, specifically an availability failure. Option A shows both factors strong, not the contrast being tested. Option B isolates the opposite contrast, weak utility with strong warranty. Option C shows both factors weak, not the specific isolation being asked about."
+  },
+  {
+    "id": 121,
+    "domain": "key_terms_and_definitions",
+    "question": "A company's e-commerce site goes completely dark for eight hours during a major regional power outage, and it takes two full days to restore all customer order data. Which warranty factor is most clearly implicated?",
+    "options": {
+      "B": "Continuity, whether the service can recover quickly after a disruption.",
+      "A": "Capacity, whether the service can handle the expected volume of demand.",
+      "C": "Security, whether the service protects information from unauthorized access.",
+      "D": "Utility, the functionality a service offers to meet a particular need."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (Continuity, whether the service can recover quickly after a disruption.): the ability to keep operating or recover quickly after a major disruption, like a power outage, is exactly what continuity measures, and the slow, incomplete recovery shown here is a clear failure. Option A relates to handling volume of demand, a different scenario than an outage. Option C relates to unauthorized access, unrelated here. Option D is not a warranty factor, it is a separate functionality concept."
+  },
+  {
+    "id": 124,
+    "domain": "key_terms_and_definitions",
+    "question": "A company deploys a chatbot, an output, that successfully reduces average customer wait times from ten minutes to thirty seconds, a result customers directly notice and appreciate. Which term best applies to the reduced wait time?",
+    "options": {
+      "B": "An outcome, the resulting benefit a stakeholder experiences from an output.",
+      "A": "An output, the direct deliverable produced by completing an activity.",
+      "C": "Warranty, the assurance that a service will meet agreed requirements.",
+      "D": "A sponsor, the party who authorizes the budget for the service, a distinction not typically made in casual usage."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (An outcome, the resulting benefit a stakeholder experiences from an output.): the reduced wait time is the real benefit customers experience as a result of the chatbot, distinct from the chatbot deployment itself. Option A describes the deliverable, not the resulting benefit. Option C introduces an unrelated reliability concept. Option D names a stakeholder role, not a benefit."
+  },
+  {
+    "id": 134,
+    "domain": "key_terms_and_definitions",
+    "question": "A worked example in this chapter uses an online banking application to connect all four key terms together. Which of the following pairs correctly matches a piece of that example with its concept?",
+    "options": {
+      "C": "The released app version is the output, and reliable money transfers are the outcome.",
+      "A": "The released app version is the outcome, and reliable money transfers are the output.",
+      "B": "The released app version is the warranty, and reliable transfers are the utility, a phrase that appears in some informal training material.",
+      "D": "The released app version is the utility, and reliable transfers are the warranty."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (The released app version is the output, and reliable money transfers are the outcome.): this correctly matches the chapter's own worked example, where the deliverable is the output and the resulting customer benefit is the outcome. Option A reverses the two concepts incorrectly. Option B and D both misapply utility and warranty terms to concepts that are actually output and outcome in this specific pairing."
+  },
+  {
+    "id": 145,
+    "domain": "key_terms_and_definitions",
+    "question": "Which best explains why an exam question describing 'a new feature was added' is most likely testing the concept of output rather than outcome, unless it also describes a resulting benefit?",
+    "options": {
+      "A": "Because adding a feature is the deliverable itself, and a benefit must be separately described.",
+      "B": "Because features can rarely be considered outputs under ITIL, a common misconception among newcomers to the framework.",
+      "C": "Because adding a feature typically automatically implies every possible outcome.",
+      "D": "Because outputs and features are unrelated concepts in ITIL."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (Because adding a feature is the deliverable itself, and a benefit must be separately described.): this matches the chapter's consistent pattern, where a deliverable alone is an output, and an explicit resulting benefit is needed to identify an outcome. Option B is false, a feature addition is a classic example of an output. Option C directly contradicts the chapter's repeated warning against assuming outputs guarantee outcomes. Option D is incorrect, features are a common and clear example of outputs."
+  },
+  {
+    "id": 159,
+    "domain": "key_terms_and_definitions",
+    "question": "A department's manager defines what a new tool must do and separately controls its budget, while her team merely uses the tool. Consider the underlying responsibility being described rather than the specific title or label used, since ITIL defines its roles and concepts by responsibility alone. What roles does she hold?",
+    "options": {
+      "A": "Both customer and sponsor, since she both defines needs and approves funding.",
+      "B": "Only the service provider role, which does not fit her situation, a phrase that appears in some informal training material.",
+      "C": "Only the stakeholder role, which understates her direct involvement here.",
+      "D": "Only the user role, which ignores her requirement setting authority."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (Both customer and sponsor, since she both defines needs and approves funding.): Holding both requirement setting authority and budget authority means she is both customer and sponsor at once, matching this option. She is not described as using the tool daily, so user alone is incorrect. Her involvement goes well beyond a general stakeholder interest. She is not delivering the service, so provider is incorrect."
+  },
+  {
+    "id": 174,
+    "domain": "key_terms_and_definitions",
+    "question": "Pay close attention to exactly who is doing what in the description, since the wording has been chosen deliberately to test precise recognition of the correct concept. Which of the following best describes why a healthcare organization treats a data breach as a compliance risk in addition to a security risk?",
+    "options": {
+      "A": "Because compliance risk and security risk are officially the exact same category.",
+      "B": "Because a breach can rarely have any legal or regulatory consequence in this case.",
+      "C": "Because healthcare organizations are mostly exempt from any compliance obligations.",
+      "D": "Because the breach can also trigger violations of legally required data protection rules."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Because the breach can also trigger violations of legally required data protection rules.): A breach can violate data protection laws on top of being a technical security failure, creating overlapping compliance risk, matching this option. The two categories are related but distinct, not identical. Healthcare organizations are typically subject to significant compliance obligations, not exempt. Breaches frequently do carry legal or regulatory consequences."
+  },
+  {
+    "id": 182,
+    "domain": "key_terms_and_definitions",
+    "question": "Read the situation carefully and match the responsibility being described to its correct, formally defined ITIL term rather than guessing from the job title alone. A cloud vendor's public description of storage tiers, support hours, and included maintenance visits is best classified as which concept?",
+    "options": {
+      "A": "A risk assessment, based on the concept being described.",
+      "B": "A stakeholder register, based on the concept being described.",
+      "C": "A sponsor authorization, based on the concept being described.",
+      "D": "A service offering, based on the concept being described."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (A service offering, based on the concept being described.): Describing storage, support hours, and maintenance together is exactly what a service offering packages for consumers, matching this option. A stakeholder register lists interested parties, not offering details. A risk assessment analyzes potential problems, not offering contents. A sponsor authorization is a budget approval, unrelated to describing offering contents."
+  },
+  {
+    "id": 191,
+    "domain": "key_terms_and_definitions",
+    "question": "A small business uses a cloud email provider instead of running its own servers. Read the situation carefully and match the responsibility being described to its correct, formally defined ITIL term rather than guessing from the job title alone. Which new risk does the business take on as a result?",
+    "options": {
+      "A": "The risk of physically maintaining its own server hardware, though this framing misses part of the real definition.",
+      "B": "Dependency on the provider's own reliability and pricing decisions.",
+      "C": "A expected increase in the business's overall operating costs.",
+      "D": "The complete elimination of every possible risk going forward."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (Dependency on the provider's own reliability and pricing decisions.): Relying on an external provider introduces dependency risk tied to that provider's own performance and pricing, matching this option. Server maintenance risk is exactly what the business avoided by outsourcing. Risk is shifted, not eliminated entirely, contradicting this option. Outsourcing commonly reduces certain costs rather than guaranteeing an increase."
+  },
+  {
+    "id": 193,
+    "domain": "key_terms_and_definitions",
+    "question": "Because this content area makes up a significant share of the real exam blueprint, candidates should expect to see several questions built around exactly this kind of situation. Which resource category specifically includes external organizations that provide capabilities supporting service delivery?",
+    "options": {
+      "A": "People, the human resource category involved in delivering a service.",
+      "B": "Value streams and processes, the organized ways of working an organization uses.",
+      "C": "Technology, the tools, platforms, and infrastructure used to deliver a service.",
+      "D": "Partners and suppliers, external organizations that support service delivery."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Partners and suppliers, external organizations that support service delivery.): Partners and suppliers is defined as the resource category covering external organizations providing supporting capabilities, matching this option. People refers to internal or provider staff, not external organizations specifically. Technology refers to tools and platforms, not organizations themselves. Value streams and processes refers to ways of working, not external organizations."
+  },
+  {
+    "id": 206,
+    "domain": "key_terms_and_definitions",
+    "question": "A small business owner personally buys and uses an email hosting service for her one person company. Identifying the correct concept here requires distinguishing it clearly from other closely related terms that are commonly confused in real exam scenarios. Which roles does she hold at once?",
+    "options": {
+      "A": "Only the sponsor role, since she pays the bill, though the precise scope can vary between organizations.",
+      "B": "Only the customer role, since it is her business.",
+      "C": "Customer, user, and sponsor simultaneously, as this scenario shows.",
+      "D": "Only the user role, since she reads her own email."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Customer, user, and sponsor simultaneously, as this scenario shows.): In a single individual pattern, one person can hold customer, user, and sponsor roles at the same time, which fits her situation exactly. Limiting her to only sponsor ignores that she also defined requirements and uses the service. Limiting her to only user ignores budget authority and requirement setting. Limiting her to only customer ignores that she also uses and funds it."
+  },
+  {
+    "id": 207,
+    "domain": "key_terms_and_definitions",
+    "question": "A company's internal IT department runs services for the rest of the business while also buying software licenses from an external vendor. This kind of short workplace scenario is exactly the format used on the real certification exam to test applied understanding rather than memorized definitions. What does this best illustrate?",
+    "options": {
+      "A": "Internal departments cannot legally be considered service providers.",
+      "B": "An organization must choose only one role and keep it for an extended period.",
+      "C": "Only external vendors are ever allowed to act as providers.",
+      "D": "An organization can be both a provider and a consumer at once."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (An organization can be both a provider and a consumer at once.): This example shows a single organization acting as a provider to the business and a consumer of the vendor's services simultaneously, matching this option. Organizations frequently hold multiple roles rather than being restricted to one. External vendors are not the only valid providers, since internal departments provide services too. Internal departments absolutely can be considered providers under ITIL."
+  },
+  {
+    "id": 221,
+    "domain": "key_terms_and_definitions",
+    "question": "This is the type of applied, scenario based question commonly used on the real exam to test genuine understanding rather than simple memorization of a definition. What best distinguishes the sponsor role from the customer role when both exist within the same organization?",
+    "options": {
+      "A": "The sponsor controls funding while the customer defines requirements.",
+      "B": "The customer role typically has more formal authority than the sponsor.",
+      "C": "The sponsor and customer are typically exactly the same single person.",
+      "D": "The sponsor rarely has any connection to the service being funded."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (The sponsor controls funding while the customer defines requirements.): The sponsor's defining activity is authorizing budget, while the customer's defining activity is setting requirements, matching this option. They are frequently different people, not always the same one. The sponsor is directly connected through funding authority, not disconnected. Neither role is inherently more senior than the other under ITIL's definitions."
+  },
+  {
+    "id": 225,
+    "domain": "key_terms_and_definitions",
+    "question": "Use the exact ITIL definitions from this chapter, not a general guess, to choose the single best answer among the four options provided. Why is it useful to ask both who defined requirements and who uses a service daily when analyzing an exam scenario?",
+    "options": {
+      "A": "Because asking both questions is explicitly forbidden by ITIL guidance.",
+      "B": "Because ITIL requires these to typically be different individuals by law, though this framing misses part of the real definition.",
+      "C": "Because only one of these two questions is ever relevant to any scenario.",
+      "D": "Because the answers can point to the same person or to two different people."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Because the answers can point to the same person or to two different people.): Both questions matter because sometimes one individual holds both roles and sometimes two different individuals do, matching this option. ITIL does not require them to be different individuals in every case. Both questions are relevant since roles can diverge or overlap. There is no prohibition on asking both questions when analyzing a scenario."
+  },
+  {
+    "id": 226,
+    "domain": "key_terms_and_definitions",
+    "question": "Pay close attention to exactly who is doing what in the description, since the wording has been chosen deliberately to test precise recognition of the correct concept. Which of the following best explains why ITIL treats accepting a risk as a legitimate response rather than simply ignoring the risk?",
+    "options": {
+      "A": "Because acceptance means the risk has been largely eliminated from consideration.",
+      "B": "Because acceptance is a deliberate, informed decision to tolerate a known possibility.",
+      "C": "Because acceptance is usually used when an organization forgot to assess the risk.",
+      "D": "Because ITIL considers acceptance an invalid or discouraged risk response, which overlaps with related management practices in some organizations."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (Because acceptance is a deliberate, informed decision to tolerate a known possibility.): Acceptance is a deliberate, informed choice made after weighing probability and impact, unlike simply overlooking a risk, matching this option. Acceptance does not eliminate the risk, since the possibility still exists. Acceptance follows a genuine assessment, not a forgotten one. Acceptance is one of ITIL's four legitimate risk responses, not discouraged."
+  },
+  {
+    "id": 232,
+    "domain": "key_terms_and_definitions",
+    "question": "A retail company decides that a minor website glitch affecting a small number of users is not worth an emergency fix right now. This kind of short workplace scenario is exactly the format used on the real certification exam to test applied understanding rather than memorized definitions. Which risk response best fits?",
+    "options": {
+      "A": "Reduction, taking direct steps to lower probability or impact.",
+      "B": "Avoidance, changing plans so the risky activity rarely takes place.",
+      "C": "Acceptance, choosing to take no action and tolerate the risk.",
+      "D": "Transfer, shifting the consequence of the risk to another party."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Acceptance, choosing to take no action and tolerate the risk.): Choosing to take no immediate action on a minor, low impact issue is the acceptance response, matching this option. No plan change is described that would prevent the glitch, so avoidance does not fit. No shifting of consequence to another party is described, so transfer does not fit. No active step lowering probability or impact is described, so reduction does not fit."
+  },
+  {
+    "id": 240,
+    "domain": "key_terms_and_definitions",
+    "question": "This is the type of applied, scenario based question commonly used on the real exam to test genuine understanding rather than simple memorization of a definition. Which best explains why financial risk and cost are closely related but distinct ITIL concepts?",
+    "options": {
+      "A": "Cost usually applies to consumers, while financial risk only applies to providers.",
+      "B": "Financial risk is the possibility of unexpected costs, while cost is money already spent or planned.",
+      "C": "Financial risk and cost are simply two different names for the exact same idea.",
+      "D": "Financial risk has no connection to money or spending decisions, a distinction not typically made in casual usage."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (Financial risk is the possibility of unexpected costs, while cost is money already spent or planned.): Financial risk describes a possible future event involving unexpected costs, while cost describes actual planned or incurred spending, matching this option. They are related but not identical, since one is a possibility and the other is a known figure. Both cost and financial risk can apply to either providers or consumers. Financial risk is directly about money, not unrelated to it."
+  },
+  {
+    "id": 243,
+    "domain": "key_terms_and_definitions",
+    "question": "Work through the details slowly, and use the precise definitions covered in this chapter to select the single best answer among the four options given below. Use the exact ITIL definitions from this chapter, not a general guess, to choose the single best answer among the four options provided. What is the most accurate description of the customer role's accountability?",
+    "options": {
+      "A": "The customer is only responsible for typing data into a system.",
+      "B": "The customer has no responsibility once a contract is signed.",
+      "C": "The customer only exists in very small, single person organizations.",
+      "D": "The customer answers for whether the service delivered value to the business."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (The customer answers for whether the service delivered value to the business.): The customer remains accountable for judging whether outcomes were achieved, matching this option. Typing data describes user activity, not customer accountability. Accountability continues well beyond the signing moment, not ending there. The customer role exists across organizations of every size, not only small ones."
+  },
+  {
+    "id": 246,
+    "domain": "key_terms_and_definitions",
+    "question": "Because this content area makes up a significant share of the real exam blueprint, candidates should expect to see several questions built around exactly this kind of situation. Which two factors together make up the concept of risk according to ITIL?",
+    "options": {
+      "A": "Probability and impact, based on the concept being described.",
+      "B": "Cost and warranty, based on the concept being described.",
+      "C": "Utility and resources, based on the concept being described.",
+      "D": "Governance and compliance, based on the concept being described."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (Probability and impact, based on the concept being described.): Risk is conceptually built from probability, how likely an event is, and impact, how serious its consequences would be, matching this option. Cost and warranty are separate concepts describing spending and reliability, not risk itself. Utility and resources describe what a service does and what it is built from, not risk. Governance and compliance are related management topics, not risk's defining components."
+  },
+  {
+    "id": 247,
+    "domain": "key_terms_and_definitions",
+    "question": "This kind of short workplace scenario is exactly the format used on the real certification exam to test applied understanding rather than memorized definitions. Why does ITIL emphasize that risk is never fully eliminated in a service relationship, only shared or shifted?",
+    "options": {
+      "A": "Because using a provider changes which risks an organization faces rather than removing all risk.",
+      "B": "Because risk only exists for organizations that build every capability themselves.",
+      "C": "Because providers typically guarantee a largely risk free experience for every consumer.",
+      "D": "Because consumers who outsource take on generally no risk afterward."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (Because using a provider changes which risks an organization faces rather than removing all risk.): Outsourcing changes the specific risks an organization faces, such as trading server maintenance risk for vendor dependency risk, matching this option. No provider can honestly guarantee a completely risk free experience. Consumers who outsource still face new risks tied to the provider relationship. Risk exists whether an organization builds internally or relies on external providers."
+  },
+  {
+    "id": 251,
+    "domain": "key_terms_and_definitions",
+    "question": "Pay close attention to exactly who is doing what in the description, since the wording has been chosen deliberately to test precise recognition of the correct concept. Which of the following best explains why cost of a service and cost to a service are easy to confuse despite being different concepts?",
+    "options": {
+      "A": "Because the two phrases are officially interchangeable synonyms in ITIL.",
+      "B": "Because only consumers ever experience either type of cost, though the precise scope can vary between organizations.",
+      "C": "Because only providers ever experience either type of cost.",
+      "D": "Because both phrases sound similar but describe costs from opposite perspectives."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Because both phrases sound similar but describe costs from opposite perspectives.): The phrases sound alike but describe the provider's own expense versus the consumer's avoided expense, matching this option. They are not interchangeable synonyms, since they describe opposite perspectives. Providers experience cost of a service directly, so it is not exclusive to consumers. Consumers experience cost removed, so it is not exclusive to providers either."
+  },
+  {
+    "id": 252,
+    "domain": "key_terms_and_definitions",
+    "question": "Work through the details slowly, and use the precise definitions covered in this chapter to select the single best answer among the four options given below. Which of the following activities falls specifically under service provision rather than service consumption?",
+    "options": {
+      "A": "Managing the consumer's own staff who use the service.",
+      "B": "Deciding whether to renew a subscription internally, as a key detail.",
+      "C": "Utilizing service actions performed by another party, as a key detail.",
+      "D": "Managing the provider's resources configured to deliver a service."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Managing the provider's resources configured to deliver a service.): Service provision includes managing the provider's own resources to deliver the service, matching this option. Managing the consumer's staff is part of service consumption instead. Utilizing another party's actions is also consumption, not provision. An internal renewal decision belongs to the consumer's own management, not provision."
+  },
+  {
+    "id": 253,
+    "domain": "key_terms_and_definitions",
+    "question": "Because this content area makes up a significant share of the real exam blueprint, candidates should expect to see several questions built around exactly this kind of situation. Which of the following best illustrates the difference between a stakeholder and a customer in a single sentence?",
+    "options": {
+      "A": "A stakeholder and a customer typically refer to the exact same party.",
+      "B": "A stakeholder merely has an interest, while a customer also owns requirements and outcomes.",
+      "C": "A stakeholder must typically be an external regulatory body, though this framing misses part of the real definition.",
+      "D": "A customer rarely has any interest in the service they requested."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (A stakeholder merely has an interest, while a customer also owns requirements and outcomes.): This captures the key distinction precisely: interest alone defines a stakeholder, while ownership of requirements and outcomes defines a customer, matching this option. The two terms describe overlapping but distinct concepts, not identical ones. Customers clearly have a strong interest in their own requested service. Stakeholders can be internal employees or external parties, not only regulators."
+  },
+  {
+    "id": 254,
+    "domain": "key_terms_and_definitions",
+    "question": "Because this content area makes up a significant share of the real exam blueprint, candidates should expect to see several questions built around exactly this kind of situation. Which best explains why the exam frequently uses workplace scenarios rather than asking for bare definitions of customer, user, and sponsor?",
+    "options": {
+      "A": "Because bare definitions are considered too difficult to write as questions.",
+      "B": "Because only scenario questions are permitted under exam regulations, which overlaps with related management practices in some organizations.",
+      "C": "Because workplace scenarios are distinct from the actual syllabus content.",
+      "D": "Because applying role definitions to real situations tests genuine understanding."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Because applying role definitions to real situations tests genuine understanding.): Scenario questions test whether a candidate can apply definitions correctly, which is a stronger test of understanding, matching this option. Bare definitions are not too difficult to write, since some questions still use them. Workplace scenarios are directly tied to real syllabus content on roles. Both scenario and definitional questions are used, not exclusively one format."
+  },
+  {
+    "id": 269,
+    "domain": "key_terms_and_definitions",
+    "question": "A software vendor configures its platform, hosts the servers, and staffs a help desk for a client organization. Read the situation carefully and match the responsibility being described to its correct, formally defined ITIL term rather than guessing from the job title alone. Which concept best describes these combined activities?",
+    "options": {
+      "A": "Risk transfer, shifting the consequence of a risk to another party.",
+      "B": "Stakeholder management, coordinating the interests of everyone with a stake.",
+      "C": "Service provision, the activities the provider performs to deliver a service.",
+      "D": "Service consumption, the activities the consumer performs to use a service."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Service provision, the activities the provider performs to deliver a service.): Configuring, hosting, and staffing support are all activities the provider performs to deliver a service, matching service provision. Service consumption instead describes what the client does with the service. Stakeholder management is a broader governance concept, not this specific set of delivery tasks. Risk transfer describes shifting risk exposure, not delivery activity itself."
+  },
+  {
+    "id": 277,
+    "domain": "key_terms_and_definitions",
+    "question": "Work through the details slowly, and use the precise definitions covered in this chapter to select the single best answer among the four options given below. Which of the following best illustrates the partners and suppliers resource category in the same hospital record system example?",
+    "options": {
+      "A": "The external vendor that built the system and provides ongoing support.",
+      "B": "The patient data stored within the system itself, as it sometimes appears in non official glossaries.",
+      "C": "The defined process for archiving old patient records.",
+      "D": "The medical records staff who enter information daily."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (The external vendor that built the system and provides ongoing support.): An external vendor providing the underlying system and support is exactly what partners and suppliers describes, matching this option. Patient data describes the information resource, not an external partner. Staff entering data describes the people resource, not a partner organization. An archiving process describes value streams and processes, not a partner or supplier."
+  },
+  {
+    "id": 284,
+    "domain": "key_terms_and_definitions",
+    "question": "Use the exact ITIL definitions from this chapter, not a general guess, to choose the single best answer among the four options provided. Which of the following best describes why cost, risk, and resources are each discussed in relation to the Four Dimensions previewed in this chapter?",
+    "options": {
+      "A": "Because the Four Dimensions have limited connection to cost or risk in this case.",
+      "B": "Because each dimension experiences its own characteristic risks, costs, and resource needs.",
+      "C": "Because cost and risk are only relevant to the organizations and people dimension.",
+      "D": "Because the Four Dimensions apply only to the technology resource category."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (Because each dimension experiences its own characteristic risks, costs, and resource needs.): Each of the four dimensions has its own typical risks, costs, and resource considerations, as the chapter's examples show, matching this option. The Four Dimensions apply across all resource categories, not technology alone. Cost and risk show up in every dimension, not organizations and people exclusively. The chapter explicitly connects the Four Dimensions to cost and risk."
+  },
+  {
+    "id": 292,
+    "domain": "key_terms_and_definitions",
+    "question": "This is the type of applied, scenario based question commonly used on the real exam to test genuine understanding rather than simple memorization of a definition. Which pattern of role combination is most common in a very large, formally structured organization?",
+    "options": {
+      "A": "A pattern where only external consultants may hold any role.",
+      "B": "The single individual pattern, where one person holds every role.",
+      "C": "The fully separated pattern, with distinct customer, sponsor, and user parties.",
+      "D": "A pattern where roles rotate randomly each week, a phrase that appears in some informal training material."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (The fully separated pattern, with distinct customer, sponsor, and user parties.): Large organizations typically separate customer, sponsor, and user into distinct parties, matching the fully separated pattern. The single individual pattern is more typical of very small organizations. Roles do not rotate randomly under ITIL definitions. External consultants are not the only eligible role holders."
+  },
+  {
+    "id": 296,
+    "domain": "key_terms_and_definitions",
+    "question": "A new client asks a software vendor what exactly is included before signing a subscription agreement. Read the situation carefully and match the responsibility being described to its correct, formally defined ITIL term rather than guessing from the job title alone. Which concept most directly answers that question?",
+    "options": {
+      "A": "The sponsor role, since only budget details matter here.",
+      "B": "The risk register, since risks alone describe subscription content.",
+      "C": "The service offering describing goods, resource access, and actions included.",
+      "D": "The stakeholder list, since interested parties define subscription content."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (The service offering describing goods, resource access, and actions included.): The service offering is precisely the description of what is included, matching this option directly. Budget details from the sponsor role do not describe subscription content itself. A stakeholder list describes interested parties, not subscription contents. A risk register describes potential problems, not what is included in the offering."
+  },
+  {
+    "id": 298,
+    "domain": "key_terms_and_definitions",
+    "question": "Consider the underlying responsibility being described rather than the specific title or label used, since ITIL defines its roles and concepts by responsibility alone. Why does distinguishing customer, user, and sponsor matter even when all three happen to be the same individual?",
+    "options": {
+      "A": "Because overlapping roles are typically a sign of poor service management, a term sometimes used loosely in adjacent frameworks.",
+      "B": "Because it clarifies which specific responsibility that individual is exercising at a given moment.",
+      "C": "Because ITIL forbids one individual from ever holding more than one role.",
+      "D": "Because the distinction becomes largely meaningless once roles overlap."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (Because it clarifies which specific responsibility that individual is exercising at a given moment.): Even when one person holds all three roles, distinguishing them clarifies which responsibility is active in a given moment, matching this option. ITIL does not forbid a single individual from holding multiple roles. The conceptual distinction remains useful even with overlap, not meaningless. Overlap is a normal, expected pattern in small organizations, not automatically a sign of poor management."
+  },
+  {
+    "id": 302,
+    "domain": "four_dimensions",
+    "question": "Which term best describes a set of responsibilities and expected behaviors assigned to a person or team, which does not need to match a job title exactly?",
+    "options": {
+      "A": "A process within the service management model described in this chapter.",
+      "B": "A value stream within the service management model described in this chapter.",
+      "C": "A competency within the service management model described in this chapter.",
+      "D": "A role within the service management model described in this chapter."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (A role within the service management model described in this chapter.): A role is a defined set of responsibilities and behaviors that can be shared across people or held by one person across several roles. A process is a set of activities, a value stream is an end to end journey, and competency is the skill level needed to perform a role."
+  },
+  {
+    "id": 303,
+    "domain": "four_dimensions",
+    "question": "An organization's unwritten rules and shared attitudes, which shape how staff actually behave day to day regardless of what the policy manual states, are best described as its:",
+    "options": {
+      "A": "governance model within the service management model described in this chapter.",
+      "B": "value stream within the service management model described in this chapter.",
+      "C": "service level agreement within the service management model described in this chapter.",
+      "D": "culture within the service management model described in this chapter."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (culture within the service management model described in this chapter.): Culture is the shared set of values and unwritten norms driving real behavior. Governance concerns direction and control, a value stream is a journey of activities, and a service level agreement is a formal target document, none of which describe unwritten cultural norms."
+  },
+  {
+    "id": 312,
+    "domain": "four_dimensions",
+    "question": "A change request is approved perfectly by one team, then sits untouched for two weeks because no process links approval to deployment. Which dimension does this failure best illustrate?",
+    "options": {
+      "A": "Organizations and People within the service management model described in this chapter.",
+      "B": "Information and Technology within the service management model described in this chapter.",
+      "C": "Partners and Suppliers within the service management model described in this chapter, which blends two related ideas from the wider framework.",
+      "D": "Value Streams and Processes within the service management model described in this chapter."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Value Streams and Processes within the service management model described in this chapter.): This is a coordination failure between activities in an end to end journey, exactly what Value Streams and Processes addresses, since individual excellence within one process does not guarantee properly linked handoffs across the whole stream."
+  },
+  {
+    "id": 313,
+    "domain": "four_dimensions",
+    "question": "Which of the following is an example of a single organization having multiple distinct value streams operating at the same time?",
+    "options": {
+      "A": "One employee holding two different job titles in the same department.",
+      "B": "One supplier providing two unrelated hardware products under a single contract.",
+      "C": "One policy document describing the organization's overall culture, which blends two related ideas from the wider framework.",
+      "D": "One value stream for resolving incidents and a separate one for delivering a new feature."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (One value stream for resolving incidents and a separate one for delivering a new feature.): Different types of demand, such as incident resolution versus new feature delivery, typically follow separate value streams. The other options describe a role held by one person, a supplier arrangement, or a policy document, none of which are value streams."
+  },
+  {
+    "id": 344,
+    "domain": "four_dimensions",
+    "question": "An organization notices that its value stream for handling incidents takes far longer than its value stream for delivering new features, situation 44. What best explains why these can differ within one organization?",
+    "options": {
+      "A": "All value streams within one organization must be identical by definition.",
+      "B": "Value streams only exist for external supplier relationships.",
+      "C": "Different types of demand typically follow separate, distinct value streams.",
+      "D": "A value stream cannot vary based on the type of work involved."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Different types of demand typically follow separate, distinct value streams.): Different types of demand, such as incidents versus new feature requests, commonly follow their own distinct value streams with different steps and durations, which is expected rather than a sign of failure."
+  },
+  {
+    "id": 357,
+    "domain": "four_dimensions",
+    "question": "A regional office reports that a new monitoring tool was deployed correctly, but staff never received training on how to interpret its alerts, case 57. Which dimension does this best represent?",
+    "options": {
+      "A": "Organizations and People within the service management model described in this chapter.",
+      "B": "Information and Technology within the service management model described in this chapter.",
+      "C": "Partners and Suppliers within the service management model described in this chapter.",
+      "D": "Value Streams and Processes within the service management model described in this chapter."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (Organizations and People within the service management model described in this chapter.): Staff readiness and training gaps are covered under Organizations and People, even when the underlying tool itself, covered by Information and Technology, works correctly."
+  },
+  {
+    "id": 364,
+    "domain": "four_dimensions",
+    "question": "An organization notices that its value stream for handling incidents takes far longer than its value stream for delivering new features, situation 64. What best explains why these can differ within one organization?",
+    "options": {
+      "A": "All value streams within one organization must be identical by definition.",
+      "B": "Value streams only exist for external supplier relationships.",
+      "C": "Different types of demand typically follow separate, distinct value streams.",
+      "D": "A value stream cannot vary based on the type of work involved."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Different types of demand typically follow separate, distinct value streams.): Different types of demand, such as incidents versus new feature requests, commonly follow their own distinct value streams with different steps and durations, which is expected rather than a sign of failure."
+  },
+  {
+    "id": 369,
+    "domain": "four_dimensions",
+    "question": "A regional office reports that a new monitoring tool was deployed correctly, but staff never received training on how to interpret its alerts, case 69. Which dimension does this best represent?",
+    "options": {
+      "A": "Information and Technology within the service management model described in this chapter.",
+      "B": "Organizations and People within the service management model described in this chapter.",
+      "C": "Partners and Suppliers within the service management model described in this chapter.",
+      "D": "Value Streams and Processes within the service management model described in this chapter."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (Organizations and People within the service management model described in this chapter.): Staff readiness and training gaps are covered under Organizations and People, even when the underlying tool itself, covered by Information and Technology, works correctly."
+  },
+  {
+    "id": 377,
+    "domain": "four_dimensions",
+    "question": "A regional office reports that a new monitoring tool was deployed correctly, but staff never received training on how to interpret its alerts, case 77. Which dimension does this best represent?",
+    "options": {
+      "A": "Organizations and People within the service management model described in this chapter.",
+      "B": "Information and Technology within the service management model described in this chapter.",
+      "C": "Partners and Suppliers within the service management model described in this chapter.",
+      "D": "Value Streams and Processes within the service management model described in this chapter."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (Organizations and People within the service management model described in this chapter.): Staff readiness and training gaps are covered under Organizations and People, even when the underlying tool itself, covered by Information and Technology, works correctly."
+  },
+  {
+    "id": 378,
+    "domain": "four_dimensions",
+    "question": "A team is evaluating whether to build a new reporting module in house or license one from an external vendor, scenario 78. Which dimension most directly governs this kind of decision?",
+    "options": {
+      "A": "Organizations and People within the service management model described in this chapter.",
+      "B": "Value Streams and Processes within the service management model described in this chapter.",
+      "C": "Partners and Suppliers within the service management model described in this chapter.",
+      "D": "Information and Technology within the service management model described in this chapter."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Partners and Suppliers within the service management model described in this chapter.): Deciding whether to build internally or obtain externally from a vendor is a Partners and Suppliers consideration, since it concerns the balance between internal capability and external relationships."
+  },
+  {
+    "id": 380,
+    "domain": "four_dimensions",
+    "question": "An organization notices that its value stream for handling incidents takes far longer than its value stream for delivering new features, situation 80. What best explains why these can differ within one organization?",
+    "options": {
+      "A": "All value streams within one organization must be identical by definition.",
+      "B": "Value streams only exist for external supplier relationships, a term sometimes used loosely in adjacent frameworks.",
+      "C": "A value stream cannot vary based on the type of work involved.",
+      "D": "Different types of demand typically follow separate, distinct value streams."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Different types of demand typically follow separate, distinct value streams.): Different types of demand, such as incidents versus new feature requests, commonly follow their own distinct value streams with different steps and durations, which is expected rather than a sign of failure."
+  },
+  {
+    "id": 381,
+    "domain": "four_dimensions",
+    "question": "A regional office reports that a new monitoring tool was deployed correctly, but staff never received training on how to interpret its alerts, case 81. Which dimension does this best represent?",
+    "options": {
+      "A": "Information and Technology within the service management model described in this chapter.",
+      "B": "Partners and Suppliers within the service management model described in this chapter.",
+      "C": "Organizations and People within the service management model described in this chapter.",
+      "D": "Value Streams and Processes within the service management model described in this chapter."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Organizations and People within the service management model described in this chapter.): Staff readiness and training gaps are covered under Organizations and People, even when the underlying tool itself, covered by Information and Technology, works correctly."
+  },
+  {
+    "id": 391,
+    "domain": "four_dimensions",
+    "question": "A new trade regulation changes which countries an organization can legally store customer data in, case 91. Which PESTLE category does this fall under?",
+    "options": {
+      "A": "Political within the service management model described in this chapter.",
+      "B": "Social within the service management model described in this chapter.",
+      "C": "Technological within the service management model described in this chapter.",
+      "D": "Environmental within the service management model described in this chapter."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (Political within the service management model described in this chapter.): Government policy, trade rules, and cross border legal permissions are Political PESTLE factors, distinct from Social demographic shifts, Technological innovation pace, or Environmental sustainability concerns."
+  },
+  {
+    "id": 393,
+    "domain": "four_dimensions",
+    "question": "A regional office reports that a new monitoring tool was deployed correctly, but staff never received training on how to interpret its alerts, case 93. Which dimension does this best represent?",
+    "options": {
+      "A": "Organizations and People within the service management model described in this chapter.",
+      "B": "Information and Technology within the service management model described in this chapter.",
+      "C": "Partners and Suppliers within the service management model described in this chapter.",
+      "D": "Value Streams and Processes within the service management model described in this chapter."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (Organizations and People within the service management model described in this chapter.): Staff readiness and training gaps are covered under Organizations and People, even when the underlying tool itself, covered by Information and Technology, works correctly."
+  },
+  {
+    "id": 398,
+    "domain": "four_dimensions",
+    "question": "A team is evaluating whether to build a new reporting module in house or license one from an external vendor, scenario 98. Which dimension most directly governs this kind of decision?",
+    "options": {
+      "A": "Organizations and People within the service management model described in this chapter.",
+      "B": "Value Streams and Processes within the service management model described in this chapter.",
+      "C": "Information and Technology within the service management model described in this chapter.",
+      "D": "Partners and Suppliers within the service management model described in this chapter."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Partners and Suppliers within the service management model described in this chapter.): Deciding whether to build internally or obtain externally from a vendor is a Partners and Suppliers consideration, since it concerns the balance between internal capability and external relationships."
+  },
+  {
+    "id": 404,
+    "domain": "product_and_service_lifecycle",
+    "question": "Why does the chapter describe the lifecycle as a loop rather than a strict straight line?",
+    "options": {
+      "A": "Because retirement typically happens before planning and design begins.",
+      "B": "Because build or obtain is skipped in every real organization.",
+      "C": "Because operation is the final stage in every case, as it sometimes appears in non official glossaries.",
+      "D": "Because continual improvement routinely triggers a new round of planning and design."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Because continual improvement routinely triggers a new round of planning and design.): Continual improvement constantly feeds back into planning and design for the next version of a product, creating a loop with feedback paths rather than a single straight sequence ending at retirement."
+  },
+  {
+    "id": 424,
+    "domain": "product_and_service_lifecycle",
+    "question": "Which of the following should a well managed retirement plan include?",
+    "options": {
+      "A": "A guarantee that no data will ever be archived or reviewed.",
+      "B": "An assumption that infrastructure can keep running indefinitely at no cost.",
+      "C": "A decision to skip legal and regulatory obligations for convenience.",
+      "D": "A clear migration path for existing customers where a replacement exists."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (A clear migration path for existing customers where a replacement exists.): Good retirement planning includes a migration path for customers, a data archiving or destruction plan aligned with legal obligations, and formal decommissioning of infrastructure and licenses, none of which involve ignoring data handling or legal duties."
+  },
+  {
+    "id": 428,
+    "domain": "product_and_service_lifecycle",
+    "question": "How does ITIL Version 5 extend the product centric model beyond a single product's own lifecycle?",
+    "options": {
+      "A": "By connecting it to sustainability governance and unified lifecycle governance across an entire product portfolio.",
+      "B": "By requiring every product to be retired within its first year depending on performance.",
+      "C": "By eliminating the need for planning and design on any new product, which overlaps with related management practices in some organizations.",
+      "D": "By treating every product's lifecycle in a largely isolated silo with no portfolio level view."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (By connecting it to sustainability governance and unified lifecycle governance across an entire product portfolio.): ITIL Version 5 connects individual product lifecycles to portfolio wide sustainability and governance considerations, the opposite of managing each product's lifecycle in an isolated silo or applying an arbitrary universal retirement timeline."
+  },
+  {
+    "id": 429,
+    "domain": "product_and_service_lifecycle",
+    "question": "A question describes a decision to license third party software rather than build it internally. Which lifecycle stage is this scenario testing?",
+    "options": {
+      "A": "Build or obtain within the service management model described in this chapter.",
+      "B": "Deployment and transition within the service management model described in this chapter.",
+      "C": "Retirement within the service management model described in this chapter.",
+      "D": "Continual improvement within the service management model described in this chapter."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (Build or obtain within the service management model described in this chapter.): Licensing third party software instead of building internally is a classic build or obtain decision, distinct from deployment, retirement, or the ongoing improvement stage that comes later."
+  },
+  {
+    "id": 438,
+    "domain": "product_and_service_lifecycle",
+    "question": "An organization discovers a growing performance problem only through real usage data collected after launch, situation 38. Which lifecycle stage generated this data?",
+    "options": {
+      "A": "Planning and design within the service management model described in this chapter.",
+      "B": "Build or obtain within the service management model described in this chapter.",
+      "C": "Operation within the service management model described in this chapter.",
+      "D": "Retirement within the service management model described in this chapter."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Operation within the service management model described in this chapter.): Operation generates real world data about how a service actually behaves in live use, which becomes a key input into the next stage, continual improvement."
+  },
+  {
+    "id": 444,
+    "domain": "product_and_service_lifecycle",
+    "question": "Customer feedback collected after launch leads a team to revisit the original design and plan a new version, cycle 44. Which two stages does this connect?",
+    "options": {
+      "A": "Retirement looping back into build or obtain within the service management model described in this chapter.",
+      "B": "Deployment and transition looping back into retirement within the service management model described in this chapter.",
+      "C": "Continual improvement looping back into planning and design.",
+      "D": "Operation looping back into retirement only within the service management model described in this chapter."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Continual improvement looping back into planning and design.): Feedback driven improvement typically loops back into planning and design for the next version, demonstrating the cyclical, non linear nature of the lifecycle emphasized throughout this chapter."
+  },
+  {
+    "id": 449,
+    "domain": "product_and_service_lifecycle",
+    "question": "A product team continues to own and support a service five years after its original launch, case 49. Which concept from this chapter does this best illustrate?",
+    "options": {
+      "A": "Project based, temporary ownership within the service management model described in this chapter.",
+      "B": "Retirement without any planning within the service management model described in this chapter.",
+      "C": "Product centric, ongoing ownership within the service management model described in this chapter.",
+      "D": "Build or obtain without deployment within the service management model described in this chapter."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Product centric, ongoing ownership within the service management model described in this chapter.): Continued ownership years after launch reflects the product centric model, where a stable team remains accountable across the product's full life, unlike a project team that would have disbanded after delivery."
+  },
+  {
+    "id": 464,
+    "domain": "product_and_service_lifecycle",
+    "question": "Customer feedback collected after launch leads a team to revisit the original design and plan a new version, cycle 64. Which two stages does this connect?",
+    "options": {
+      "A": "Retirement looping back into build or obtain within the service management model described in this chapter.",
+      "B": "Deployment and transition looping back into retirement within the service management model described in this chapter.",
+      "C": "Continual improvement looping back into planning and design.",
+      "D": "Operation looping back into retirement only within the service management model described in this chapter."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Continual improvement looping back into planning and design.): Feedback driven improvement typically loops back into planning and design for the next version, demonstrating the cyclical, non linear nature of the lifecycle emphasized throughout this chapter."
+  },
+  {
+    "id": 465,
+    "domain": "product_and_service_lifecycle",
+    "question": "A product team continues to own and support a service five years after its original launch, case 65. Which concept from this chapter does this best illustrate?",
+    "options": {
+      "A": "Project based, temporary ownership within the service management model described in this chapter.",
+      "B": "Retirement without any planning within the service management model described in this chapter.",
+      "C": "Product centric, ongoing ownership within the service management model described in this chapter.",
+      "D": "Build or obtain without deployment within the service management model described in this chapter."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Product centric, ongoing ownership within the service management model described in this chapter.): Continued ownership years after launch reflects the product centric model, where a stable team remains accountable across the product's full life, unlike a project team that would have disbanded after delivery."
+  },
+  {
+    "id": 468,
+    "domain": "product_and_service_lifecycle",
+    "question": "Customer feedback collected after launch leads a team to revisit the original design and plan a new version, cycle 68. Which two stages does this connect?",
+    "options": {
+      "A": "Retirement looping back into build or obtain within the service management model described in this chapter.",
+      "B": "Deployment and transition looping back into retirement within the service management model described in this chapter.",
+      "C": "Operation looping back into retirement only within the service management model described in this chapter.",
+      "D": "Continual improvement looping back into planning and design."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Continual improvement looping back into planning and design.): Feedback driven improvement typically loops back into planning and design for the next version, demonstrating the cyclical, non linear nature of the lifecycle emphasized throughout this chapter."
+  },
+  {
+    "id": 474,
+    "domain": "product_and_service_lifecycle",
+    "question": "An organization discovers a growing performance problem only through real usage data collected after launch, situation 74. Which lifecycle stage generated this data?",
+    "options": {
+      "A": "Planning and design within the service management model described in this chapter.",
+      "B": "Build or obtain within the service management model described in this chapter.",
+      "C": "Retirement within the service management model described in this chapter.",
+      "D": "Operation within the service management model described in this chapter."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Operation within the service management model described in this chapter.): Operation generates real world data about how a service actually behaves in live use, which becomes a key input into the next stage, continual improvement."
+  },
+  {
+    "id": 478,
+    "domain": "product_and_service_lifecycle",
+    "question": "An organization discovers a growing performance problem only through real usage data collected after launch, situation 78. Which lifecycle stage generated this data?",
+    "options": {
+      "A": "Planning and design within the service management model described in this chapter.",
+      "B": "Build or obtain within the service management model described in this chapter.",
+      "C": "Retirement within the service management model described in this chapter.",
+      "D": "Operation within the service management model described in this chapter."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Operation within the service management model described in this chapter.): Operation generates real world data about how a service actually behaves in live use, which becomes a key input into the next stage, continual improvement."
+  },
+  {
+    "id": 485,
+    "domain": "product_and_service_lifecycle",
+    "question": "A product team continues to own and support a service five years after its original launch, case 85. Which concept from this chapter does this best illustrate?",
+    "options": {
+      "A": "Project based, temporary ownership within the service management model described in this chapter.",
+      "B": "Retirement without any planning within the service management model described in this chapter.",
+      "C": "Build or obtain without deployment within the service management model described in this chapter.",
+      "D": "Product centric, ongoing ownership within the service management model described in this chapter."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Product centric, ongoing ownership within the service management model described in this chapter.): Continued ownership years after launch reflects the product centric model, where a stable team remains accountable across the product's full life, unlike a project team that would have disbanded after delivery."
+  },
+  {
+    "id": 489,
+    "domain": "product_and_service_lifecycle",
+    "question": "A product team continues to own and support a service five years after its original launch, case 89. Which concept from this chapter does this best illustrate?",
+    "options": {
+      "A": "Project based, temporary ownership within the service management model described in this chapter.",
+      "B": "Product centric, ongoing ownership within the service management model described in this chapter.",
+      "C": "Retirement without any planning within the service management model described in this chapter.",
+      "D": "Build or obtain without deployment within the service management model described in this chapter."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (Product centric, ongoing ownership within the service management model described in this chapter.): Continued ownership years after launch reflects the product centric model, where a stable team remains accountable across the product's full life, unlike a project team that would have disbanded after delivery."
+  },
+  {
+    "id": 500,
+    "domain": "product_and_service_lifecycle",
+    "question": "Customer feedback collected after launch leads a team to revisit the original design and plan a new version, cycle 100. Which two stages does this connect?",
+    "options": {
+      "A": "Retirement looping back into build or obtain within the service management model described in this chapter.",
+      "B": "Deployment and transition looping back into retirement within the service management model described in this chapter.",
+      "C": "Continual improvement looping back into planning and design.",
+      "D": "Operation looping back into retirement only within the service management model described in this chapter."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Continual improvement looping back into planning and design.): Feedback driven improvement typically loops back into planning and design for the next version, demonstrating the cyclical, non linear nature of the lifecycle emphasized throughout this chapter."
+  },
+  {
+    "id": 509,
+    "domain": "service_value_system",
+    "question": "Drawing on the chapter's detailed treatment of the seven ITIL guiding principles, consider that a charity's fundraising team wants to launch a new donor portal. Applying the Focus on Value guiding principle correctly, what should the team do before any design work begins on the portal?",
+    "options": {
+      "A": "Identify who the donors are and understand what they see as valuable in giving.",
+      "B": "Immediately hire the most experienced web developer available depending on the project's actual scope.",
+      "C": "Copy the exact donor portal design used by the largest charity in the country.",
+      "D": "Set a launch date first and then work backward to plan every remaining task."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (Identify who the donors are and understand what they see as valuable in giving.): Focus on Value always starts by identifying the actual stakeholder, here the donor, and understanding what that stakeholder considers valuable before any design or build work happens. Hiring a developer, copying a competitor's design, and setting a launch date first are all activities that skip past the essential first step of understanding the stakeholder's real needs."
+  },
+  {
+    "id": 510,
+    "domain": "service_value_system",
+    "question": "A gym chain notices that members frequently cancel memberships after struggling to book classes through the mobile app, yet the operations team keeps investing in new equipment purchases instead of examining why booking a class is so difficult for members. Which guiding principle does this best demonstrate?",
+    "options": {
+      "A": "Start Where You Are, one of the seven ITIL guiding principles.",
+      "B": "Focus on Value, one of the seven ITIL guiding principles.",
+      "C": "Progress Iteratively with Feedback, one of the seven ITIL guiding principles.",
+      "D": "Optimize and Automate, one of the seven ITIL guiding principles."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (Focus on Value, one of the seven ITIL guiding principles.): Focus on Value is being violated here because the organization is not connecting its spending back to what members actually experience as valuable, which is an app that works, not new equipment. Start Where You Are concerns assessing the current state honestly, Progress Iteratively with Feedback concerns releasing small increments, and Optimize and Automate concerns the sequence of improving before automating, none of which names this specific failure to ask what stakeholders value."
+  },
+  {
+    "id": 516,
+    "domain": "service_value_system",
+    "question": "According to Chapter 7 of the ITIL Version 5 Foundation Study Guide, which covers the seven ITIL guiding principles in depth, according to Start Where You Are, what should an organization rely on to understand its current state, rather than relying only on what people believe is happening?",
+    "options": {
+      "A": "Real data such as logs, metrics, incident records, and direct observation.",
+      "B": "Rumors circulating informally among staff during lunch breaks and hallway conversations.",
+      "C": "A single senior executive's personal opinion about how well things are going.",
+      "D": "Whatever competitor organizations claim publicly about their own similar internal processes."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (Real data such as logs, metrics, incident records, and direct observation.): Start Where You Are is closely tied to measuring the current state directly using real evidence such as logs, metrics, incident records, and direct observation, rather than assumption. Rumors, a single executive's opinion, and competitor claims are all examples of the kind of unverified belief this principle specifically asks organizations to move away from."
+  },
+  {
+    "id": 517,
+    "domain": "service_value_system",
+    "question": "A manufacturing plant manager insists on replacing an entire working quality control system with a brand new one, purely because the current system was installed a decade ago and looks visually outdated compared to newer competing products on the market. Which guiding principle does this best demonstrate?",
+    "options": {
+      "A": "Keep It Simple and Practical, one of the seven ITIL guiding principles.",
+      "B": "Optimize and Automate, one of the seven ITIL guiding principles.",
+      "C": "Start Where You Are, one of the seven ITIL guiding principles.",
+      "D": "Collaborate and Promote Visibility, one of the seven ITIL guiding principles."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Start Where You Are, one of the seven ITIL guiding principles.): This scenario is the exact common mistake Start Where You Are warns about, discarding something that still works simply because it looks old, rather than assessing whether it actually needs replacing. Keep It Simple and Practical concerns removing unnecessary steps, Optimize and Automate concerns the order of improving before automating, and Collaborate and Promote Visibility concerns involving the right people, none of which addresses judging a system by its age alone."
+  },
+  {
+    "id": 519,
+    "domain": "service_value_system",
+    "question": "An insurance company's leadership decides against building an entirely new claims platform from scratch and instead spends the first month studying exactly how claims handlers currently process a claim from start to finish, using real case files and time logs. Which guiding principle does this best demonstrate?",
+    "options": {
+      "A": "Progress Iteratively with Feedback, one of the seven ITIL guiding principles.",
+      "B": "Start Where You Are, one of the seven ITIL guiding principles.",
+      "C": "Think and Work Holistically, one of the seven ITIL guiding principles.",
+      "D": "Focus on Value, one of the seven ITIL guiding principles."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (Start Where You Are, one of the seven ITIL guiding principles.): Studying the real current process using actual case files and logs before deciding what to build is precisely what Start Where You Are asks an organization to do rather than jumping to a blank page solution. Progress Iteratively with Feedback concerns small releases and feedback loops, Think and Work Holistically concerns seeing connections across the organization, and Focus on Value concerns identifying stakeholder needs, none of which is what this scenario specifically demonstrates."
+  },
+  {
+    "id": 529,
+    "domain": "service_value_system",
+    "question": "In its section pairing each guiding principle with a concrete workplace example, the chapter notes that according to Progress Iteratively with Feedback, feedback used to improve the next iteration of work can come from which of the following sources?",
+    "options": {
+      "A": "Internal teams, monitoring tools, test results, and anyone with insight into the work.",
+      "B": "Only paying external customers who have submitted a formal written complaint.",
+      "C": "Only the single project sponsor who originally approved the project's budget.",
+      "D": "Only competitors who have already released a similar product to the market, which overlaps with related management practices in some organizations."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (Internal teams, monitoring tools, test results, and anyone with insight into the work.): The chapter explicitly states feedback is not limited to customer feedback, and also includes internal teams, monitoring tools, test results, and anyone with insight into whether work is heading the right direction. The other options each wrongly restrict feedback to one narrow source that the principle does not limit it to."
+  },
+  {
+    "id": 537,
+    "domain": "service_value_system",
+    "question": "As part of its review of the seven ITIL guiding principles, the chapter explains that which statement most accurately captures how Progress Iteratively with Feedback treats the relationship between an iteration and the feedback gathered from it?",
+    "options": {
+      "A": "Feedback should usually be gathered once, at the very end of a project.",
+      "B": "Feedback is optional and can be safely ignored if a deadline is approaching.",
+      "C": "Feedback from one iteration should shape the decisions made about the next iteration.",
+      "D": "Feedback should only come from the single most senior stakeholder involved in a project."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Feedback from one iteration should shape the decisions made about the next iteration.): The principle treats each iteration as a source of learning that should directly inform what happens next, forming a continuous cycle of releasing, checking, and adjusting. The other options describe gathering feedback only once, ignoring it under deadline pressure, or limiting its source to one senior person, none of which matches how the principle is described."
+  },
+  {
+    "id": 539,
+    "domain": "service_value_system",
+    "question": "Drawing on the chapter's detailed treatment of the seven ITIL guiding principles, consider that according to Collaborate and Promote Visibility, what does effective collaboration actually require, rather than simply involving as many people as possible in every decision?",
+    "options": {
+      "A": "Ensuring that every single employee attends every meeting depending on relevance to them.",
+      "B": "Identifying who actually needs to be involved based on their stake or expertise.",
+      "C": "Limiting all decisions to a single person acting mostly without any outside input.",
+      "D": "Requiring written approval from every department before any decision can be finalized."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (Identifying who actually needs to be involved based on their stake or expertise.): The chapter is explicit that collaboration does not mean every decision needs a large committee, it means identifying who genuinely needs to be involved based on their stake in the outcome or the expertise they can offer. The other options describe either mass involvement or the opposite extreme of total isolation, neither of which reflects the actual guidance."
+  },
+  {
+    "id": 541,
+    "domain": "service_value_system",
+    "question": "The chapter devoted to the seven ITIL guiding principles, complete with workplace examples and common exam traps, explains that why does the chapter say that work which is invisible is difficult to manage, support, or trust?",
+    "options": {
+      "A": "Because invisible work is typically technically more complicated than visible work.",
+      "B": "Because a manager who cannot see true status cannot make good decisions about it.",
+      "C": "Because customers legally require full visibility into every internal process in this case times.",
+      "D": "Because invisibility typically means the underlying work itself is being done poorly."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (Because a manager who cannot see true status cannot make good decisions about it.): The chapter's reasoning is specifically about decision making, if a manager cannot see the true status of a project, they cannot make good decisions about it, even when the underlying work is actually going fine. The other options invent complexity, legal, or quality claims the chapter does not make about invisible work."
+  },
+  {
+    "id": 550,
+    "domain": "service_value_system",
+    "question": "A bank's IT team upgrades a single server to increase its mobile banking app's processing speed, but the faster app now sends far more requests per second to a partner's payment verification service, which cannot handle the new volume and begins timing out. Which guiding principle does this best demonstrate?",
+    "options": {
+      "A": "Focus on Value, one of the seven ITIL guiding principles.",
+      "B": "Start Where You Are, one of the seven ITIL guiding principles.",
+      "C": "Think and Work Holistically, one of the seven ITIL guiding principles.",
+      "D": "Keep It Simple and Practical, one of the seven ITIL guiding principles."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Think and Work Holistically, one of the seven ITIL guiding principles.): Failing to consider how one change ripples outward to a connected partner system is precisely the risk Think and Work Holistically warns against, since services and technology are interconnected. Focus on Value concerns identifying stakeholder needs, Start Where You Are concerns assessing the current state, and Keep It Simple and Practical concerns removing unnecessary complexity, none of which is the specific unseen downstream effect being tested here."
+  },
+  {
+    "id": 554,
+    "domain": "service_value_system",
+    "question": "A telecom company's network team plans an upgrade by mapping out every team, vendor, and downstream system the change could touch, rather than assuming the upgrade only affects the network team's own equipment and nothing else in the wider service. Which guiding principle does this best demonstrate?",
+    "options": {
+      "A": "Keep It Simple and Practical, one of the seven ITIL guiding principles.",
+      "B": "Think and Work Holistically, one of the seven ITIL guiding principles.",
+      "C": "Focus on Value, one of the seven ITIL guiding principles.",
+      "D": "Start Where You Are, one of the seven ITIL guiding principles."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (Think and Work Holistically, one of the seven ITIL guiding principles.): Deliberately mapping every connected team, vendor, and system before making a change is the essence of Think and Work Holistically, recognizing that no part of an organization produces a result entirely on its own. Keep It Simple and Practical concerns unnecessary complexity, Focus on Value concerns stakeholder needs, and Start Where You Are concerns the current state, none of which is the cross system mapping exercise being tested here."
+  },
+  {
+    "id": 568,
+    "domain": "service_value_system",
+    "question": "Drawing on the chapter's detailed treatment of the seven ITIL guiding principles, consider that why does the chapter say a short, clear two page policy that people actually read and follow is more valuable than a fifty page policy that nobody reads at all?",
+    "options": {
+      "A": "Because shorter documents are typically cheaper to print than longer documents, as it sometimes appears in non official glossaries.",
+      "B": "Because longer documents typically take proportionally longer for employees to read fully.",
+      "C": "Because policy length is regulated by a fixed legal page limit in most industries.",
+      "D": "Because value should be judged from the outcome achieved, not from effort spent producing it."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Because value should be judged from the outcome achieved, not from effort spent producing it.): This example exists to reinforce that Keep It Simple and Practical judges value by outcome, a policy people actually follow, rather than by how much effort went into writing it. The other options invent printing costs, reading time claims, or a legal page limit that the chapter never mentions."
+  },
+  {
+    "id": 574,
+    "domain": "service_value_system",
+    "question": "A logistics company automates its route planning software without first reviewing whether the underlying planning rules still made sense, and the result is that outdated, inefficient routes are now generated instantly instead of slowly, wasting fuel at a much larger scale than before. Which guiding principle does this best demonstrate?",
+    "options": {
+      "A": "Think and Work Holistically, one of the seven ITIL guiding principles.",
+      "B": "Collaborate and Promote Visibility, one of the seven ITIL guiding principles.",
+      "C": "Focus on Value, one of the seven ITIL guiding principles.",
+      "D": "Optimize and Automate, one of the seven ITIL guiding principles."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Optimize and Automate, one of the seven ITIL guiding principles.): This scenario illustrates the failure Optimize and Automate specifically warns against, automating a badly designed process just makes the bad process happen faster and at a larger scale rather than fixing it. Think and Work Holistically concerns connected organizational effects, Collaborate and Promote Visibility concerns involving the right people, and Focus on Value concerns stakeholder needs, none of which is the improve before automate failure being tested here."
+  },
+  {
+    "id": 575,
+    "domain": "service_value_system",
+    "question": "According to Chapter 7 of the ITIL Version 5 Foundation Study Guide, which covers the seven ITIL guiding principles in depth, according to Optimize and Automate, which kinds of tasks are usually not good candidates for automation without a human in the loop?",
+    "options": {
+      "A": "Tasks that require empathy, complex judgment, or a nuanced understanding of an unusual situation.",
+      "B": "Tasks that are repetitive, well defined, rule based, and require little human judgment.",
+      "C": "Tasks that take less than five minutes for a trained employee to complete manually.",
+      "D": "Tasks that are performed by more than one department across the organization."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (Tasks that require empathy, complex judgment, or a nuanced understanding of an unusual situation.): The chapter names empathy driven, complex judgment, or nuanced situations as poor automation candidates without human review, while explicitly saying repetitive, well defined, rule based tasks are good candidates for automation. The other options describe task duration or cross department involvement, which are not the distinction the principle actually draws."
+  },
+  {
+    "id": 583,
+    "domain": "service_value_system",
+    "question": "In its section pairing each guiding principle with a concrete workplace example, the chapter notes that the chapter's logistics company example shows a single decision, replacing a manual delivery scheduling system, being shaped by all seven guiding principles at once. What broader lesson about the principles does this example teach?",
+    "options": {
+      "A": "The seven principles are meant to be used together rather than picked one at a time.",
+      "B": "Only one guiding principle can ever apply to a single organizational decision.",
+      "C": "The guiding principles are ranked, and only the highest ranked one truly matters.",
+      "D": "Guiding principles only apply to formal IT projects, rarely to any other kind of decision."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (The seven principles are meant to be used together rather than picked one at a time.): The chapter uses this example specifically to show that principles are meant to be used together, with a single decision often calling on several at once rather than being picked from like items on a menu. The other options wrongly claim only one principle can ever apply, that they are ranked, or that they are limited only to formal IT projects."
+  },
+  {
+    "id": 585,
+    "domain": "service_value_system",
+    "question": "According to Chapter 7 of the ITIL Version 5 Foundation Study Guide, which covers the seven ITIL guiding principles in depth, in the same logistics scheduling example, which guiding principle is applied last, once the scheduling logic itself has already been simplified and proven?",
+    "options": {
+      "A": "Start Where You Are, one of the seven ITIL guiding principles.",
+      "B": "Optimize and Automate, one of the seven ITIL guiding principles.",
+      "C": "Collaborate and Promote Visibility, one of the seven ITIL guiding principles.",
+      "D": "Progress Iteratively with Feedback, one of the seven ITIL guiding principles."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (Optimize and Automate, one of the seven ITIL guiding principles.): The chapter states directly that Optimize and Automate is applied last in this example, once the scheduling logic has been simplified and proven, by automating the routine parts of building a daily schedule. Start Where You Are concerns studying the current state early on, Collaborate and Promote Visibility concerns involving stakeholders throughout, and Progress Iteratively with Feedback concerns the pilot release, none of which is described as the final applied principle."
+  },
+  {
+    "id": 592,
+    "domain": "service_value_system",
+    "question": "A hospital's supply chain team decides which stakeholder actually receives a shipment of medical equipment by first asking the receiving department what outcome they are trying to achieve with it, rather than assuming the shipment automatically counts as valuable just because it was delivered on schedule. Which guiding principle does this best demonstrate?",
+    "options": {
+      "A": "Focus on Value, one of the seven ITIL guiding principles.",
+      "B": "Start Where You Are, one of the seven ITIL guiding principles.",
+      "C": "Optimize and Automate, one of the seven ITIL guiding principles.",
+      "D": "Collaborate and Promote Visibility, one of the seven ITIL guiding principles."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (Focus on Value, one of the seven ITIL guiding principles.): Asking what outcome the receiving stakeholder is actually trying to achieve, rather than assuming delivery alone equals value, is exactly what Focus on Value calls for. Start Where You Are concerns assessing the current state, Optimize and Automate concerns improving before automating, and Collaborate and Promote Visibility concerns involving the right people, none of which is the specific stakeholder value question being tested here."
+  },
+  {
+    "id": 596,
+    "domain": "service_value_system",
+    "question": "A manufacturing company approves a change to its packaging line speed only after reviewing how the change would affect the warehouse team receiving the output, the trucking partner scheduled to collect it, and the customer service team that would field any resulting complaints. Which guiding principle does this best demonstrate?",
+    "options": {
+      "A": "Keep It Simple and Practical, one of the seven ITIL guiding principles.",
+      "B": "Progress Iteratively with Feedback, one of the seven ITIL guiding principles.",
+      "C": "Think and Work Holistically, one of the seven ITIL guiding principles.",
+      "D": "Focus on Value, one of the seven ITIL guiding principles."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Think and Work Holistically, one of the seven ITIL guiding principles.): Reviewing effects across the warehouse, the trucking partner, and customer service before approving a single line change reflects Think and Work Holistically's core idea that no part of an organization operates entirely on its own. Keep It Simple and Practical concerns unnecessary complexity, Progress Iteratively with Feedback concerns small releases and learning, and Focus on Value concerns stakeholder needs, none of which is the cross department review being tested here."
+  },
+  {
+    "id": 603,
+    "domain": "service_value_system",
+    "question": "As part of its detailed treatment of governance and the Service Value System, the chapter notes that which of the following best defines opportunity as it is used within the Service Value System's inputs?",
+    "options": {
+      "A": "Possibilities to add value for stakeholders or to improve the organization in some way.",
+      "B": "A formally signed contract between an organization and one of its external suppliers.",
+      "C": "A fixed annual budget allocated to a specific department within the organization.",
+      "D": "A completed audit report reviewing an organization's regulatory compliance history."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (Possibilities to add value for stakeholders or to improve the organization in some way.): The chapter defines opportunity as possibilities to add value for stakeholders or otherwise improve the organization, which could come from new technology, a competitor's mistake, or a regulatory change. A supplier contract, a budget allocation, and an audit report are all real organizational artifacts, but none of them is how the chapter defines opportunity."
+  },
+  {
+    "id": 605,
+    "domain": "service_value_system",
+    "question": "The chapter devoted to governance and the Service Value System, including the continuous EDM cycle, explains that what is the single output of the Service Value System once opportunity and demand have passed through its components?",
+    "options": {
+      "A": "Governance, meaning a completed set of formal policies approved by a governing body.",
+      "B": "Value, meaning the perceived benefits, usefulness, and importance of something to a stakeholder.",
+      "C": "Practices, meaning a finished list of organizational resources ready to be reused, which some training materials describe in a simplified way.",
+      "D": "Continual improvement, meaning a for an extended period closed and finished improvement initiative."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (Value, meaning the perceived benefits, usefulness, and importance of something to a stakeholder.): The chapter is direct that value, the perceived benefits, usefulness, and importance to a stakeholder, is what comes out of the Service Value System. Governance, practices, and continual improvement are all real components of the system itself, not the single output the system produces."
+  },
+  {
+    "id": 611,
+    "domain": "service_value_system",
+    "question": "Drawing on the chapter's explanation of governance and the five components of the Service Value System, consider that how many components does ITIL name as sitting between the Service Value System's inputs and its output of value?",
+    "options": {
+      "A": "Three components sitting between the system's inputs and its single output.",
+      "B": "Five components sitting between the system's inputs and its single output.",
+      "C": "Seven components sitting between the system's inputs and its single output.",
+      "D": "Four components sitting between the system's inputs and its single output."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (Five components sitting between the system's inputs and its single output.): The chapter names exactly five components that convert opportunity and demand into value, the guiding principles, governance, the service value chain, practices, and continual improvement. Three, seven, and four are all incorrect counts and do not match the number the chapter gives."
+  },
+  {
+    "id": 614,
+    "domain": "service_value_system",
+    "question": "Reviewing the Service Value System's inputs, output, and five components together with governance, the chapter states that how many activities make up the service value chain, and which activity is NOT one of them according to the chapter?",
+    "options": {
+      "A": "Six activities, and improve is not one of them.",
+      "B": "Five activities, and deliver and support is not one of them.",
+      "C": "Six activities, and plan is not one of them.",
+      "D": "Six activities, and evaluate is not one of them."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Six activities, and evaluate is not one of them.): The service value chain has six activities, plan, improve, engage, design and transition, obtain and build, and deliver and support, and evaluate is not among them since evaluate belongs to the separate governance EDM cycle. The other options each wrongly exclude an activity that is genuinely part of the six named value chain activities."
+  },
+  {
+    "id": 624,
+    "domain": "service_value_system",
+    "question": "As part of its detailed treatment of governance and the Service Value System, the chapter notes that which of the following best describes how the chapter frames the relationship between the guiding principles and the other four components of the Service Value System?",
+    "options": {
+      "A": "The guiding principles shape decision making throughout the system rather than acting in only one component.",
+      "B": "The guiding principles only apply directly to the practices component and nowhere else.",
+      "C": "The guiding principles only apply directly to the continual improvement component and nowhere else.",
+      "D": "The guiding principles are mostly separate from the Service Value System and exist outside of it."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (The guiding principles shape decision making throughout the system rather than acting in only one component.): The chapter's closing section explains that the guiding principles shape decisions made throughout the whole system, not just within one specific component such as practices or continual improvement. The other options wrongly restrict the guiding principles to a single component or place them entirely outside the system."
+  },
+  {
+    "id": 632,
+    "domain": "service_value_system",
+    "question": "Drawing on the chapter's explanation of governance and the five components of the Service Value System, consider that why does the chapter say it is worth slowing down on the definition of governance, even though the definition itself is short?",
+    "options": {
+      "A": "Because every word in the short definition carries specific, precise meaning.",
+      "B": "Because the definition is intentionally misleading and must be corrected before use.",
+      "C": "Because the definition changed significantly between two different versions of ITIL.",
+      "D": "Because the definition only applies to organizations operating in a regulated industry."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (Because every word in the short definition carries specific, precise meaning.): The chapter explains that although the definition, the system by which an organization is directed and controlled, is short, every word in it matters and deserves careful attention. The other options invent a claim of intentional misleading, a version change, or a restriction to regulated industries that the chapter does not make."
+  },
+  {
+    "id": 634,
+    "domain": "service_value_system",
+    "question": "In its discussion of how governance decisions flow into the service value chain, the chapter notes that a small project team has its own person accountable for the project's direction and performance, separate from the company's main board of directors. According to the chapter, what is this project level accountability an example of?",
+    "options": {
+      "A": "A violation of proper governance, since only the board may hold real accountability.",
+      "B": "Management, since governance can rarely exist below the level of a corporate board.",
+      "C": "Governance existing at a level below the top of the organization.",
+      "D": "An informal arrangement that has no real standing within the Service Value System."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Governance existing at a level below the top of the organization.): The chapter uses exactly this kind of example, a project or department accountable for its own direction and performance, to show governance exists at multiple levels within a single organization. The other options wrongly call this a violation, misclassify it as management rather than governance, or dismiss it as informal, none of which matches the chapter's description."
+  },
+  {
+    "id": 636,
+    "domain": "service_value_system",
+    "question": "According to Chapter 8 of the ITIL Version 5 Foundation Study Guide, which covers the Service Value System and governance in depth, governance operates through a continuous cycle made up of three activities. What are those three activities, and what is the common abbreviation for this cycle?",
+    "options": {
+      "A": "Evaluate, direct, and monitor, commonly abbreviated as EDM.",
+      "B": "Plan, do, and check, commonly abbreviated as PDC.",
+      "C": "Assess, approve, and audit, commonly abbreviated as AAA.",
+      "D": "Review, revise, and release, commonly abbreviated as RRR."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (Evaluate, direct, and monitor, commonly abbreviated as EDM.): The chapter names evaluate, direct, and monitor as the three governance activities, commonly abbreviated EDM, which the chapter calls one of the most important things to memorize precisely for the exam. The other options invent unrelated abbreviations that are not the actual governance cycle described in the chapter."
+  },
+  {
+    "id": 651,
+    "domain": "service_value_system",
+    "question": "Chapter 8 of this study guide, devoted to the Service Value System and its evaluate direct monitor governance cycle, explains that continuing the same telecommunications example, the governing body later checks whether churn actually improved after the new provisioning process was delivered. Which EDM activity does this checking step represent?",
+    "options": {
+      "A": "Evaluate, as described in this chapter's governance and value chain discussion.",
+      "B": "Direct, as described in this chapter's governance and value chain discussion.",
+      "C": "Engage, as described in this chapter's governance and value chain discussion.",
+      "D": "Monitor, as described in this chapter's governance and value chain discussion."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Monitor, as described in this chapter's governance and value chain discussion.): Checking whether churn actually improved against the earlier direction is exactly what monitor means within the EDM cycle, closing the loop back to a future evaluation. Evaluate and direct are the earlier steps that came before delivery, and engage is a value chain activity working with customers, not the governance checking step being described here."
+  },
+  {
+    "id": 658,
+    "domain": "service_value_system",
+    "question": "Chapter 8 of this study guide, devoted to the Service Value System and its evaluate direct monitor governance cycle, explains that which EDM activity is most directly informed by measurements, reports, and audits examining whether outcomes match a previously approved policy?",
+    "options": {
+      "A": "Monitor, as described in this chapter's governance and value chain discussion.",
+      "B": "Evaluate, as described in this chapter's governance and value chain discussion.",
+      "C": "Direct, as described in this chapter's governance and value chain discussion.",
+      "D": "Engage, as described in this chapter's governance and value chain discussion."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (Monitor, as described in this chapter's governance and value chain discussion.): Monitor is defined specifically as relying on measurements, reports, and audits to confirm whether the organization's outcomes actually match what was directed. Evaluate relies on information to form an initial judgment, direct involves setting the policy being checked, and engage is a value chain activity, not the governance checking step being described."
+  },
+  {
+    "id": 666,
+    "domain": "service_value_system",
+    "question": "As part of its detailed treatment of governance and the Service Value System, the chapter notes that what is a governing body?",
+    "options": {
+      "A": "A single external auditor hired once a year to review an organization's finances, which blends two related ideas from the wider framework.",
+      "B": "A software system that automatically tracks compliance without any human oversight involved.",
+      "C": "A committee that exists only to plan employee social events within an organization.",
+      "D": "A person or group accountable for an organization's performance and compliance at some level."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (A person or group accountable for an organization's performance and compliance at some level.): The chapter defines a governing body precisely as a person or group of people accountable for the performance and compliance of the organization at some defined level. An external auditor, an automated software system, and a social events committee are unrelated concepts that do not match this specific definition."
+  },
+  {
+    "id": 669,
+    "domain": "service_value_system",
+    "question": "In its discussion of how governance decisions flow into the service value chain, the chapter notes that where does a governing body's authority come from, according to the chapter, and what specifically cannot simply be delegated away?",
+    "options": {
+      "A": "Its authority comes from its budget size, which can typically be freely delegated away, which some training materials describe in a simplified way.",
+      "B": "Its authority comes from its physical office location, which can be relocated at will.",
+      "C": "Its authority comes from customer votes, which can be transferred to any other group.",
+      "D": "Its authority comes from its accountability, and that accountability cannot simply be delegated away."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Its authority comes from its accountability, and that accountability cannot simply be delegated away.): The chapter is explicit that a governing body's authority comes from its accountability, and that this accountability specifically cannot simply be delegated away, even though many supporting tasks can be. The other options invent budget size, office location, or customer votes as the source of authority, none of which the chapter describes."
+  },
+  {
+    "id": 671,
+    "domain": "service_value_system",
+    "question": "According to Chapter 8 of the ITIL Version 5 Foundation Study Guide, which covers the Service Value System and governance in depth, the chapter explains that governance can exist in layers within a single organization. Which of the following correctly reflects that layered relationship?",
+    "options": {
+      "A": "A corporate board can govern the enterprise while a steering committee governs one initiative.",
+      "B": "Only one single governing body can ever legitimately exist within any one organization.",
+      "C": "A lower level governing body is rarely actually answerable to any higher level body, though the precise scope can vary between organizations.",
+      "D": "Layers of governance can only exist in organizations with more than one country of operation."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (A corporate board can govern the enterprise while a steering committee governs one initiative.): The chapter's own example describes a corporate board governing the whole enterprise while a program steering committee governs a specific initiative, with the lower level still answerable to the level above it. The other options wrongly limit an organization to one governing body, deny any accountability between layers, or invent an international operations requirement that the chapter never states."
+  },
+  {
+    "id": 677,
+    "domain": "service_value_system",
+    "question": "Reviewing the Service Value System's inputs, output, and five components together with governance, the chapter states that management answers which core question about an organization?",
+    "options": {
+      "A": "What should the organization's overall long term strategic direction actually be, which some training materials describe in a simplified way.",
+      "B": "Is the organization's overall strategy compliant with relevant laws and regulations.",
+      "C": "How do we get this done, day by day, with the people, budget, and tools available.",
+      "D": "Who should be accountable for the organization's overall performance and direction."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (How do we get this done, day by day, with the people, budget, and tools available.): The chapter states that management answers how the actual work gets done day to day, with the available people, budget, and tools, operating within the boundaries governance has already set. Strategic direction, regulatory compliance of strategy, and overall accountability are each described in the chapter as governance questions, not management questions."
+  },
+  {
+    "id": 678,
+    "domain": "service_value_system",
+    "question": "According to Chapter 8 of the ITIL Version 5 Foundation Study Guide, which covers the Service Value System and governance in depth, which of the following best captures the simple way the chapter suggests remembering the distinction between governance and management?",
+    "options": {
+      "A": "Governance and management are simply two different names for the exact same activity.",
+      "B": "Governance only concerns technology decisions, while management only concerns human resources decisions.",
+      "C": "Governance decides what good looks like and checks whether it was achieved, management does the work.",
+      "D": "Governance happens only once a year, while management happens continuously throughout the year."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Governance decides what good looks like and checks whether it was achieved, management does the work.): The chapter's own simple summary is that governance decides what good looks like and checks whether it was achieved, while management does the actual work of trying to achieve it. The other options wrongly claim the two are identical, split them by subject area, or invent a fixed annual versus continuous timing distinction the chapter does not make."
+  },
+  {
+    "id": 680,
+    "domain": "service_value_system",
+    "question": "A retail bank's governing body directs that all customer facing systems must have a maximum planned downtime of four hours per year. The IT management team then schedules the actual maintenance windows to meet that limit. Which activity did the governing body NOT get involved in?",
+    "options": {
+      "A": "Setting the four hour downtime policy that customer facing systems must meet.",
+      "B": "Establishing a boundary within which the IT management team must operate, a phrase that appears in some informal training material.",
+      "C": "Deciding when the maintenance windows would occur or which engineer would perform the work.",
+      "D": "Approving the overall availability policy that applies to customer facing systems."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Deciding when the maintenance windows would occur or which engineer would perform the work.): The chapter states directly that the governing body did not decide when maintenance windows would occur or which engineer would perform the work, since that operational detail belongs to management, not governance. The other options all describe things the governing body genuinely did do, setting the policy, establishing the boundary, and approving it."
+  },
+  {
+    "id": 681,
+    "domain": "service_value_system",
+    "question": "As part of its detailed treatment of governance and the Service Value System, the chapter notes that in the same retail bank example, which specific activities did the IT management team perform, according to the chapter?",
+    "options": {
+      "A": "Setting the original four hour downtime policy for all customer facing systems.",
+      "B": "Planning the actual maintenance windows, coordinating technical work, and scheduling staff.",
+      "C": "Deciding whether customer facing systems needed an availability policy in this case, a term sometimes used loosely in adjacent frameworks.",
+      "D": "Approving the overall strategic direction the bank's IT division should follow."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (Planning the actual maintenance windows, coordinating technical work, and scheduling staff.): The chapter states that the management team planned the actual maintenance windows, coordinated the technical work, and scheduled staff to meet the four hour limit that governance had already set. Setting the original policy, deciding whether a policy was needed, and approving strategic direction are all governance activities described earlier in the same example, not management activities."
+  },
+  {
+    "id": 682,
+    "domain": "service_value_system",
+    "question": "Drawing on the chapter's explanation of governance and the five components of the Service Value System, consider that a frequent exam trap involves confusing governance with management because both involve decision making. What is the core distinction the chapter says candidates must remember?",
+    "options": {
+      "A": "Governance usually occurs in private companies, while management only occurs in government agencies, though this framing misses part of the real definition.",
+      "B": "Governance decides direction and checks outcomes, management plans and carries out the work within that direction.",
+      "C": "Governance is typically performed by external consultants, while management is typically performed by internal staff.",
+      "D": "Governance applies only to technology decisions, while management applies only to financial decisions."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (Governance decides direction and checks outcomes, management plans and carries out the work within that direction.): This is a documented trap in the chapter, and the correct distinction is that governance decides direction and checks outcomes, while management plans and carries out the work within the direction governance has set. The other options invent a private versus public sector split, an external versus internal staffing split, or a technology versus finance split that the chapter does not describe."
+  },
+  {
+    "id": 683,
+    "domain": "service_value_system",
+    "question": "The chapter devoted to governance and the Service Value System, including the continuous EDM cycle, explains that if a question describes someone setting a policy or a strategic boundary, which concept is being described?",
+    "options": {
+      "A": "Management, the concept concerned with carrying out day to day operational work.",
+      "B": "The service value chain, one of the five components of the Service Value System.",
+      "C": "A guiding principle, one concept among the five components of the Service Value System.",
+      "D": "Governance, one of the five components of the Service Value System."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Governance, one of the five components of the Service Value System.): The chapter states directly that if a question describes someone setting a policy or a strategic boundary, that is governance. Management involves organizing daily work within an existing boundary rather than setting it, and the service value chain and guiding principles are separate components entirely, not the concept this specific description matches."
+  },
+  {
+    "id": 690,
+    "domain": "service_value_system",
+    "question": "Drawing on the chapter's explanation of governance and the five components of the Service Value System, consider that which of the following best summarizes the overall relationship between governance and management as described in the chapter?",
+    "options": {
+      "A": "Governance sets the direction and checks it, management carries out the work inside that direction.",
+      "B": "Governance and management operate on mostly separate organizations with no shared connection in this case.",
+      "C": "Management typically outranks governance in every organizational decision that is made.",
+      "D": "Governance is a temporary role that eventually transforms for an extended period into management over time."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (Governance sets the direction and checks it, management carries out the work inside that direction.): The chapter's overall relationship is that governance sets direction and checks whether it was achieved, while management carries out the actual work inside the boundary governance has set. The other options wrongly separate the two into unrelated organizations, reverse their relative authority, or claim governance eventually becomes management, none of which the chapter describes."
+  },
+  {
+    "id": 694,
+    "domain": "service_value_system",
+    "question": "According to Chapter 8 of the ITIL Version 5 Foundation Study Guide, which covers the Service Value System and governance in depth, in the chapter's telecommunications example, a governing body directs the organization to reduce customer churn. Which value chain activity works with customers to understand their expectations as this direction is carried out?",
+    "options": {
+      "A": "Plan, as described in this chapter's governance and value chain discussion.",
+      "B": "Engage, as described in this chapter's governance and value chain discussion.",
+      "C": "Design and transition, as described in this chapter's governance and value chain discussion.",
+      "D": "Deliver and support, as described in this chapter's governance and value chain discussion."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (Engage, as described in this chapter's governance and value chain discussion.): The chapter specifically states that the engage activity works with customers to understand their expectations as this direction moves through the value chain. Plan is where the direction first lands as a priority, design and transition builds the new capability, and deliver and support puts it into daily use, none of which is the activity described as working directly with customers here."
+  },
+  {
+    "id": 700,
+    "domain": "service_value_system",
+    "question": "Reviewing the Service Value System's inputs, output, and five components together with governance, the chapter states that which of the following best summarizes the full path the chapter describes from opportunity and demand, through the Service Value System, to a final outcome?",
+    "options": {
+      "A": "Opportunity and demand convert into value instantly with no further organizational involvement required.",
+      "B": "The response passes through the value chain, shaped by principles and bounded by governance.",
+      "C": "Only governance is involved in converting opportunity and demand into a final outcome.",
+      "D": "The path only applies to organizations that operate exclusively in the private sector."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (The response passes through the value chain, shaped by principles and bounded by governance.): The chapter describes this full path explicitly, the response passes through the service value chain, is shaped by the guiding principles, operates inside governance's boundaries, is carried out using specific practices, and is refined through continual improvement. The other options wrongly claim instant conversion with no involvement, that only governance matters, or that the path is restricted to the private sector."
+  },
+  {
+    "id": 722,
+    "domain": "service_value_system",
+    "question": "Which activity is most closely associated with running live services, handling incidents, and fulfilling routine user requests?",
+    "options": {
+      "A": "Deliver and Support, the activity that runs and supports live services.",
+      "B": "Design and Transition, the activity that designs and safely releases services.",
+      "C": "Plan, the activity that sets shared strategic direction and coordinated plans.",
+      "D": "Obtain/Build, the activity that sources or builds the needed components."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (Deliver and Support, the activity that runs and supports live services.): this activity covers day-to-day operations, incidents, and requests. Option B is about designing and building services before they go live. Option C is about setting direction. Option D is about sourcing components before delivery."
+  },
+  {
+    "id": 723,
+    "domain": "service_value_system",
+    "question": "A user calls the service desk to report that email is not working. Which Service Value Chain activity does handling this call primarily belong to?",
+    "options": {
+      "A": "Deliver and Support, the activity that runs and supports live services.",
+      "B": "Plan, the activity that sets shared strategic direction and coordinated plans.",
+      "C": "Obtain/Build, the activity that sources or builds the needed components.",
+      "D": "Engage, the activity that builds stakeholder understanding and ongoing relationships."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (Deliver and Support, the activity that runs and supports live services.): resolving an incident like broken email is core day-to-day operational work. Option B is unrelated to handling an active incident. Option C is about sourcing components, not fixing live issues. Option D focuses more broadly on stakeholder relationships."
+  },
+  {
+    "id": 745,
+    "domain": "service_value_system",
+    "question": "Which activity's main output includes strategic, tactical, and operational plans?",
+    "options": {
+      "A": "Engage, the activity that builds stakeholder understanding and ongoing relationships.",
+      "B": "Obtain/Build, the activity that sources or builds the needed components.",
+      "C": "Deliver and Support, the activity that runs and supports live services.",
+      "D": "Plan, the activity that sets shared strategic direction and coordinated plans."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Plan, the activity that sets shared strategic direction and coordinated plans.): plans at every level are a defined output of this activity. Option A produces requests and relationship reports instead. Option B produces sourced components. Option C produces working, supported services."
+  },
+  {
+    "id": 746,
+    "domain": "service_value_system",
+    "question": "Which activity's main output includes new or changed products and services that are ready to be built or obtained?",
+    "options": {
+      "A": "Improve, the activity that drives continual improvement across the whole system.",
+      "B": "Design and Transition, the activity that designs and safely releases services.",
+      "C": "Engage, the activity that builds stakeholder understanding and ongoing relationships.",
+      "D": "Plan, the activity that sets shared strategic direction and coordinated plans."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (Design and Transition, the activity that designs and safely releases services.): this activity's outputs feed directly into Obtain/Build. Option A produces improvement initiatives, not designed services. Option C produces requests and relationship data. Option D produces plans and portfolio decisions."
+  },
+  {
+    "id": 750,
+    "domain": "service_value_system",
+    "question": "A large enterprise wants to reduce the risk of major outages caused by poorly tested changes. Which activity should they focus on strengthening first?",
+    "options": {
+      "A": "Engage, the activity that builds stakeholder understanding and ongoing relationships.",
+      "B": "Plan, the activity that sets shared strategic direction and coordinated plans.",
+      "C": "Design and Transition, the activity that designs and safely releases services.",
+      "D": "Obtain/Build, the activity that sources or builds the needed components."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Design and Transition, the activity that designs and safely releases services.): testing, validation, and change risk assessment live in this activity. Option A focuses on stakeholder relationships, not technical testing. Option B sets direction but does not directly test changes. Option D sources components but does not itself validate changes."
+  },
+  {
+    "id": 756,
+    "domain": "service_value_system",
+    "question": "A junior analyst says the Service Value Chain activities are basically the same as the four dimensions of service management. Why is this incorrect?",
+    "options": {
+      "A": "The Service Value Chain describes activities that create value, while the four dimensions describe broader perspectives.",
+      "B": "The four dimensions were replaced mostly by the Service Value Chain.",
+      "C": "There is no real difference and the two terms are interchangeable, a phrase that appears in some informal training material.",
+      "D": "The four dimensions only apply to organizations with fewer than fifty staff."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (The Service Value Chain describes activities that create value, while the four dimensions describe broader perspectives.): these are two distinct ITIL concepts. Option B is false, since both concepts remain part of the framework. Option C wrongly claims they are the same thing. Option D invents an unsupported size restriction."
+  },
+  {
+    "id": 771,
+    "domain": "service_value_system",
+    "question": "A candidate reads a question describing a service desk analyst logging and categorizing an incoming call about a broken printer. Which activity is being described?",
+    "options": {
+      "A": "Design and Transition, the activity that designs and safely releases services.",
+      "B": "Engage, the activity that builds stakeholder understanding and ongoing relationships.",
+      "C": "Deliver and Support, the activity that runs and supports live services.",
+      "D": "Plan, the activity that sets shared strategic direction and coordinated plans."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Deliver and Support, the activity that runs and supports live services.): logging and handling an incident is exactly what this activity covers. Option A is about building and testing services before release. Option B is about broader relationship management. Option D is about setting direction."
+  },
+  {
+    "id": 775,
+    "domain": "service_value_system",
+    "question": "A candidate wants a quick way to remember what each Service Value Chain activity answers. Which pairing is correct for Improve?",
+    "options": {
+      "A": "How do we build the right thing the right way.",
+      "B": "What components do we need to get or make.",
+      "C": "What do our stakeholders actually need, the question Engage is built around.",
+      "D": "How do we make all of this better over time."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (How do we make all of this better over time.): this matches the memory hook for Improve. Option A matches Design and Transition. Option B matches Obtain/Build. Option C matches Engage."
+  },
+  {
+    "id": 778,
+    "domain": "service_value_system",
+    "question": "A colleague claims that only Deliver and Support ever interacts with customers directly. Why is this claim incorrect?",
+    "options": {
+      "A": "It is correct, since only Deliver and Support has any customer contact.",
+      "B": "Engage also interacts directly with customers to manage relationships and gather requirements.",
+      "C": "Customers rarely interact with any Service Value Chain activity directly.",
+      "D": "Only Obtain/Build interacts directly with customers on pricing, which some training materials describe in a simplified way."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (Engage also interacts directly with customers to manage relationships and gather requirements.): Engage is specifically built around stakeholder interaction. Option A wrongly limits customer contact to one activity. Option C is factually wrong. Option D describes an unsupported and inaccurate claim about Obtain/Build."
+  },
+  {
+    "id": 782,
+    "domain": "service_value_system",
+    "question": "Which best explains why understanding inputs and outputs of each Service Value Chain activity is useful for the exam?",
+    "options": {
+      "A": "Inputs and outputs are not actually tested on the real exam.",
+      "B": "Only Plan has clearly defined inputs and outputs, a distinction not typically made in casual usage.",
+      "C": "It helps identify which activity a scenario describes based on what is being produced or used.",
+      "D": "Inputs and outputs are identical across all six activities."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (It helps identify which activity a scenario describes based on what is being produced or used.): recognizing inputs and outputs is a practical exam skill. Option A is false, since this is regularly tested. Option B wrongly limits defined inputs and outputs to one activity. Option D is false, since each activity has its own distinct inputs and outputs."
+  },
+  {
+    "id": 785,
+    "domain": "service_value_system",
+    "question": "A trainer summarizes the whole Service Value Chain in one sentence for beginners. Which summary is most accurate?",
+    "options": {
+      "A": "Six fixed steps must typically be completed in the same strict order.",
+      "B": "Six connected activities work together flexibly to turn demand into value.",
+      "C": "One activity does all the real work while the other five just observe.",
+      "D": "The six activities apply only to software development projects, as it sometimes appears in non official glossaries."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (Six connected activities work together flexibly to turn demand into value.): this captures the essential, flexible nature of the model. Option A wrongly claims a fixed order. Option B wrongly claims one activity dominates. Option D wrongly narrows the scope to software projects only."
+  },
+  {
+    "id": 798,
+    "domain": "service_value_system",
+    "question": "A candidate is asked which activity best matches the phrase making sure the right components are ready when and where they are needed. Which activity is this?",
+    "options": {
+      "A": "Engage, the activity that builds stakeholder understanding and ongoing relationships.",
+      "B": "Plan, the activity that sets shared strategic direction and coordinated plans.",
+      "C": "Improve, the activity that drives continual improvement across the whole system.",
+      "D": "Obtain/Build, the activity that sources or builds the needed components."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Obtain/Build, the activity that sources or builds the needed components.): this phrase closely matches the defined purpose of Obtain/Build. Option A, Option B, and Option C each describe a different focus that does not match this specific phrase."
+  },
+  {
+    "id": 801,
+    "domain": "service_value_system",
+    "question": "What is step one of the Continual Improvement Model, in its exact wording?",
+    "options": {
+      "A": "Where are we now, the step assessing the honest current state.",
+      "B": "Where do we want to be, the step setting measurable targets.",
+      "C": "How do we get there, the step defining the improvement plan.",
+      "D": "What is the vision, the first step defining overall direction."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (What is the vision, the first step defining overall direction.): this is the official first step. Option A is step two. Option B is step three. Option C is step four."
+  },
+  {
+    "id": 830,
+    "domain": "service_value_system",
+    "question": "Which of the three places continual improvement appears in ITIL refers to it as one of the seven guiding principles?",
+    "options": {
+      "A": "Continual improvement as a named Service Value Chain activity called Plan.",
+      "B": "Continual improvement wrongly described as a physical hardware component.",
+      "C": "Continual improvement described as one of the seven guiding principles.",
+      "D": "Continual improvement as a legal requirement for KDP publishing."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Continual improvement described as one of the seven guiding principles.): this is one of the three places it appears, alongside the Improve activity and the dedicated practice. Option A misnames the activity as Plan instead of Improve. Option B and Option D are unrelated fabrications."
+  },
+  {
+    "id": 851,
+    "domain": "service_value_system",
+    "question": "In the customer support example, deciding whether to apply the lessons learned to a different support channel represents which step?",
+    "options": {
+      "A": "Did we get there, the step evaluating results against the targets.",
+      "B": "Take action, the step where the improvement plan is actually carried out.",
+      "C": "How do we keep the momentum going, the step sustaining progress.",
+      "D": "Where are we now, the step assessing the honest current state."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (How do we keep the momentum going, the step sustaining progress.): applying lessons elsewhere and sustaining progress matches this final step. Option A was the earlier evaluation step. Option B was the earlier execution step. Option D was the much earlier baseline step."
+  },
+  {
+    "id": 865,
+    "domain": "service_value_system",
+    "question": "Which of the following scenarios best represents step six, did we get there, of the model?",
+    "options": {
+      "A": "A team brainstorms possible actions before any plan exists.",
+      "B": "A team compares this quarter's actual results against the target it set earlier.",
+      "C": "A team writes down its current state for the very first time.",
+      "D": "A team announces a brand new long-term vision, which some training materials describe in a simplified way."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (A team compares this quarter's actual results against the target it set earlier.): checking real outcomes against a target matches step six exactly. Option A describes an earlier, less structured stage than step four. Option C describes step two. Option D describes step one."
+  },
+  {
+    "id": 875,
+    "domain": "service_value_system",
+    "question": "Which of the following best reflects why continual improvement connects to nearly every part of ITIL rather than standing alone?",
+    "options": {
+      "A": "Continual improvement is actually a largely separate framework from ITIL, a phrase that appears in some informal training material.",
+      "B": "Continual improvement only connects to the four dimensions of service management.",
+      "C": "Continual improvement only connects to the guiding principles, and nothing else.",
+      "D": "Improvement opportunities can be found in strategy, design, delivery, and every practice in between."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Improvement opportunities can be found in strategy, design, delivery, and every practice in between.): this breadth is exactly why it touches so much of ITIL. Option A is factually false. Option B and Option C each wrongly narrow its real connections."
+  },
+  {
+    "id": 884,
+    "domain": "service_value_system",
+    "question": "Which of the following best reflects why a candidate should not assume the Continual Improvement Model only applies to failed services needing rescue?",
+    "options": {
+      "A": "The model is meant for ongoing alignment with changing needs, not only crisis recovery.",
+      "B": "The model was originally designed only for services already in crisis.",
+      "C": "Services that are performing well are not allowed to use the model in this case.",
+      "D": "The model is only used once a service has already been formally retired."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (The model is meant for ongoing alignment with changing needs, not only crisis recovery.): its purpose is broader than fixing failures alone. Option B, Option C, and Option D each incorrectly narrow the model's real, ongoing purpose."
+  },
+  {
+    "id": 887,
+    "domain": "service_value_system",
+    "question": "Which of the following best explains the value of applying the Continual Improvement Model consistently across an organization, rather than each team inventing its own approach?",
+    "options": {
+      "A": "A shared model guarantees every improvement effort will succeed in most cases.",
+      "B": "A shared model is only useful in organizations with fewer than ten employees.",
+      "C": "A shared model removes the need for any measurable targets in this case, though this framing misses part of the real definition.",
+      "D": "A shared model gives everyone a common language and structure for discussing improvement work."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (A shared model gives everyone a common language and structure for discussing improvement work.): consistency helps different teams understand and support each other's improvement efforts. Option A makes an unsupported guarantee. Option B invents an unsupported size restriction. Option C contradicts the model's emphasis on measurable targets."
+  },
+  {
+    "id": 890,
+    "domain": "service_value_system",
+    "question": "Which of the following best reflects a good use of a continual improvement register when a large improvement program has many smaller ideas competing for attention?",
+    "options": {
+      "A": "Ignoring priority mostly and acting on ideas in random order.",
+      "B": "Deleting all but one idea to simplify the register artificially.",
+      "C": "Assigning every single idea the exact same priority level.",
+      "D": "Using the register's priority field to decide which ideas to act on first."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Using the register's priority field to decide which ideas to act on first.): this is exactly what the priority field is meant to support. Option A, Option B, and Option C each undermine the practical value the register is meant to provide."
+  },
+  {
+    "id": 901,
+    "domain": "value_streams",
+    "question": "A junior analyst is asked to explain, in one sentence, what a value stream actually is before the team starts drawing its first map together. The analyst needs a definition that captures steps, an organization, and a consumer all at once for the meeting.",
+    "options": {
+      "A": "A value stream is a formal contract signed between a supplier and a customer.",
+      "B": "A series of steps an organization uses to create and deliver value to a consumer.",
+      "C": "A value stream is a single approved budget line covering all IT department spending.",
+      "D": "A value stream is a fixed schedule listing every employee's working hours each week."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (A series of steps an organization uses to create and deliver value to a consumer.): A value stream is a series of steps an organization uses to create and deliver value to a consumer, combining service value chain activities and practices. A budget line, a signed contract, and a working hours schedule do not describe this idea at all."
+  },
+  {
+    "id": 903,
+    "domain": "value_streams",
+    "question": "Two colleagues disagree about whether a value stream and a process mean the same thing. One insists they are identical concepts, while the other says there is a real difference worth understanding before the exam. Which statement correctly settles this disagreement?",
+    "options": {
+      "A": "A process and a value stream are typically exactly the same concept in ITIL.",
+      "B": "A process transforms inputs into outputs, while a value stream is the whole journey.",
+      "C": "A process only exists in manufacturing, while a value stream only exists in software.",
+      "D": "A process is legally required, while a value stream is mostly optional to define."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (A process transforms inputs into outputs, while a value stream is the whole journey.): A process transforms inputs into outputs for one activity, while a value stream is the whole end to end journey delivering value to the consumer. The two are not identical, are not split by industry, and legal requirement is not the real distinction."
+  },
+  {
+    "id": 907,
+    "domain": "value_streams",
+    "question": "During a mapping workshop, a facilitator introduces a term for the time a piece of work spends sitting in a queue, waiting for an approval, or waiting for someone to simply notice the ticket exists, rather than actually being worked on by anyone at all.",
+    "options": {
+      "A": "Warranty, which measures whether a delivered service meets agreed requirements over time.",
+      "B": "Value, which measures the perceived benefit a consumer receives from an outcome.",
+      "C": "Delay, which flow based thinking treats as the main enemy of good service.",
+      "D": "Process time, which measures how long the actual hands on work itself takes."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Delay, which flow based thinking treats as the main enemy of good service.): This is delay, which flow based thinking treats as the main enemy of good service and works to make visible. Process time measures active work, warranty measures fitness for use, and value measures perceived benefit, none of which describe idle queue time."
+  },
+  {
+    "id": 909,
+    "domain": "value_streams",
+    "question": "A trainer asks the class to name the term that describes time spent on an activity the consumer would genuinely be willing to wait for or pay for, such as a specialist carefully diagnosing a real technical fault rather than simply waiting for someone to respond.",
+    "options": {
+      "A": "Escalation time, the period spent handing a ticket between two separate teams.",
+      "B": "Idle capacity, unused staff time that is not currently assigned to any task.",
+      "C": "Value adding time, activity the consumer would actually be willing to wait for.",
+      "D": "Non value adding time, activity that produces no real benefit for the consumer."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Value adding time, activity the consumer would actually be willing to wait for.): This is value adding time, activity the consumer would actually be willing to wait for or pay for. Non value adding time is the opposite concept, escalation time refers to handoffs, and idle capacity refers to unused resource rather than genuine diagnostic work."
+  },
+  {
+    "id": 924,
+    "domain": "value_streams",
+    "question": "After making a small change to how tickets are routed, a team deliberately compares a before map of the value stream against a freshly drawn after map of that same value stream, made once the change had already been running for a few weeks. What is this comparison meant to demonstrate?",
+    "options": {
+      "A": "Whether the organization spent noticeably less money on office supplies that particular quarter.",
+      "B": "Whether the company's official logo had recently been updated on internal documents.",
+      "C": "Whether the total number of employees within the department had recently increased.",
+      "D": "Whether the change actually shortened the customer's wait, rather than just looking better on paper."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Whether the change actually shortened the customer's wait, rather than just looking better on paper.): Comparing a before map and an after map shows whether the change actually shortened the customer's wait, rather than just looking better on paper. Office supply spend, employee headcount, and logo updates are unrelated to what this comparison is meant to reveal."
+  },
+  {
+    "id": 930,
+    "domain": "value_streams",
+    "question": "Having identified where most of the delay actually sat within the worked incident resolution example, the instructor asks the class what flow based thinking would specifically recommend the team investigate first as its very next improvement priority going forward from this point.",
+    "options": {
+      "A": "Why the affected user waited a full two minutes before their call was answered.",
+      "B": "Why the final confirmation call to the user took a full five minutes to finish.",
+      "C": "Why the original service desk agent apparently typed the ticket details too slowly.",
+      "D": "Why the ticket waited forty minutes in the specialist queue before being picked up."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (Why the ticket waited forty minutes in the specialist queue before being picked up.): Flow based thinking would recommend investigating the forty minute specialist queue wait first, since it was by far the largest single source of delay recorded. Typing speed, the two minute answer wait, and the five minute confirmation call are all far smaller contributors."
+  },
+  {
+    "id": 934,
+    "domain": "value_streams",
+    "question": "A second mapping mistake is described where a team simply copies a process straight out of an official written policy manual to build their map, instead of physically walking the real journey alongside the actual people who genuinely perform that work every single day.",
+    "options": {
+      "A": "It reveals the exact original wording used inside that particular written policy document.",
+      "B": "It reveals the exact official job titles held by everyone involved in that process.",
+      "C": "It reveals the total number of practices described somewhere within the ITIL guidance itself.",
+      "D": "It hides the queues, rework loops, and workarounds that actually consume most of the real time."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (It hides the queues, rework loops, and workarounds that actually consume most of the real time.): Building a map straight from a policy manual hides the queues, rework loops, and workarounds that actually consume most of the real time. Job titles, the total practice count, and the manual's exact wording are not what this particular mistake actually conceals."
+  },
+  {
+    "id": 949,
+    "domain": "value_streams",
+    "question": "A trainer closes the chapter by asking what it genuinely means, in concrete practical terms, when a team confidently declares that a particular value stream has successfully delivered value to its intended consumer at the very end of the mapped journey being reviewed.",
+    "options": {
+      "A": "The consumer can see, use, and rely on the outcome the stream was meant to produce.",
+      "B": "The consumer's account was successfully billed correctly for the service that was delivered.",
+      "C": "The consumer has fully paid the entire invoice amount without raising any dispute.",
+      "D": "The consumer signed a customer satisfaction survey without actually reading any of it."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (The consumer can see, use, and rely on the outcome the stream was meant to produce.): Delivering value means the consumer can see, use, and rely on the outcome the value stream was meant to produce for them. Paying an invoice, signing an unread survey, and being billed correctly do not by themselves establish that real value was actually delivered."
+  },
+  {
+    "id": 961,
+    "domain": "ai_and_other_frameworks",
+    "question": "A candidate is asked to explain why good information is described as being especially important across nearly every single ITIL practice once an organization has started applying AI more broadly to support various parts of its everyday service management work.",
+    "options": {
+      "A": "Information is described as having no meaningful connection to overall decision quality.",
+      "B": "Good decisions depend on good information, and AI is well suited to analyzing very large volumes.",
+      "C": "AI is described as being largely unable to process any data unless entered manually first.",
+      "D": "ITIL formally requires that all organizational information be stored usually on paper."
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B (Good decisions depend on good information, and AI is well suited to analyzing very large volumes.): Good decisions depend on good information, and AI is well suited to analyzing very large data volumes to support those decisions. Paper only storage, no connection to decision quality, and a strict manual entry requirement are not accurate statements from the chapter."
+  },
+  {
+    "id": 966,
+    "domain": "ai_and_other_frameworks",
+    "question": "A candidate is asked which specific AI related risk describes a situation where an AI system ends up repeating, or even quietly amplifying, uneven or unfair treatment that already existed somewhere within the historical data that system was originally trained on.",
+    "options": {
+      "A": "Bias, where an AI system repeats or amplifies uneven patterns found in historical data.",
+      "B": "Accountability, a separate risk concerned instead with who is formally responsible for an outcome.",
+      "C": "Data quality, a separate risk concerned instead with accuracy and completeness of information.",
+      "D": "Transparency, a separate risk concerned instead with how explainable a given result actually is."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (Bias, where an AI system repeats or amplifies uneven patterns found in historical data.): Bias describes an AI system repeating or amplifying uneven treatment found in historical training data, exactly as this scenario shows. Data quality, transparency, and accountability describe separate risks related to input accuracy, explainability, and ownership rather than fairness."
+  },
+  {
+    "id": 968,
+    "domain": "ai_and_other_frameworks",
+    "question": "A candidate is asked which specific AI related risk describes a situation where a given AI system produces a particular result without ever making it genuinely obvious, even to a trained reviewer, exactly why the system actually reached that specific result.",
+    "options": {
+      "A": "Data quality, a separate risk concerned instead with accuracy and completeness of information.",
+      "B": "Bias, a separate risk concerned instead with unfair or uneven patterns learned from data.",
+      "C": "Transparency, where a result is produced without making clear why it was reached.",
+      "D": "Accountability, a separate risk concerned instead with who is formally responsible for an outcome."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (Transparency, where a result is produced without making clear why it was reached.): Transparency describes a system producing a result without making clear why it reached that particular conclusion, exactly as this scenario describes. Data quality, bias, and accountability describe separate risks related to input accuracy, fairness, and ownership rather than explainability."
+  },
+  {
+    "id": 972,
+    "domain": "ai_and_other_frameworks",
+    "question": "A candidate is asked what single, genuinely testable principle the four AI related risks discussed throughout this chapter, namely data quality, bias, transparency, and accountability, all ultimately lead to when they are considered carefully together as one connected whole.",
+    "options": {
+      "A": "AI should be allowed to fully replace every single practice currently performed by people.",
+      "B": "AI should formally rarely be used anywhere in this case within any ITIL managed organization.",
+      "C": "AI augments human decision making, and human oversight and governance remain essential throughout.",
+      "D": "AI removes the need for any further governance once it has been correctly installed, as it sometimes appears in non official glossaries."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (AI augments human decision making, and human oversight and governance remain essential throughout.): Together, the four risks lead to the principle that AI augments human decision making, and human oversight and governance remain essential wherever AI is involved. Total avoidance of AI, full replacement of practices, and removal of governance all directly contradict this stated principle."
+  },
+  {
+    "id": 975,
+    "domain": "ai_and_other_frameworks",
+    "question": "A candidate is asked to explain why ITIL is deliberately described as broad and adaptable, rather than being written to strictly prescribe exactly how every single piece of work across an organization must always be carried out in precise, rigid detail.",
+    "options": {
+      "A": "So that ITIL can instead be sold purely as one single, rigid piece of software.",
+      "B": "So that no organization is ever allowed to formally certify any of its own staff.",
+      "C": "So organizations can commonly use ITIL alongside other approaches focused on a narrower slice of work.",
+      "D": "So that organizations are effectively forced to abandon every other management approach they use."
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C (So organizations can commonly use ITIL alongside other approaches focused on a narrower slice of work.): ITIL is broad and adaptable so organizations can commonly use it together with other approaches focused on a narrower slice of the overall work. It does not force abandonment of other approaches, is not a rigid software product, and does not prevent staff certification."
+  },
+  {
+    "id": 987,
+    "domain": "ai_and_other_frameworks",
+    "question": "A candidate is asked what PRINCE2 is specifically described as focusing on that this chapter contrasts against Agile's own typical day to day focus, particularly around whether a given piece of project work genuinely remains worth continuing.",
+    "options": {
+      "A": "The overall governance of a project, such as whether it remains justified and who decides.",
+      "B": "The exact brand of laptop computer issued to each individual project team member, a distinction not typically made in casual usage.",
+      "C": "The particular color scheme chosen for a given customer facing public facing website.",
+      "D": "The specific day to day rhythm involved in writing individual lines of program code."
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A (The overall governance of a project, such as whether it remains justified and who decides.): PRINCE2 focuses on the overall governance of a project, such as whether it remains justified and who is accountable for decisions along the way. Day to day coding rhythm, website color scheme, and laptop brand are not PRINCE2's described focus in this chapter."
+  },
+  {
+    "id": 999,
+    "domain": "ai_and_other_frameworks",
+    "question": "A candidate is asked to explain why it genuinely matters whether a given AI recommendation can actually be clearly explained to a human reviewer, rather than the organization only ever caring about whether that recommendation simply happens to seem accurate at first glance.",
+    "options": {
+      "A": "Because explainability is described as having limited bearing on trust in any AI system.",
+      "B": "Because unexplainable recommendations are described as typically being automatically illegal to use in practice.",
+      "C": "Because only recommendations that are explainable are described as technically allowed to ever be automated.",
+      "D": "An unexplainable recommendation is harder to trust in a specific case and harder to justify later."
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D (An unexplainable recommendation is harder to trust in a specific case and harder to justify later.): An unexplainable recommendation is harder to trust in a specific case and harder to justify later if a customer or regulator asks about it, which is the transparency risk. It is not automatically illegal, explainability is directly tied to trust, and automation is not restricted purely by explainability."
+  }
+]

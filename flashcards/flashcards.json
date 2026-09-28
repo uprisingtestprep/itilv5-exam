@@ -1,0 +1,3002 @@
+[
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is the ITIL definition of a service?",
+  "back": "A service is a means of enabling value co-creation by facilitating outcomes customers want to achieve. It does this without the customer having to own specific costs and risks directly.",
+  "id": 1
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is the ITIL definition of a product?",
+  "back": "A product is a configuration of an organization's resources designed to offer value for a consumer. It is the underlying capability an organization builds and arranges.",
+  "id": 2
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "How does a product differ from a service?",
+  "back": "A product is a configuration of resources, like people, technology, and information. A service is the active relationship where that product is used to help a customer achieve a real outcome.",
+  "id": 3
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Can one product support more than one service?",
+  "back": "Yes. The same underlying product, such as a restaurant's kitchen and staff, can be packaged into several different services, like dine in meals, takeout, and catering.",
+  "id": 4
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is the ITIL definition of value?",
+  "back": "Value is defined as the perceived benefits, usefulness, and importance of something. It always depends on the stakeholder's own point of view, not a fixed measurement.",
+  "id": 5
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why does ITIL use the word perceived when defining value?",
+  "back": "Because value is subjective. Two different stakeholders can judge the exact same result very differently, so value cannot be treated as one fixed, objective number.",
+  "id": 6
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Can value change over time even if a service stays the same?",
+  "back": "Yes. Customer needs, competitors, and technology all shift, so something valuable last year might not be valuable today. This is why continual improvement matters so much.",
+  "id": 7
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is value co-creation?",
+  "back": "Value co-creation is value generated through active collaboration between providers, consumers, and other stakeholders. Value is not handed from one side to the other, it emerges from joint effort.",
+  "id": 8
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What older mindset did ITIL replace with value co-creation?",
+  "back": "The value delivery mindset, where a provider was seen as actively creating value and handing it to a passive customer. ITIL rejected this one directional view.",
+  "id": 9
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why can a well built product still fail to create value?",
+  "back": "Because value co-creation requires active participation from the customer too. If a customer never engages with a well built product, like never opening a fitness app, no real value results.",
+  "id": 10
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Who is the customer in ITIL's stakeholder model?",
+  "back": "The customer is the person or group that defines requirements for a service and is accountable for the outcomes of consuming it.",
+  "id": 11
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Who is the user in ITIL's stakeholder model?",
+  "back": "The user is the person who actually uses the service on a day to day basis, regardless of whether they decided to acquire it or pay for it.",
+  "id": 12
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Who is the sponsor in ITIL's stakeholder model?",
+  "back": "The sponsor is the person or group that authorizes the budget for consuming the service. Sponsoring is specifically about funding, not requirements or daily use.",
+  "id": 13
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Who is the provider in ITIL's stakeholder model?",
+  "back": "The provider is the organization, or part of an organization, that agrees to and delivers a service to a customer.",
+  "id": 14
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Can one person hold the customer, sponsor, and user roles at the same time?",
+  "back": "Yes. A small business owner who decides to buy a service, pays for it themselves, and uses it daily is simultaneously the customer, sponsor, and user.",
+  "id": 15
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "If roles are combined in one person, is it still useful to name them separately?",
+  "back": "Yes. Different responsibilities attach to each role even when one person performs all of them, so it still helps to identify which function is being performed at any given moment.",
+  "id": 16
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Give a real example distinguishing customer, sponsor, and user.",
+  "back": "A finance director approving budget is the sponsor, the finance operations head defining requirements and owning results is the customer, and employees logging expenses weekly are the users.",
+  "id": 17
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What does a service let a customer avoid owning directly?",
+  "back": "Specific costs and risks. A company using cloud hosting does not need to buy servers or manage electricity, because the provider absorbs those costs and risks instead.",
+  "id": 18
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "How does the taxi ride example illustrate the service definition?",
+  "back": "The taxi company supplies the car, fuel, and insurance so the passenger does not need to own a vehicle or carry commercial insurance, letting the passenger achieve the outcome of getting somewhere.",
+  "id": 19
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is the diagnostic question for telling product apart from service?",
+  "back": "Ask whether the description focuses on resources and capability an organization built, which points to product, or on an active outcome for a specific customer, which points to service.",
+  "id": 20
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "How does ITIL (Version 5) relate to ITIL 4?",
+  "back": "ITIL (Version 5) builds directly on ITIL 4 rather than replacing it. Core definitions like service, product, and value remain the same under both versions.",
+  "id": 21
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is the product-centric emphasis added in ITIL (Version 5)?",
+  "back": "It encourages organizations to organize their work around a small number of durable products, each supporting multiple services, rather than a long list of separate, disconnected services.",
+  "id": 22
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Which exam domain carries the largest weight on the real ITIL (Version 5) Foundation exam?",
+  "back": "Key Terms and Definitions, at 30 percent, the single largest weighting of any domain on the exam.",
+  "id": 23
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why is it risky for a provider to decide what is valuable without consulting the customer?",
+  "back": "Because value is perceived from the stakeholder's own perspective. A provider deciding unilaterally risks building something that nobody actually needs or wants.",
+  "id": 24
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What does the restaurant example teach about products and services?",
+  "back": "The kitchen, recipes, and trained staff are the product. Dine in meals, takeout, and catering are three separate services built on that same underlying product.",
+  "id": 25
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why does ITIL stress ongoing dialogue between provider and customer?",
+  "back": "Because value depends on both sides staying aligned as needs change. Ongoing communication keeps the value co-creation process working over time, not just at the start.",
+  "id": 26
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is an example of a service where value co-creation clearly fails?",
+  "back": "A well designed fitness app that a user never opens. The provider built a good product, but no real health outcome is created because the user never actively engaged with it.",
+  "id": 27
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What does the hospital laboratory information system example illustrate?",
+  "back": "The system built by IT is the product. Doctors actively using it to get faster results, improving diagnosis speed, is the service producing a real outcome for a stakeholder.",
+  "id": 28
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why can the same individual be a provider in one relationship and a customer in another?",
+  "back": "Because these roles describe a relationship, not a fixed identity. An IT department can provide internal support to staff while also being a customer of an external cloud vendor.",
+  "id": 29
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What mistake do new learners often make about the words service and product?",
+  "back": "Treating them as interchangeable. ITIL defines them precisely: product as a resource configuration, service as the active relationship producing an outcome.",
+  "id": 30
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What does risk transfer mean within the service definition?",
+  "back": "It means the provider absorbs some of the risk the customer would otherwise have to manage themselves, such as an accident risk the taxi company carries instead of the passenger.",
+  "id": 31
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why does ITIL avoid saying value is delivered rather than co-created?",
+  "back": "Because delivered implies a one way handoff from provider to customer. Co-created reflects that both sides must actively participate for any real value to appear.",
+  "id": 32
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is the relationship chain from resources to value described in Chapter 1?",
+  "back": "Resources are configured into a product. That product is offered through services. Those services co-create value together with the customer.",
+  "id": 33
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why might two customers disagree about whether the same feature is valuable?",
+  "back": "Because value is perceived individually. One customer might consider a feature essential to their needs while another finds the exact same feature unnecessary clutter.",
+  "id": 34
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What does the restaurant example illustrate about product versus service?",
+  "back": "The kitchen, recipes, trained chefs, and dining room configured together are the product. A customer being served a meal that satisfies their hunger and enjoyment is the service producing their outcome.",
+  "id": 35
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why is precise stakeholder terminology tested so heavily on this exam?",
+  "back": "Because everyday language blurs customer, user, sponsor, and provider together, while ITIL defines each precisely. The exam often tests whether you can identify the correct role in a scenario.",
+  "id": 36
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is the key difference between a sponsor and a customer?",
+  "back": "A sponsor authorizes the budget for a service. A customer defines the requirements for that service and is accountable for whether the resulting outcomes are actually achieved.",
+  "id": 37
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why does a busy team producing many outputs not guarantee strong value?",
+  "back": "Because value depends on real outcomes being achieved for stakeholders, not simply on the volume of activity or deliverables a team produces.",
+  "id": 38
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is the ITIL definition of an output?",
+  "back": "An output is a tangible or intangible deliverable of an activity. It is simply the thing produced, and it says nothing on its own about whether anyone benefits.",
+  "id": 39
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is the ITIL definition of an outcome?",
+  "back": "An outcome is a result for a stakeholder enabled by one or more outputs. It is the actual benefit experienced, not the deliverable itself.",
+  "id": 40
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Give an example distinguishing output from outcome.",
+  "back": "Closing a support ticket is the output. The employee being able to work again because their laptop is fixed is the outcome, the real benefit they experience.",
+  "id": 41
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why can an output exist with no outcome attached?",
+  "back": "Because a deliverable being produced does not guarantee anyone benefits from it. A report can be generated and never read, producing an output with no real outcome.",
+  "id": 42
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is the quick technique for telling output from outcome in a question?",
+  "back": "Ask whether the sentence describes a deliverable that was made, which is an output, or a benefit a stakeholder experienced as a result, which is an outcome.",
+  "id": 43
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is the ITIL definition of utility?",
+  "back": "Utility is the functionality offered by a product or service to meet a particular need. It answers whether the service has the right features, informally, fit for purpose.",
+  "id": 44
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is the ITIL definition of warranty?",
+  "back": "Warranty is assurance that a product or service will meet agreed requirements, including availability, capacity, security, and continuity. Informally, it answers whether the service is fit for use.",
+  "id": 45
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What are the four factors that make up warranty?",
+  "back": "Availability, capacity, security, and continuity. Together these four factors describe whether a service can actually be relied upon under real operating conditions.",
+  "id": 46
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What does the availability factor of warranty measure?",
+  "back": "Whether the service is up and accessible when the customer actually needs it, such as a banking app being reachable at any hour rather than down every night.",
+  "id": 47
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What does the capacity factor of warranty measure?",
+  "back": "Whether the service can handle the expected volume of demand, such as a ticket sales site staying online when a popular concert goes on sale and traffic surges.",
+  "id": 48
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What does the security factor of warranty measure?",
+  "back": "Whether the service protects information and systems from unauthorized access, tampering, or loss, such as a messaging app keeping private conversations confidential.",
+  "id": 49
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What does the continuity factor of warranty measure?",
+  "back": "Whether the service can keep operating, or recover quickly, after a disruption like a power outage or a major system failure, without permanently losing data.",
+  "id": 50
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why can excellent utility alone fail to create value?",
+  "back": "Because if warranty is poor, such as frequent crashes or data loss, customers cannot reliably use the great features the service otherwise offers, so real value never appears.",
+  "id": 51
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why can excellent warranty alone fail to create value?",
+  "back": "Because if utility is poor, meaning the service lacks a feature the customer genuinely needs, then no amount of reliability can compensate for that missing functionality.",
+  "id": 52
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What formula does this chapter use to summarize utility and warranty together?",
+  "back": "Value equals utility multiplied by warranty. If either factor is effectively zero, the overall value created collapses to zero as well.",
+  "id": 53
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is the informal shorthand for utility?",
+  "back": "Fit for purpose, meaning the service actually does what the customer needs it to do.",
+  "id": 54
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is the informal shorthand for warranty?",
+  "back": "Fit for use, meaning the service can actually be relied upon under real operating conditions.",
+  "id": 55
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "In the banking app worked example, what is the output?",
+  "back": "The released, updated version of the mobile app itself, the direct deliverable produced by the engineering team fixing the crash bug.",
+  "id": 56
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "In the banking app worked example, what is the outcome?",
+  "back": "Customers being able to reliably transfer money between accounts without the app crashing, the real benefit they experience as a result of the update.",
+  "id": 57
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "In the banking app worked example, what demonstrates utility?",
+  "back": "The features it offers, such as checking balances, transferring funds, paying bills, and depositing checks by photograph, matching what customers actually need.",
+  "id": 58
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "In the banking app worked example, what demonstrates warranty?",
+  "back": "Being available at any hour, handling payday traffic surges, protecting account information, and recovering quickly from a server outage, the four warranty factors in action.",
+  "id": 59
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why does producing many outputs not automatically mean strong outcomes?",
+  "back": "Because an organization can be extremely busy generating deliverables while customer outcomes stay flat, if those outputs are never actually connected to a genuine stakeholder need.",
+  "id": 60
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is a common mistake candidates make between utility and warranty?",
+  "back": "Confusing how well something works with what it actually does. These are separate questions: utility is about functionality, warranty is about reliability under real conditions.",
+  "id": 61
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What four-step method does this chapter recommend for scenario questions?",
+  "back": "Identify the output, identify the outcome, check whether utility is present, and check whether warranty is present. Working through these in order resolves most scenario questions.",
+  "id": 62
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "How does the airline kiosk example illustrate a utility gap?",
+  "back": "If the kiosk cannot process an infant traveling with a parent, a real situation travelers need handled, that missing capability is a gap in utility, not warranty.",
+  "id": 63
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "How does the airline kiosk example illustrate a warranty gap?",
+  "back": "If the kiosks lose power or network connection during a busy holiday period with no backup plan, that is a continuity failure, one of the four warranty factors.",
+  "id": 64
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What does the hospital booking portal example show about utility?",
+  "back": "Letting patients search by specialty, insurance coverage, and available time slot is the right functionality for what patients actually need, demonstrating strong utility.",
+  "id": 65
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What does the hospital booking portal example show about warranty?",
+  "back": "Staying online during flu season demand spikes, protecting confidential records, and surviving a server failure without losing appointments together demonstrate strong warranty.",
+  "id": 66
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why is the utility and warranty relationship described as multiplicative rather than additive?",
+  "back": "Because a complete absence of either factor collapses created value entirely, not just partially, which multiplication captures better than simple addition would.",
+  "id": 67
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What warranty factor is failing when a website crashes only when a popular item goes on sale?",
+  "back": "Capacity, since the failure happens specifically because the system cannot handle the surge in demand volume, not because it is randomly offline.",
+  "id": 68
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What warranty factor is failing when private messages are exposed to unauthorized people?",
+  "back": "Security, since protecting information from unauthorized access is exactly what the security factor of warranty measures.",
+  "id": 69
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What warranty factor is failing when a hospital system permanently loses patient data after a crash?",
+  "back": "Continuity, since the ability to recover after a disruption without losing data is exactly what the continuity factor measures.",
+  "id": 70
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What warranty factor is failing when a banking app is reliably down every night?",
+  "back": "Availability, since being accessible when the customer needs it, including at unusual hours, is exactly what the availability factor measures.",
+  "id": 71
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why does this chapter connect back to Chapter 1's stakeholder roles?",
+  "back": "Because every outcome and every warranty factor ultimately matters only because some specific stakeholder, whether customer, user, or sponsor, actually cares about that result.",
+  "id": 72
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why is it useful to learn all four warranty factors individually rather than only the word warranty?",
+  "back": "Because exam scenarios often describe one specific factor concretely, like a demand surge or a data loss event, rather than naming warranty directly.",
+  "id": 73
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What does a missing feature in a service represent, utility or warranty?",
+  "back": "A gap in utility. Missing functionality is a fit for purpose problem, separate from whether the service is reliable under real conditions.",
+  "id": 74
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What does frequent downtime in a service represent, utility or warranty?",
+  "back": "A gap in warranty. Unreliable uptime is a fit for use problem, separate from whether the service has the right features.",
+  "id": 75
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why can a report being generated still fail to create real value?",
+  "back": "Because generating a report is only an output. If nobody reads it or acts on it, no outcome, the actual stakeholder benefit, is ever produced.",
+  "id": 76
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is a service provider?",
+  "back": "A service provider is the organization, team, or individual that performs the activities needed to design, build, deliver, and support a service. The provider takes on the risk and effort of operating something so the consumer does not have to.",
+  "id": 77
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is a service consumer?",
+  "back": "A service consumer is a general term for any organization that receives a service. It is deliberately broad, since customer, user, and sponsor are all more specific roles that sit underneath this umbrella term.",
+  "id": 78
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Define the customer role in ITIL.",
+  "back": "The customer is the role that defines requirements for a service and takes responsibility for the outcomes of consuming it. A customer states what is needed, often negotiates the terms of the relationship, and is accountable for whether value was delivered.",
+  "id": 79
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Define the user role in ITIL.",
+  "back": "The user is the role that consumes a service directly on a day to day basis. Users are the people actually using the service and are a valuable source of feedback about how well it performs in practice.",
+  "id": 80
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Define the sponsor role in ITIL.",
+  "back": "The sponsor is the role that authorizes budget for the consumption of a service. The sponsor controls the money and approves paying for the service, even if they never use it personally.",
+  "id": 81
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Can one person hold the customer, user, and sponsor roles at the same time?",
+  "back": "Yes. In the single individual pattern, common in small organizations, one person can be the customer, user, and sponsor simultaneously, such as a sole proprietor buying and personally using their own software.",
+  "id": 82
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is the split pattern of role combination?",
+  "back": "The split pattern is when two of the three roles, customer, user, and sponsor, combine in one person while the third role belongs to someone else, such as a manager who is both customer and sponsor while her team are the users.",
+  "id": 83
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is the fully separated pattern of role combination?",
+  "back": "The fully separated pattern occurs when a requirements owner, a budget owner, and a group of end users are three entirely distinct parties. This is typical in large organizations, such as a hospital where different people hold each role.",
+  "id": 84
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is a stakeholder?",
+  "back": "A stakeholder is any individual or group that has an interest in an organization, its activities, or its outcomes. Every customer, user, and sponsor is a stakeholder, but stakeholders also include regulators, shareholders, and provider employees.",
+  "id": 85
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "How is a stakeholder different from a customer?",
+  "back": "A stakeholder merely has a genuine interest in a service, while a customer additionally owns the requirements and the accountability for outcomes. Every customer is a stakeholder, but not every stakeholder is a customer.",
+  "id": 86
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is a service offering?",
+  "back": "A service offering is a description of one or more services designed to meet the needs of a target consumer group. It packages together what a provider presents to potential consumers and on what terms.",
+  "id": 87
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What three components make up a service offering?",
+  "back": "A service offering is made up of goods, physical or virtual items supplied as part of the service, access to resources, permission to use something the provider owns, and service actions, specific tasks the provider performs directly.",
+  "id": 88
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Give an example of the goods component of a service offering.",
+  "back": "A physical laptop handed to a new employee, or a handset given to a mobile phone subscriber, are examples of goods. Goods are physical or virtual items supplied as part of a service offering.",
+  "id": 89
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Give an example of access to resources within a service offering.",
+  "back": "Being granted permission to use a shared software platform, or being allowed to stream content using a provider's servers, are examples of access to resources within a service offering.",
+  "id": 90
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Give an example of a service action within a service offering.",
+  "back": "A support technician installing software, resetting a forgotten password, or resolving a reported incident are all examples of service actions, the specific tasks a provider performs directly for a consumer.",
+  "id": 91
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is service relationship management?",
+  "back": "Service relationship management is the joint activity of a service provider and a service consumer, working together to ensure continual value co-creation, based on agreed and available service offerings.",
+  "id": 92
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is service provision?",
+  "back": "Service provision refers to the activities performed by the service provider to deliver a service, including managing the provider's own resources, performing service actions, and managing agreed levels of service.",
+  "id": 93
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is service consumption?",
+  "back": "Service consumption refers to the activities performed by the service consumer to make use of a service, including managing the consumer's own resources and utilizing the service actions the provider performs.",
+  "id": 94
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "How do service provision and service consumption relate to service relationship management?",
+  "back": "Service provision is what the provider does and service consumption is what the consumer does. Service relationship management is the broader, ongoing joint activity both parties perform together to sustain continual value co-creation.",
+  "id": 95
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is value co-creation?",
+  "back": "Value co-creation is the idea that value is not simply handed over by a provider, but is actively built together by both the provider and the consumer working in partnership.",
+  "id": 96
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why can an organization be both a service provider and a service consumer at the same time?",
+  "back": "An internal IT department, for example, is a service provider to the rest of its business while also consuming services from external cloud vendors. Provider and consumer are roles, not permanent identities, so one organization can hold both.",
+  "id": 97
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why is it important to distinguish a role from a job title?",
+  "back": "A role is a set of responsibilities that can be held by a person, team, or even an automated system. Job titles vary across organizations, so the exam expects you to recognize the underlying responsibility, not the specific title used.",
+  "id": 98
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "A department head signs a software contract but never uses the tool. What role is she playing?",
+  "back": "She is playing the customer role, since she defined the requirements and is accountable for whether the software delivers value, even though she personally never becomes a user of it.",
+  "id": 99
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "A finance director approves a project's budget without specifying its features. What role is he playing?",
+  "back": "He is playing the sponsor role, since authorizing budget for the consumption of a service is the sponsor's defining activity, separate from the customer role of setting requirements.",
+  "id": 100
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why is user feedback especially valuable to a service provider?",
+  "back": "Users interact with a service constantly, so they notice real problems with speed, usability, and reliability that the customer, who negotiated the contract, may never personally experience firsthand.",
+  "id": 101
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What kind of stakeholder is a regulator that sets rules a service must follow?",
+  "back": "A regulator is a stakeholder with a compliance related interest in the service, even though it does not use, fund, or define requirements for that service directly.",
+  "id": 102
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What kind of stakeholder is a local community affected by a data center's resource use?",
+  "back": "The local community is a stakeholder, since it has a genuine interest in the operation's environmental impact, even without using, funding, or delivering the service itself.",
+  "id": 103
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "How does ITIL version 5 treat the customer, user, and sponsor roles compared to ITIL 4?",
+  "back": "ITIL version 5 keeps these role definitions stable, since it builds on ITIL 4's core concepts. Automated tools increasingly track requests, approvals, and usage, but the underlying human roles remain the foundation.",
+  "id": 104
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why does understanding roles help when a service goes wrong?",
+  "back": "Clear roles show who is accountable for outcomes as the customer and who can authorize a fix as the sponsor, which makes resolving problems faster and clearer for everyone involved.",
+  "id": 105
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What three activities typically make up the customer role?",
+  "back": "The customer states requirements, negotiates and agrees to the terms of the relationship, and is ultimately responsible for judging whether the service delivered value to the organization.",
+  "id": 106
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Can a service provider's own employees be considered stakeholders?",
+  "back": "Yes. Provider employees have a genuine interest in whether the service they help deliver succeeds, since their own jobs and reputations are tied to its outcomes, making them stakeholders on the provider's side.",
+  "id": 107
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is the umbrella term that customer, user, and sponsor all sit beneath?",
+  "back": "Service consumer is the umbrella term. It is deliberately broad, covering any organization that receives a service, with customer, user, and sponsor as more specific roles underneath it.",
+  "id": 108
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why might an exam scenario describe several named individuals across different roles?",
+  "back": "This tests whether a candidate can correctly separate overlapping and distinct roles, since real organizations vary between the single individual, split, and fully separated patterns of role combination.",
+  "id": 109
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is the relationship between a service offering and a service action?",
+  "back": "A service offering packages multiple elements together, including goods, resource access, and service actions, while a service action is just one specific task the provider performs as part of that larger offering.",
+  "id": 110
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why does ITIL emphasize that value only becomes real once a consumer actually uses a service?",
+  "back": "Because a provider cannot create value alone. Value is co-created jointly, since it only becomes real when a consumer applies a service to achieve an outcome they actually care about.",
+  "id": 111
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What should you ask when analyzing a scenario to identify the customer versus the user?",
+  "back": "Ask who defined the requirements and owns the outcome, which points to the customer, and separately ask who actually uses the service day to day, which points to the user. Sometimes both answers are the same person.",
+  "id": 112
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why is a sponsor sometimes a different person from the customer in a large organization?",
+  "back": "Because budget authority and requirement setting authority do not always sit with the same person. A department manager may set requirements as customer while a more senior executive approves funding as sponsor.",
+  "id": 113
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is risk according to ITIL?",
+  "back": "Risk is a possible event that could cause harm or loss, or make it more difficult to achieve objectives. It is built from two factors: probability, how likely the event is, and impact, how serious the consequences would be.",
+  "id": 114
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What are the four typical risk responses in ITIL?",
+  "back": "The four risk responses are acceptance, taking no action and living with the possibility, avoidance, changing plans so the risky activity never happens, reduction, lowering probability or impact directly, and transfer, shifting the consequence to another party.",
+  "id": 115
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What does it mean to accept a risk?",
+  "back": "Accepting a risk means an organization makes a deliberate, informed decision to take no action and simply live with the possibility, usually because the risk is judged to be small or manageable.",
+  "id": 116
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What does it mean to transfer a risk?",
+  "back": "Transferring a risk means shifting the consequence to another party, such as buying insurance against a loss or outsourcing a risky activity to a specialist provider who takes on that exposure instead.",
+  "id": 117
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What does it mean to avoid a risk?",
+  "back": "Avoiding a risk means changing plans so that the risky activity does not happen at all, such as cancelling a product launch because its risk is judged too great to accept.",
+  "id": 118
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What does it mean to reduce a risk?",
+  "back": "Reducing a risk means taking direct steps to lower either its probability or its impact, or both, such as adding fraud detection software to lower the chance of a successful attack.",
+  "id": 119
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why is risk never fully eliminated in a service relationship?",
+  "back": "Because using a provider changes which risks an organization is exposed to rather than removing all risk. Outsourcing email hosting removes server maintenance risk but introduces dependency on the vendor's own reliability instead.",
+  "id": 120
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Name five common types of risk discussed in service management.",
+  "back": "Operational risk, day to day running issues, financial risk, unexpected costs or lost revenue, compliance risk, failing legal or regulatory requirements, reputational risk, damage to image and trust, and security risk, threats to information and systems.",
+  "id": 121
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is compliance risk?",
+  "back": "Compliance risk, sometimes called regulatory risk, is the possibility of failing to meet legal or regulatory requirements, such as a healthcare organization mishandling patient data and facing fines or legal action.",
+  "id": 122
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is reputational risk?",
+  "back": "Reputational risk is damage to an organization's image or the trust others place in it, such as a widely publicized outage damaging a company's brand even when the direct financial cost was small.",
+  "id": 123
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is security risk?",
+  "back": "Security risk relates specifically to threats against the confidentiality, integrity, or availability of information and systems, such as the risk of a cyberattack or unauthorized data access.",
+  "id": 124
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why can a single event, like a data breach, involve several different risk types at once?",
+  "back": "Because real world consequences often overlap. A serious breach can simultaneously be a security risk, a compliance risk from resulting fines, a financial risk from recovery costs, and a reputational risk from lost trust.",
+  "id": 125
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What are costs removed, in ITIL's cost terminology?",
+  "back": "Costs removed are costs the consumer no longer has to bear because they are using the service instead of building and running the capability themselves, viewed entirely from the consumer's side.",
+  "id": 126
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What are costs imposed, in ITIL's cost terminology?",
+  "back": "Costs imposed are costs the consumer takes on as a result of consuming the service, such as the price or subscription fee paid to the provider, staff training, or integration work.",
+  "id": 127
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Give an example of cost removed from the consumer.",
+  "back": "A small accounting firm that subscribes to a cloud bookkeeping platform avoids hiring its own IT specialist, buying servers, and developing custom software, all costs removed from the consumer by using the platform instead.",
+  "id": 128
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "How does cost connect to warranty?",
+  "back": "Achieving higher warranty levels, such as greater availability, security, or capacity, almost always increases what a provider must spend, since redundant systems, extra staff, and stronger controls all require more investment.",
+  "id": 129
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is a resource in ITIL?",
+  "back": "A resource is anything that helps to achieve an objective. In service management, resources are the raw materials a provider organizes and deploys in order to create and deliver a service.",
+  "id": 130
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Name the five resource categories described in ITIL.",
+  "back": "People, information, technology, value streams and processes, and partners and suppliers are the five resource categories, the same categories that make up the Four Dimensions of Service Management.",
+  "id": 131
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What does the people resource category include?",
+  "back": "The people resource category includes the human beings involved in creating, delivering, and supporting a service, along with their skills, experience, and capacity to do the required work.",
+  "id": 132
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What does the information resource category include?",
+  "back": "The information resource category includes data and knowledge that has value to the organization, such as customer requirements, technical documentation, and the accumulated know-how built up over time.",
+  "id": 133
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What does the technology resource category include?",
+  "back": "The technology resource category includes the tools, platforms, hardware, and software used to deliver a service, such as servers, applications, networking equipment, and automation tools.",
+  "id": 134
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What does the value streams and processes resource category include?",
+  "back": "This category includes the organized ways of working an organization uses to turn resources into outcomes, such as a defined sequence of steps used to resolve a support ticket.",
+  "id": 135
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What does the partners and suppliers resource category include?",
+  "back": "This category includes external organizations that provide capabilities, resources, or services supporting delivery, such as a cloud infrastructure vendor or an outsourced support desk.",
+  "id": 136
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why do resources not automatically create value by themselves?",
+  "back": "A pile of unused servers in a warehouse is a technology resource but delivers nothing until people configure it, connect it to a network, and make it available to consumers who need it.",
+  "id": 137
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why do organizations generally not aim for zero risk?",
+  "back": "Eliminating every conceivable risk would require unlimited resources and unlimited cost, which is not realistic for any organization, so a deliberately chosen, acceptable balance is the goal instead.",
+  "id": 138
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What role does governance play in balancing risk, cost, and resources?",
+  "back": "Governance is where an organization formally decides what level of risk is acceptable, how resources should be prioritized, and what cost it is willing to bear to achieve its objectives.",
+  "id": 139
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "How does adding more support staff affect risk and cost together?",
+  "back": "Adding more staff can reduce certain risks, such as slow response times during busy periods, but it also increases cost, illustrating how risk and cost decisions are made together, not separately.",
+  "id": 140
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "How do the five resource categories connect to the Four Dimensions of Service Management?",
+  "back": "The same five categories, people, information, technology, value streams and processes, and partners and suppliers, map directly onto the Four Dimensions covered in the next chapter.",
+  "id": 141
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Give an example of a risk affecting the partners and suppliers dimension.",
+  "back": "A key software vendor going out of business is a risk that directly affects the partners and suppliers dimension, since the organization depends on that external party for a needed capability.",
+  "id": 142
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Give an example of a risk affecting the organizations and people dimension.",
+  "back": "Staff burnout or a shortage of skilled workers is a risk that directly affects the organizations and people dimension, since it concerns the human beings delivering the service.",
+  "id": 143
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why might building custom software in-house carry more risk than subscribing to an established platform?",
+  "back": "A custom build could have bugs, take longer than planned, or prove harder to maintain, while an established platform transfers much of that risk to a vendor already managing it at scale.",
+  "id": 144
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What new risk does a company take on when it outsources rather than builds in-house?",
+  "back": "The company takes on dependency risk, namely reliance on the external vendor's own reliability, security practices, and future pricing decisions, in exchange for reduced development and maintenance risk.",
+  "id": 145
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why are costs removed and costs imposed easy to confuse?",
+  "back": "Both describe cost from the consumer's own perspective, not the provider's: costs removed is spending the consumer avoids by consuming the service, while costs imposed is new spending the consumer takes on specifically because they chose to consume it.",
+  "id": 146
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "How can lowering security investment eventually increase a provider's total cost?",
+  "back": "Reduced protection raises the likelihood of a costly incident later, such as a breach, so short term savings on security can be outweighed by much larger costs down the line.",
+  "id": 147
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why is risk management described as a coordinated set of activities rather than a single step?",
+  "back": "Because it includes identifying risks before they occur, assessing how serious each one is, and deciding how to respond, an ongoing cycle rather than a single one time action.",
+  "id": 148
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "What is the key difference between operational risk and financial risk?",
+  "back": "Operational risk concerns day to day running problems, like a server failure or understaffing, while financial risk concerns unexpected costs or lost revenue, a difference in the type of consequence involved.",
+  "id": 149
+ },
+ {
+  "domain": "key_terms_and_definitions",
+  "front": "Why do risk, cost, and resource decisions need to be balanced together rather than optimized separately?",
+  "back": "Because a change in one nearly always affects the other two, such as adding resources reducing risk while raising cost, so good service management looks for an acceptable balance among all three.",
+  "id": 150
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "What are the four dimensions of service management?",
+  "back": "They are Organizations and People, Information and Technology, Partners and Suppliers, and Value Streams and Processes. Together they give a balanced view needed to support the whole Service Value System.",
+  "id": 151
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "What is a dimension in ITIL terms?",
+  "back": "A dimension is a perspective relevant to the whole Service Value System. Neglecting any one dimension can unbalance the whole system even if the others are strong.",
+  "id": 152
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "Define a role under the Organizations and People dimension.",
+  "back": "A role is a set of responsibilities and expected behaviors assigned to a person or team. It does not need to match a job title exactly, and one person can hold multiple roles.",
+  "id": 153
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "Define competency.",
+  "back": "Competency is the right combination of skills, knowledge, and experience needed to perform a role effectively. A role can exist without the right competency present, which causes performance problems.",
+  "id": 154
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "What is organizational culture in this context?",
+  "back": "Culture is the shared set of values, attitudes, and unwritten rules shaping how people actually behave, as opposed to what a formal policy states they should do.",
+  "id": 155
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "Why is a blame free culture important?",
+  "back": "A culture that punishes honest reporting hides problems until they grow larger and more expensive. A blame free culture surfaces issues early, when they are cheap to fix.",
+  "id": 156
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "What does the Information and Technology dimension cover?",
+  "back": "It covers the information and knowledge needed to run services plus the technologies supporting them, including applications, databases, monitoring tools, and AI and machine learning systems.",
+  "id": 157
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "How should technology choices be made under this model?",
+  "back": "Technology decisions should be driven by an assessed service need, not by trends or what a competitor happens to be using.",
+  "id": 158
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "Why does AI strengthen an existing dimension rather than create a new one?",
+  "back": "AI raises the same questions about data accuracy and fitness for purpose already central to Information and Technology, so it deepens that dimension instead of forming a separate fifth one.",
+  "id": 159
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "What does the Partners and Suppliers dimension cover?",
+  "back": "It covers relationships with external organizations involved in designing, building, deploying, supporting, or improving services, ranging from simple suppliers to deep strategic partners.",
+  "id": 160
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "What distinguishes a partner from a supplier?",
+  "back": "A supplier sells a defined product or service under contract. A partner is more deeply integrated into the service's strategy and success, sometimes sharing risk and reward.",
+  "id": 161
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "What is the tradeoff between doing everything in house and outsourcing everything?",
+  "back": "In house work gives maximum control but can be slow and expensive. Full outsourcing can be fast and cheap upfront but risks losing control if the partner underperforms.",
+  "id": 162
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "Why is a documented exit strategy useful with suppliers?",
+  "back": "It prevents the organization from being trapped with a single point of failure it cannot replace if a critical supplier fails or the relationship ends.",
+  "id": 163
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "What is a value stream?",
+  "back": "A value stream is a series of steps an organization takes to create and deliver a product or service to a consumer, from identifying a need to confirming delivered value.",
+  "id": 164
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "What is a process?",
+  "back": "A process is a set of interrelated or interacting activities that transforms inputs into outputs. Processes are the building blocks combined to form a value stream.",
+  "id": 165
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "How do a value stream and a process differ?",
+  "back": "A value stream is the overall end to end journey. A process is one repeatable activity within that journey, and several processes combine to form one value stream.",
+  "id": 166
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "What is a common coordination failure within Value Streams and Processes?",
+  "back": "Every team performs its own process excellently, but nobody owns the handoffs between teams, so work stalls between well run individual steps.",
+  "id": 167
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "What does PESTLE stand for?",
+  "back": "Political, Economic, Social, Technological, Legal, and Environmental, six categories of external factor that can influence any of the four dimensions.",
+  "id": 168
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "Give an example of a Political PESTLE factor.",
+  "back": "Government policy, trade rules, or political stability, such as new regulations affecting where an organization may legally operate or store data.",
+  "id": 169
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "Give an example of an Economic PESTLE factor.",
+  "back": "Inflation, currency exchange rates, or the availability of skilled labor, all of which affect cost and staffing decisions.",
+  "id": 170
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "Give an example of a Social PESTLE factor.",
+  "back": "Changing customer expectations, demographic shifts, or the rise of remote and hybrid work reshaping how services are delivered and supported.",
+  "id": 171
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "Give an example of a Technological PESTLE factor.",
+  "back": "The pace of innovation itself, such as growing availability of AI tools, which directly affects the Information and Technology dimension.",
+  "id": 172
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "Give an example of a Legal PESTLE factor.",
+  "back": "Data protection law, industry regulation, or contractual obligations that constrain supplier relationships and disclosure requirements.",
+  "id": 173
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "Give an example of an Environmental PESTLE factor.",
+  "back": "Sustainability expectations, energy consumption, or the environmental footprint of hardware and data centers, an area emphasized more heavily in ITIL Version 5.",
+  "id": 174
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "How can you tell a PESTLE factor apart from an internal dimension issue?",
+  "back": "Ask whether the factor originated outside the organization's control or inside it. External origin points to PESTLE, internal origin points to one of the four dimensions.",
+  "id": 175
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "Why can one PESTLE trigger affect all four dimensions at once?",
+  "back": "A single external event, such as new legislation, can force retraining, technology redesign, supplier renegotiation, and process changes simultaneously, rippling across every dimension.",
+  "id": 176
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "Why should the four dimensions never be optimized in isolation?",
+  "back": "Strengthening one dimension while neglecting the others can still cause overall service failure, since all four must work together to support the Service Value System.",
+  "id": 177
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "What is a useful exam habit when analyzing a failed service scenario?",
+  "back": "Ask which of the four dimensions is being neglected in that specific scenario, since failures commonly trace to Organizations and People, Partners and Suppliers, or coordination gaps.",
+  "id": 178
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "How does ITIL Version 5's AI emphasis connect to Information and Technology?",
+  "back": "It deepens the same existing questions about data accuracy, availability, and fitness for purpose, now applied to AI models and the decisions they make.",
+  "id": 179
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "How does ITIL Version 5's sustainability emphasis connect to the dimensions?",
+  "back": "It strengthens Information and Technology through technology choices and Organizations and People through staff behavior and policy, rather than forming a new dimension.",
+  "id": 180
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "Why does structure matter within Organizations and People?",
+  "back": "Structure decides who talks to whom, who approves decisions, and how quickly the organization can respond, whether flat and fast or hierarchical and more controlled.",
+  "id": 181
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "What risk does a very rigid hierarchy carry?",
+  "back": "It may provide clear ownership of decisions but move too slowly to keep up with fast changing customer needs.",
+  "id": 182
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "What risk does a very flat structure carry?",
+  "back": "It can move quickly but may lack clear ownership of decisions, creating ambiguity about who is accountable.",
+  "id": 183
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "Why does diversity of skills and perspective matter on a team?",
+  "back": "A team with similar backgrounds tends to repeatedly miss the same blind spots, while a more diverse team is more likely to catch risks or opportunities others would overlook.",
+  "id": 184
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "What effect does open, two way communication from leadership tend to have?",
+  "back": "It helps surface problems while they are still small and inexpensive to fix, since staff feel safe raising concerns early.",
+  "id": 185
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "What is the difference between a transactional supplier and a strategic partner in terms of contract depth?",
+  "back": "A transactional supplier sells a defined product under a straightforward contract. A strategic partner is integrated into the service's ongoing strategy, sometimes with shared risk and reward.",
+  "id": 186
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "Why is trust between partners often more important than exact contract wording?",
+  "back": "A partner who hides a growing problem is more damaging long term than one who reports smaller issues honestly and early, even if that honesty looks worse in short term reports.",
+  "id": 187
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "What real world example illustrates all four dimensions failing at once except technology?",
+  "back": "A banking app that works flawlessly in testing but launches with untrained support staff, a backlogged supplier, and no mapped complaint process, showing three weak dimensions despite strong technology.",
+  "id": 188
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "Why is information management about more than just collecting data?",
+  "back": "It also involves deciding accuracy standards, availability, access permissions, and retention duration, since poor management in any of these areas leads to decisions made on bad data.",
+  "id": 189
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "What is the risk of adopting a new tool before assessing what problem it solves?",
+  "back": "The organization may spend resources on technology that does not fit its actual needs, rather than choosing or building the tool that best solves an identified problem.",
+  "id": 190
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "How does the Partners and Suppliers dimension connect to risk management?",
+  "back": "It requires balancing control and flexibility, since heavy reliance on external partners increases dependency risk while full in house delivery increases cost and slows scaling.",
+  "id": 191
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "What should good vendor and contract management include?",
+  "back": "Clear expectations in contracts, defined service levels, and a documented plan, such as an exit strategy, for what happens if a supplier fails to deliver.",
+  "id": 192
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "Why is coordination across a full value stream more important than excellence within a single process?",
+  "back": "Because it is possible for every team to perform its own process well while the organization still fails customers if nobody owns the connections between those processes.",
+  "id": 193
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "What does it mean that the four dimensions are lenses rather than departments?",
+  "back": "They are perspectives applied together to every service decision, not separate organizational units, ensuring a balanced check across people, technology, partners, and process flow.",
+  "id": 194
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "Why might a candidate be tested on distinguishing an internal culture problem from a PESTLE factor?",
+  "back": "Because both can look similar on the surface, but only external triggers count as PESTLE, while internally originating issues belong directly to one of the four dimensions.",
+  "id": 195
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "What kind of decision does the build versus obtain balance in Partners and Suppliers affect?",
+  "back": "It affects whether the organization develops a capability internally for more control, or acquires it externally from a partner or supplier for speed and lower upfront cost.",
+  "id": 196
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "How do the four dimensions relate to the Service Value System as a whole?",
+  "back": "They provide the surrounding context that must remain healthy for the Service Value Chain, guiding principles, governance, and continual improvement to function well in practice.",
+  "id": 197
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "Why is a candidate who can only name the four dimensions considered underprepared for the exam?",
+  "back": "Because the exam also expects an understanding of how a weakness in one dimension can damage the overall system, not just rote memorization of the four names.",
+  "id": 198
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "What PESTLE category would rising energy prices for a data center fall under?",
+  "back": "Environmental, since it relates to energy consumption and sustainability, an area of increased emphasis in ITIL Version 5.",
+  "id": 199
+ },
+ {
+  "domain": "four_dimensions",
+  "front": "What is the difference between informal and formal partner arrangements under Partners and Suppliers?",
+  "back": "The dimension covers both formal outsourcing contracts and informal partnerships or joint development arrangements, as long as the external organization meaningfully contributes to the service.",
+  "id": 200
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "What is a product in ITIL's product centric model?",
+  "back": "A configuration of an organization's resources designed to offer value to a consumer, owned by a stable team over its entire useful life with no built in end date.",
+  "id": 201
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "How does product ownership differ from project ownership?",
+  "back": "A product is owned continuously by a stable team across its whole life. A project has a defined start and end, and the team typically disbands once the deliverable ships.",
+  "id": 202
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "List the six stages of the product and service lifecycle.",
+  "back": "Planning and design, build or obtain, deployment and transition, operation, continual improvement, and retirement.",
+  "id": 203
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "Is the lifecycle a strict straight line?",
+  "back": "No. Continual improvement routinely loops back into planning and design, so the organization cycles through earlier stages repeatedly rather than following one single pass to retirement.",
+  "id": 204
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "What happens during planning and design?",
+  "back": "The organization decides what a product or service should do, defines its scope including deliberate exclusions, and assesses risk and cost before building anything.",
+  "id": 205
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "Why should support needs be considered during planning and design?",
+  "back": "A service designed without considering how it will be supported later often becomes expensive and painful to operate, even if design itself was fast and cheap.",
+  "id": 206
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "What happens during build or obtain?",
+  "back": "The organization either builds components internally or obtains them from an external partner or supplier, often blending both approaches across one product.",
+  "id": 207
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "What should drive the choice between building and obtaining a component?",
+  "back": "Where the organization's real competitive advantage lies. Build the parts that differentiate the product, and obtain commodity parts already available elsewhere.",
+  "id": 208
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "Why does quality assurance matter during build or obtain?",
+  "back": "Problems caught here are far cheaper to fix than problems discovered after deployment to real users, whether the component was built internally or obtained externally.",
+  "id": 209
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "What happens during deployment and transition?",
+  "back": "A new or changed product or service moves from a controlled build environment into live use, one of the highest risk points in the entire lifecycle.",
+  "id": 210
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "Why use a phased or staged rollout?",
+  "back": "It limits how many people are affected if problems arise, allowing issues to be caught and fixed before a full launch to everyone at once.",
+  "id": 211
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "What is a rollback plan for?",
+  "back": "A clear, pre agreed way to undo a change quickly if something goes seriously wrong, rather than improvising a fix under pressure while customers are affected.",
+  "id": 212
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "Why is communication critical during deployment and transition?",
+  "back": "Support staff, documentation, and training must be ready before launch, since a technically flawless deployment can still feel like a failure if nobody was told about it.",
+  "id": 213
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "What does change enablement do during this stage?",
+  "back": "It matches the level of review scrutiny to a change's actual risk level, using lighter processes for low risk changes and heavier review for high risk ones.",
+  "id": 214
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "What happens during operation?",
+  "back": "The live service is actively supported day to day, including handling incidents, responding to service requests, and monitoring performance against agreed targets.",
+  "id": 215
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "Why is operation described as active rather than passive?",
+  "back": "Monitoring, increasingly AI assisted in ITIL Version 5, helps detect unusual patterns early, and operation generates valuable real world data for later improvement.",
+  "id": 216
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "What is the operation stage's most valuable output for continual improvement?",
+  "back": "Real world information about how the product actually behaves, which is more reliable than assumptions made before launch.",
+  "id": 217
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "What tradeoff must be managed during operation?",
+  "back": "Balancing stability with responsiveness. Being too cautious lets known problems linger, while changing too freely risks introducing new instability.",
+  "id": 218
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "What is continual improvement?",
+  "back": "A constant activity running throughout the whole lifecycle, feeding back into planning and design, build or obtain, deployment, and operation, not a one time post launch event.",
+  "id": 219
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "Name three sources of improvement opportunities.",
+  "back": "Direct customer feedback, patterns noticed during operation, and PESTLE driven changes such as new regulation or emerging technology.",
+  "id": 220
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "Why does continual improvement loop back into planning and design?",
+  "back": "Approved improvements need evaluation, prioritization, and resourcing, which naturally starts a new round of planning and design for the next version of the product.",
+  "id": 221
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "What is retirement in the lifecycle?",
+  "back": "The stage where a product or service is formally withdrawn from use, whether because a newer version replaces it or the cost of support exceeds the value delivered.",
+  "id": 222
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "Why is retirement often under planned in real organizations?",
+  "back": "Teams frequently plan carefully for launch but pay far less attention to how a service should eventually end, risking stranded customers or lost data.",
+  "id": 223
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "What should a well managed retirement include?",
+  "back": "A migration path for existing customers, a legally compliant data archiving or destruction plan, and formal decommissioning of infrastructure and licenses no longer needed.",
+  "id": 224
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "How does retirement communication affect customer perception?",
+  "back": "Customers given clear notice and a workable path tend to accept retirement calmly, while those left without warning tend to feel let down, shaping how the relationship is remembered.",
+  "id": 225
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "How does a project mindset measure success?",
+  "back": "Mainly by whether the work was delivered on time and on budget, with the moment of delivery treated as the finish line.",
+  "id": 226
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "How does a product mindset measure success?",
+  "back": "By whether the product continues to deliver value over its entire life, requiring ongoing investment in operation and continual improvement well past the original delivery date.",
+  "id": 227
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "Why might two organizations deploying identical software perform differently over time?",
+  "back": "The one treating it as a product, with stable ownership and continual improvement, will likely outperform the one treating it as a finished project and moving the team elsewhere.",
+  "id": 228
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "How does ITIL Version 5 extend the product centric model further?",
+  "back": "By connecting individual product lifecycles to sustainability governance and unified lifecycle governance across an organization's entire product portfolio.",
+  "id": 229
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "What is a stakeholder in the planning and design context?",
+  "back": "Anyone with an interest in a decision or activity, including customers, users, staff, suppliers, and regulators.",
+  "id": 230
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "Why involve stakeholders early in planning and design?",
+  "back": "Early involvement tends to surface requirements and constraints sooner, when changing course is far cheaper than discovering them much later.",
+  "id": 231
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "What is the risk of a single strong supplier sourcing strategy?",
+  "back": "It can bring deeper collaboration and better pricing but concentrates risk, since the organization is stranded if that one supplier fails.",
+  "id": 232
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "What is the benefit of a multiple supplier sourcing strategy?",
+  "back": "It reduces the risk of being left stranded if one supplier fails, though it may sacrifice some of the collaborative depth of a single strong relationship.",
+  "id": 233
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "How does data retirement connect to the Legal PESTLE factor?",
+  "back": "Archiving or securely destroying data at retirement must align with legal and regulatory obligations, directly linking this stage to the Legal PESTLE category.",
+  "id": 234
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "What distinguishes build or obtain from deployment and transition?",
+  "back": "Build or obtain is about creating or acquiring components. Deployment and transition is about moving an already built or obtained product into live use.",
+  "id": 235
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "What is a common exam trap about lifecycle stage ordering?",
+  "back": "Assuming stages must occur strictly once in order, when continual improvement actually triggers a return to planning and design many times before retirement is ever considered.",
+  "id": 236
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "What is a common exam trap about the operation stage?",
+  "back": "Treating operation as simply keeping the lights on, when it is actually an active source of real world data feeding directly into continual improvement.",
+  "id": 237
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "What is the core exam distinguishing question between a project mindset and a product mindset scenario?",
+  "back": "Does the team disband after delivery with no ongoing ownership. If so, that is project thinking, exactly the pattern the product centric model moves away from.",
+  "id": 238
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "Why is risk assessed during planning and design rather than left until later?",
+  "back": "A realistic plan identifies what could go wrong and what it would cost to prevent or recover from it, avoiding overly optimistic budgets and timelines.",
+  "id": 239
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "What real world example shows retirement done poorly?",
+  "back": "A service withdrawn with no replacement in place, lost historical data that should have been archived, or infrastructure left running and costing money nobody actually needs.",
+  "id": 240
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "How do continual improvement and operation relate to each other?",
+  "back": "Operation generates real usage data, and continual improvement uses that data as one of its most valuable inputs for deciding what to improve next.",
+  "id": 241
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "Why is scope definition important during planning and design?",
+  "back": "A service with no clear scope tends to grow uncontrollably as new requests get added without anyone checking whether they still fit the original purpose.",
+  "id": 242
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "What does build or obtain typically look like in practice for most products?",
+  "back": "Most real products blend both approaches, building the components that create differentiation while obtaining commodity components from external partners or suppliers.",
+  "id": 243
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "Why is verifying quality important regardless of build or obtain choice?",
+  "back": "Whether a component is built or obtained, it needs to be verified against requirements before moving forward, since problems are cheaper to fix at this stage.",
+  "id": 244
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "Why is deployment and transition considered one of the highest risk points in the lifecycle?",
+  "back": "It is the moment something built or tested in controlled conditions meets real customers, real data volumes, and unpredictable behavior, one of the highest risk points in the lifecycle, though not the only one.",
+  "id": 245
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "Why does the chapter say retirement deserves the same planning attention as launch?",
+  "back": "Because the manner of an ending shapes how the whole relationship is remembered, just as much as a strong launch shapes early impressions.",
+  "id": 246
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "What ties the whole lifecycle chapter together as its central idea?",
+  "back": "Value is not created only at launch. A product centric mindset treats launch as one stage in an ongoing relationship, not the finish line a project mindset would treat it as.",
+  "id": 247
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "What did ITIL Version 5 add regarding governance across products?",
+  "back": "Unified lifecycle governance across an organization's entire product portfolio, considering shared infrastructure, staff skills, and sustainability commitments together rather than in isolation.",
+  "id": 248
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "Why should a phased rollout plan be prepared before deployment, not during it?",
+  "back": "Deciding rollout scope, communication, and rollback options in advance avoids improvising decisions under pressure once real customers are already affected by a live change.",
+  "id": 249
+ },
+ {
+  "domain": "product_and_service_lifecycle",
+  "front": "Why is sourcing strategy connected to how critical a component is?",
+  "back": "The right sourcing choice, a single strong supplier versus multiple suppliers, depends on how critical the component is, how mature the supplier market is, and how much risk is acceptable.",
+  "id": 250
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is a guiding principle in ITIL?",
+  "back": "A guiding principle is a recommendation that guides an organization in all circumstances, no matter what changes happen to its goals, strategies, type of work, or management structure. It is a way of thinking and working, not a strict rule.",
+  "id": 251
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Why does the chapter compare guiding principles to a compass rather than a map?",
+  "back": "A map shows one fixed route, while a compass helps you find direction wherever you are standing, even as the terrain changes. Guiding principles work the same way, staying useful no matter what situation an organization faces.",
+  "id": 252
+ },
+ {
+  "domain": "service_value_system",
+  "front": "How many guiding principles does ITIL define, and should they be applied one at a time?",
+  "back": "ITIL defines seven guiding principles. They are meant to be used together, not picked one at a time like items on a menu, since a single real decision often calls on several principles at once.",
+  "id": 253
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What does the guiding principle Focus on Value mean?",
+  "back": "Focus on Value means everything an organization does should connect back to value for its stakeholders. Value is defined by the person receiving the service, based on their own needs and the outcome they want, not by the provider alone.",
+  "id": 254
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What two questions does Focus on Value ask before any work begins?",
+  "back": "It asks who the customer is in this situation, and what that customer sees as valuable. Both questions must be answered honestly before deciding what work to prioritize.",
+  "id": 255
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Under Focus on Value, whose experience matters besides the customer's?",
+  "back": "The employee experience also matters. A process that delivers a good outcome for the customer but burns out the staff delivering it is not sustainable value creation.",
+  "id": 256
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Give a workplace example of Focus on Value being applied correctly.",
+  "back": "A hospital IT team chooses to fix a slow login screen nurses struggle with daily over upgrading a dashboard only the director checks monthly, because the login fix removes real, frequent frustration for the people who depend on the service most.",
+  "id": 257
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Who defines whether something counts as valuable under the Focus on Value principle?",
+  "back": "Value is defined by the stakeholder receiving the service, based on what they actually need and the outcome they are trying to achieve, never by the service provider deciding on its own.",
+  "id": 258
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What does the guiding principle Start Where You Are mean?",
+  "back": "It means looking honestly at the current state before deciding what to build, change, or improve, rather than starting from a blank page that ignores services, skills, and knowledge the organization already has.",
+  "id": 259
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What kind of evidence does Start Where You Are ask an organization to rely on?",
+  "back": "It asks organizations to use real data such as logs, metrics, incident records, and direct observation, instead of relying only on what people believe is happening.",
+  "id": 260
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What common mistake does Start Where You Are warn against?",
+  "back": "It warns against discarding a working process simply because it looks old or unfashionable. Sometimes the right decision is to keep most of what exists and change only the specific part causing a real problem.",
+  "id": 261
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Does Start Where You Are mean an organization should avoid change altogether?",
+  "back": "No. It means change should be based on an honest, evidence based understanding of the current state, not on assumptions or on habit. This is a common exam trap.",
+  "id": 262
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Give a workplace example of Start Where You Are.",
+  "back": "A retail company reviews two weeks of real call center data before replacing its software, and discovers agents just need training on one feature, saving the cost and disruption of an unnecessary system replacement.",
+  "id": 263
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What does the guiding principle Progress Iteratively with Feedback mean?",
+  "back": "It means organizing work into smaller, manageable pieces that are completed, checked, and learned from, rather than attempted all at once, and gathering feedback after each piece before deciding what to do next.",
+  "id": 264
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Why are large, all at once initiatives considered risky under this principle?",
+  "back": "Problems are often not visible until the very end, by which point a great deal of time and money has already been spent. Smaller iterations catch mistakes early, when they are cheap to fix.",
+  "id": 265
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What sources of feedback does Progress Iteratively with Feedback recognize?",
+  "back": "Feedback can come from customers, internal teams, monitoring tools, test results, or anyone with insight into whether the work is heading in the right direction, not only from customers.",
+  "id": 266
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Is gathering feedback alone enough to satisfy this principle?",
+  "back": "No. The point of gathering feedback is to actually use it to adjust the next iteration, not simply to collect it and move on unchanged.",
+  "id": 267
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Give a workplace example of Progress Iteratively with Feedback.",
+  "back": "An insurance company releases a small working claims portal to a pilot group of twenty handlers, fixes a confusing screen the pilot reveals, and repeats this small release and feedback cycle every few weeks.",
+  "id": 268
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What does the guiding principle Collaborate and Promote Visibility mean?",
+  "back": "It means work is more successful when the right people are involved at the right time, and when information about the work is genuinely visible rather than hidden or known only to a small group.",
+  "id": 269
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Does Collaborate and Promote Visibility mean every decision needs a large committee?",
+  "back": "No, this is a common exam trap. It means identifying who actually needs to be involved, based on their stake or expertise, which sometimes means a small, well chosen group rather than everyone.",
+  "id": 270
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Why is visibility just as important as collaboration under this principle?",
+  "back": "Work that is invisible is difficult to manage, support, or trust. If a manager cannot see true status, they cannot make good decisions, and if a customer cannot see ticket status, they lose confidence.",
+  "id": 271
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What happens when the wrong people are excluded or included under this principle?",
+  "back": "Excluding people who need to know something, and including too many people who do not, both work against this principle. The goal is the right people, at the right time.",
+  "id": 272
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Give a workplace example of Collaborate and Promote Visibility.",
+  "back": "A university's IT team creates a public migration status page and involves student services in communications after silent email migration work caused student complaints, and complaints drop sharply once the work becomes visible.",
+  "id": 273
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What does the guiding principle Think and Work Holistically mean?",
+  "back": "It means recognizing that no part of an organization produces a result entirely on its own. Services, processes, teams, and technology are connected, and a change in one part can create effects elsewhere.",
+  "id": 274
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Which ITIL model supports Think and Work Holistically, and what does it cover?",
+  "back": "The Four Dimensions Model supports it, reminding an organization to consider organizations and people, information and technology, partners and suppliers, and value streams and processes together whenever it plans a change.",
+  "id": 275
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is the opposite of holistic thinking, and why is it risky?",
+  "back": "A narrow, siloed view is the opposite of holistic thinking. A team that only focuses on its own piece risks fixing one problem while creating another somewhere else in the chain.",
+  "id": 276
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Give a workplace example showing what happens when Think and Work Holistically is ignored.",
+  "back": "A bank upgrades a single server to speed up its mobile app, but the faster app now overwhelms a partner's payment verification service, which begins timing out because the partner dimension was never considered.",
+  "id": 277
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Which dimension is often overlooked when a team focuses only on its own technology change?",
+  "back": "Partners and suppliers is often overlooked, since a team may only consider its own organization and people or its own information and technology, and forget about external parties the change also depends on.",
+  "id": 278
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What does the guiding principle Keep It Simple and Practical mean?",
+  "back": "It means always using the minimum number of steps needed to accomplish an objective, and removing or simplifying anything that is not adding real value, even if it has existed for a long time.",
+  "id": 279
+ },
+ {
+  "domain": "service_value_system",
+  "front": "How does complexity typically build up inside an organization, according to this principle?",
+  "back": "Extra approval steps get added after one unusual incident and are never removed, or reports keep being produced for a manager who has since left, and over years this accumulated complexity slows everyone down.",
+  "id": 280
+ },
+ {
+  "domain": "service_value_system",
+  "front": "How should teams judge whether a process or policy is adding real value under this principle?",
+  "back": "Value should be judged from the outcome, not from how much effort or process went into producing it. A short, clear policy people actually follow beats a long one nobody reads.",
+  "id": 281
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Give a workplace example of Keep It Simple and Practical.",
+  "back": "A software company introduces a lightweight fast track for small, low risk code changes after discovering a single typo fix went through the same five step, two week approval chain as a major system change.",
+  "id": 282
+ },
+ {
+  "domain": "service_value_system",
+  "front": "How is Keep It Simple and Practical different from Optimize and Automate?",
+  "back": "Keep It Simple and Practical is about reducing unnecessary steps and complexity in general, while Optimize and Automate is specifically about the sequence of improving a process first and then applying technology to it.",
+  "id": 283
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What does the guiding principle Optimize and Automate mean?",
+  "back": "It means making the best use of technology and resources in a specific order: optimize a task using human judgment first, then automate it, since automating a badly designed process just makes it fail faster and bigger.",
+  "id": 284
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What two questions does optimization ask about a task before automation is considered?",
+  "back": "It asks whether the step or process is actually necessary, and if it is necessary, whether it can be simplified or streamlined before technology is applied to it.",
+  "id": 285
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What kinds of tasks are usually poor candidates for automation without a human in the loop?",
+  "back": "Tasks that require empathy, complex judgment, or a nuanced understanding of an unusual situation are usually poor automation candidates, at least without a human reviewing the outcome.",
+  "id": 286
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Give a workplace example of Optimize and Automate applied correctly.",
+  "back": "A telecom company first removes two unnecessary approval steps from its manual password reset process, and only after that optimization builds a self service tool for straightforward cases, routing unusual requests to a human.",
+  "id": 287
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What common exam trap involves the order of Optimize and Automate?",
+  "back": "Candidates may assume automation can come first. The chapter tests whether you understand that automation follows optimization, never the reverse, since automating a bad process just makes it worse at scale.",
+  "id": 288
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Are the seven guiding principles meant to be applied one at a time?",
+  "back": "No. They are meant to be used together, and a single real decision, like the chapter's logistics scheduling example, often calls on several principles at once rather than picking one from a menu.",
+  "id": 289
+ },
+ {
+  "domain": "service_value_system",
+  "front": "In the chapter's logistics scheduling example, which principle leads the team to release to one depot first?",
+  "back": "Progress Iteratively with Feedback leads the team to release the new tool to one regional depot first, gather feedback, and expand gradually rather than rolling it out everywhere at once.",
+  "id": 290
+ },
+ {
+  "domain": "service_value_system",
+  "front": "In the same logistics example, which principle is applied last, and why?",
+  "back": "Optimize and Automate is applied last, once the scheduling logic has already been simplified and proven, by automating the routine parts of building a daily schedule.",
+  "id": 291
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Do the guiding principles only apply to formal IT service management practices?",
+  "back": "No. They apply to strategy discussions, day to day operational decisions, and improvement initiatives equally, across every part of the Service Value System, not only to a narrow IT process context.",
+  "id": 292
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What might an exam scenario ask about a guiding principle besides which one is present?",
+  "back": "It might ask which guiding principle is missing from a described situation, since recognizing an overlooked principle is just as testable as recognizing one that is clearly being applied.",
+  "id": 293
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is a common trap involving Start Where You Are?",
+  "back": "Confusing Start Where You Are with resisting change altogether is a trap. The principle does not mean avoiding change, it means basing change on an honest, evidence based understanding of the current state.",
+  "id": 294
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Why does ITIL treat the seven guiding principles as recommendations rather than strict rules?",
+  "back": "Because they are ways of thinking and working that stay useful even when an organization's goals, strategies, or structure change, unlike a rule meant to be followed to the letter in one fixed situation.",
+  "id": 295
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Under Focus on Value, what mistake can a support team make even while looking productive?",
+  "back": "A support team can become so focused on closing tickets quickly that it forgets to ask whether the ticket was actually resolved in a way the customer cares about, which is not real value.",
+  "id": 296
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Under Start Where You Are, what should an organization avoid when modernizing a service?",
+  "back": "It should avoid throwing away everything and starting from a blank page, since that ignores services, skills, tools, and knowledge the organization already has, some of which may be worth keeping.",
+  "id": 297
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Under Progress Iteratively with Feedback, what happens when problems in a large project are only found at the end?",
+  "back": "They are far more expensive and disruptive to fix by that point, since significant time and money have already been spent. Small iterations catch the same mistakes early, when they are cheap to fix.",
+  "id": 298
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Under Collaborate and Promote Visibility, what should determine who gets involved in a decision?",
+  "back": "Involvement should be based on a person's stake in the outcome or the expertise they can offer, brought in at the point where their input is useful, not simply how senior they are.",
+  "id": 299
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Under Think and Work Holistically, why is a siloed team dangerous even if it does good work?",
+  "back": "A siloed team only asks how its own piece performs, without asking how that piece connects to everything around it, which risks solving one problem while quietly creating a new one elsewhere in the chain.",
+  "id": 300
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is the Service Value System, or SVS?",
+  "back": "The Service Value System is the model describing how all the parts of an organization work together to enable value creation. It is the single biggest idea in the ITIL framework and carries the largest share of the exam.",
+  "id": 301
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What are the two inputs to the Service Value System?",
+  "back": "The two inputs are opportunity, meaning possibilities to add value or improve the organization, and demand, meaning the need or desire from customers, users, and stakeholders for products and services.",
+  "id": 302
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is the single output of the Service Value System?",
+  "back": "The output is value, meaning the perceived benefits, usefulness, and importance of something to a stakeholder, produced once opportunity and demand pass through the system's five components.",
+  "id": 303
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What does opportunity mean within the Service Value System's inputs?",
+  "back": "Opportunity means possibilities to add value for stakeholders or to otherwise improve the organization, which might come from new technology, a competitor's mistake, or a favorable regulatory change.",
+  "id": 304
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What does demand mean within the Service Value System's inputs, and is it always obvious?",
+  "back": "Demand means the need or desire from customers, users, and stakeholders for products and services. It is not always obvious or already expressed, so anticipating it is part of good governance and management.",
+  "id": 305
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Why does the Service Value System carry the largest share of the Foundation exam?",
+  "back": "Because nearly every other topic in the syllabus, the guiding principles, the four dimensions, the practices, and continual improvement, connects back to this one overall model.",
+  "id": 306
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What are the five components of the Service Value System?",
+  "back": "The five components are the guiding principles, governance, the service value chain, practices, and continual improvement, sitting between the system's inputs of opportunity and demand and its output of value.",
+  "id": 307
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is the service value chain, and how many activities does it have?",
+  "back": "The service value chain is the central set of activities an organization performs to deliver a product or service. It has six activities: plan, improve, engage, design and transition, obtain and build, and deliver and support.",
+  "id": 308
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is a practice, according to the Service Value System?",
+  "back": "A practice is a set of organizational resources designed for performing work or accomplishing an objective, bringing together people, information, technology, and processes toward a specific purpose.",
+  "id": 309
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Into what three categories does ITIL group practices?",
+  "back": "ITIL groups practices into general management practices, service management practices, and technical management practices.",
+  "id": 310
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is continual improvement within the Service Value System?",
+  "back": "Continual improvement is both a dedicated practice and a way of working that runs through the entire Service Value System, ensuring products, services, and practices are constantly evaluated and improved.",
+  "id": 311
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Are the five components of the Service Value System isolated from each other?",
+  "back": "No. They are shown as connected components, not isolated boxes, since for example governance decisions flow directly into how the service value chain operates.",
+  "id": 312
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is the precise ITIL definition of governance?",
+  "back": "Governance is the means by which an organization is directed and controlled. This short definition is worth memorizing precisely, since every word in it carries specific meaning.",
+  "id": 313
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What does the word directed mean within the definition of governance?",
+  "back": "Directed means setting the overall direction the organization should move in, including its priorities, its policies, and the boundaries within which decisions must be made.",
+  "id": 314
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What does the word controlled mean within the definition of governance?",
+  "back": "Controlled means checking that the organization is actually following the set direction, and taking corrective action when it drifts away from that direction.",
+  "id": 315
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What car analogy does the chapter use to explain governance?",
+  "back": "Governance is like the steering wheel and dashboard of a car together. The steering wheel sets the direction, and the dashboard shows whether the car is actually going where it was steered.",
+  "id": 316
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Does governance only exist at the very top of large organizations?",
+  "back": "No, this is a common exam trap. Governance exists at every level, not only at board level. A single department or project can have its own governance too.",
+  "id": 317
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Can a project's own steering group be considered a legitimate governing body?",
+  "back": "Yes. What matters is not the group's title, but whether it holds genuine accountability for direction and oversight at its own level, whether that level is a corporate board or a single project.",
+  "id": 318
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Is governance the same thing as compliance or paperwork with no connection to value creation?",
+  "back": "No. Without governance, there is no reliable way to confirm separate teams are pulling in the same direction, and governance also provides accountability, which feeds directly into continual improvement.",
+  "id": 319
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What are the three activities of the governance cycle, and what is the abbreviation?",
+  "back": "The three activities are evaluate, direct, and monitor, commonly abbreviated EDM. This is one of the most important things to memorize precisely, since scenario questions frequently ask which activity is being described.",
+  "id": 320
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What does the evaluate activity of the EDM cycle involve?",
+  "back": "Evaluate means assessing the organization, its strategy, its portfolios of products and services, and its partner and supplier relationships, based on available information, and forming a judgment about them.",
+  "id": 321
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What does the direct activity of the EDM cycle involve?",
+  "back": "Direct means the governing body assigning responsibility, giving guidance, and setting policies and strategies based on conclusions from evaluation. It can take the form of a policy, a strategy document, a budget, or an instruction.",
+  "id": 322
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What does the monitor activity of the EDM cycle involve?",
+  "back": "Monitor means the governing body checking performance against the direction it set and the policies it approved, relying on measurements, reports, and audits to confirm the match.",
+  "id": 323
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Is the EDM cycle a one time sequence that finishes once completed?",
+  "back": "No, this is a common exam trap. EDM is a continuous loop. Monitoring produces new information that feeds back into the next round of evaluation, which never stops while the organization exists.",
+  "id": 324
+ },
+ {
+  "domain": "service_value_system",
+  "front": "In the chapter's hospital example, what activity is reviewing worsening wait time data to form a judgment?",
+  "back": "That is evaluate. The governing body examines the report and forms a judgment about the cause before deciding what direction, such as a new triage practice, to give.",
+  "id": 325
+ },
+ {
+  "domain": "service_value_system",
+  "front": "In the same hospital example, what activity is adopting a new triage practice and allocating budget?",
+  "back": "That is direct. Direction can take the form of an approved practice and a budget allocation based on the earlier evaluation's conclusions.",
+  "id": 326
+ },
+ {
+  "domain": "service_value_system",
+  "front": "In the same hospital example, what activity is checking new wait time data three months later?",
+  "back": "That is monitor. The governing body checks real performance against the direction it gave, and this new information becomes part of the next round of evaluation.",
+  "id": 327
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What information specifically feeds the next round of evaluation in the continuous EDM loop?",
+  "back": "New information produced by the monitor activity feeds the next evaluation, which can lead to a new or adjusted direction, keeping the loop running continuously.",
+  "id": 328
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Which two value chain activities does governance's monitor step most directly depend on for information?",
+  "back": "Monitor depends most directly on deliver and support, which is closest to the customer experience, and improve, which tracks progress against the organization's goals.",
+  "id": 329
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Which value chain activity does a governing body's direction become an input to first?",
+  "back": "A governing body's direction, such as a policy or budget decision, becomes an input to the plan activity of the service value chain first.",
+  "id": 330
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Give a workplace example of the direct activity specifically.",
+  "back": "A retail bank's governing body sets a policy that all customer facing systems must have a maximum planned downtime of four hours per year, which is a formal policy setting example of direct.",
+  "id": 331
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is a governing body?",
+  "back": "A governing body is a person or group of people accountable for the performance and compliance of the organization at some defined level, such as a board of directors, an executive committee, or a project steering group.",
+  "id": 332
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What matters most about a governing body besides its specific title?",
+  "back": "What matters is that it holds genuine accountability for direction and oversight at its level, not the specific title of the group, whether that is a board, committee, or steering group.",
+  "id": 333
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Where does a governing body's authority come from, and can that be delegated?",
+  "back": "Its authority comes from its accountability, and that accountability cannot simply be delegated away, even though many of the tasks that support governance can be delegated to others.",
+  "id": 334
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Can governance exist in layers within a single organization?",
+  "back": "Yes. A corporate board might govern the whole enterprise while a program steering committee governs a specific initiative, with the lower level ultimately still answerable to the level above it.",
+  "id": 335
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Does governance only happen at board level in a large organization?",
+  "back": "No, this is a common exam trap. Governance exists at multiple levels, including at the level of a single major program or project, wherever real accountability for direction and oversight exists.",
+  "id": 336
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is the simple way to remember the difference between governance and management?",
+  "back": "Governance decides what good looks like and checks whether it was achieved, while management does the actual work of trying to achieve it.",
+  "id": 337
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What core question does governance answer?",
+  "back": "Governance answers the question: what should the organization be doing, and is it actually doing it. It sets policy, approves strategy, and evaluates whether outcomes are acceptable.",
+  "id": 338
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What core question does management answer?",
+  "back": "Management answers the question: how do we actually get this done, day by day, with the people, budget, and tools available, operating within the boundaries governance has established.",
+  "id": 339
+ },
+ {
+  "domain": "service_value_system",
+  "front": "In the retail bank downtime example, what did the governing body NOT decide?",
+  "back": "The governing body did not decide when maintenance windows would occur or which engineer would perform the work. It set the four hour downtime policy, and management operated within that boundary.",
+  "id": 340
+ },
+ {
+  "domain": "service_value_system",
+  "front": "If a question describes someone setting a policy or a strategic boundary, is that governance or management?",
+  "back": "That is governance. If it instead describes organizing daily work or allocating staff to tasks within an agreed budget, that is management.",
+  "id": 341
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Does a governing body get involved in how a service desk assigns individual tickets?",
+  "back": "No. A governing body does not typically get involved in daily operational detail like ticket assignment, but it does care whether the service desk overall is meeting its agreed performance targets.",
+  "id": 342
+ },
+ {
+  "domain": "service_value_system",
+  "front": "How does the chapter describe the relationship between governance and the service value chain?",
+  "back": "Governance is not a separate, disconnected activity. Its decisions flow directly into the plan activity of the value chain, and monitoring depends on information flowing back up from operations, forming a continuous loop.",
+  "id": 343
+ },
+ {
+  "domain": "service_value_system",
+  "front": "In the telecom churn example, which value chain activity works with customers to understand their expectations?",
+  "back": "The engage activity works with customers to understand their expectations, after the governing body's direction to reduce churn shapes the plan activity's priorities for the year.",
+  "id": 344
+ },
+ {
+  "domain": "service_value_system",
+  "front": "In the same telecom example, which activity builds the faster provisioning process itself?",
+  "back": "The design and transition activity builds the faster provisioning process, after the engage activity has already worked out what customers expect from it.",
+  "id": 345
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Why are governance and the service value chain shown as connected components rather than isolated boxes?",
+  "back": "Because information flows down from governance as direction and flows back up from operations as monitoring data, in a continuous loop, rather than the two operating independently of each other.",
+  "id": 346
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What happens to performance data on request fulfillment times in the telecom churn example?",
+  "back": "It flows back to the governing body, which monitors whether churn actually improved, closing the loop between the value chain's operational work and governance's own EDM cycle.",
+  "id": 347
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What practical study technique does the chapter recommend for tracing a governance decision?",
+  "back": "Take one governance decision, such as a new security policy, and trace it through the system: what evaluation triggered it, what direction was given, how it moves through the six value chain activities, and how monitoring confirms whether it worked.",
+  "id": 348
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is the full path opportunity and demand travel through the Service Value System to become value?",
+  "back": "The response passes through the service value chain, is shaped by the guiding principles, operates inside governance's boundaries, is carried out using specific practices, and is refined over time through continual improvement.",
+  "id": 349
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Is it enough to study governance and the Service Value System in isolation from the rest of the syllabus?",
+  "back": "No. The chapter recommends reviewing how governance and the SVS connect to the rest of the framework, since exam scenarios often combine a governance decision with a guiding principle or value chain question together.",
+  "id": 350
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is the Service Value Chain?",
+  "back": "It is the operating model at the center of the Service Value System. It describes six connected activities that transform demand into value, and it forms the basis of every value stream an organization uses.",
+  "id": 351
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Name all six Service Value Chain activities in the order they are usually listed.",
+  "back": "Plan, Improve, Engage, Design and Transition, Obtain/Build, and Deliver and Support. These six activities can connect to each other in any order depending on what a situation requires.",
+  "id": 352
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Are the six Service Value Chain activities performed in one fixed order?",
+  "back": "No. Any activity can trigger any other activity. The six activities are a flexible toolkit, and organizations combine them differently depending on the type of demand they are responding to.",
+  "id": 353
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is the purpose of the Plan activity?",
+  "back": "Plan makes sure the whole organization has a shared understanding of direction, priorities, and strategy. It turns strategic direction into practical, coordinated plans that the rest of the organization can act on.",
+  "id": 354
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What are the typical outputs of the Plan activity?",
+  "back": "Strategic, tactical, and operational plans, portfolio decisions, and architectures. A portfolio decision is a decision about which products and services to invest in, continue, or retire.",
+  "id": 355
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Which practice is most closely associated with Plan?",
+  "back": "Strategy management. Other supporting practices include portfolio management, architecture management, and risk management, though no single practice is tied exclusively to one activity.",
+  "id": 356
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is the purpose of the Improve activity?",
+  "back": "Improve ensures continual improvement of products, services, and practices across every Service Value Chain activity and across the whole Service Value System.",
+  "id": 357
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What kind of inputs does Improve take in?",
+  "back": "Performance information, improvement opportunities, and trends gathered from every part of the organization, such as incident data, customer feedback, and benchmarking results.",
+  "id": 358
+ },
+ {
+  "domain": "service_value_system",
+  "front": "How is Improve as a Service Value Chain activity different from the continual improvement practice?",
+  "back": "Improve is the broader idea that every activity must always look for ways to do things better. The continual improvement practice provides the specific seven step model and register as concrete tools for doing that work.",
+  "id": 359
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is the purpose of the Engage activity?",
+  "back": "Engage provides a good understanding of stakeholder needs, along with transparency and continual engagement and good relationships with all stakeholders, including customers, users, suppliers, and partners.",
+  "id": 360
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Is stakeholder engagement a one-time event at the start of a project?",
+  "back": "No. Engagement is continuous. It is an ongoing task of keeping stakeholders informed and building trust throughout the entire life of a product or service, not just at project kickoff.",
+  "id": 361
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What are the typical outputs of the Engage activity?",
+  "back": "Changes, projects, and requests that flow into other activities, plus reports on the health and performance of relationships with customers, users, and suppliers.",
+  "id": 362
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Which practices are commonly associated with Engage?",
+  "back": "Relationship management, supplier management, and service level management. These practices all focus on understanding and managing the needs and expectations of stakeholders.",
+  "id": 363
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is the purpose of the Design and Transition activity?",
+  "back": "Design and Transition ensures that products and services continually meet stakeholder expectations for quality, costs, and time to market.",
+  "id": 364
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What does the word transition mean within the Design and Transition activity?",
+  "back": "It refers to moving a product or service from a planning or building state into an operational, live state, including testing, validation, and managing the risk of the change.",
+  "id": 365
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Which practice within Design and Transition assesses the risk of a change before it goes live?",
+  "back": "Change enablement. It works alongside service design, project management, service validation and testing, and release management, all of which support this activity.",
+  "id": 366
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is the purpose of the Obtain/Build activity?",
+  "back": "Obtain/Build ensures that the hardware, software, and other resources needed to deliver products and services are available whenever and wherever needed, and that they meet agreed specifications.",
+  "id": 367
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Why does Obtain/Build have two words in its name?",
+  "back": "Because a needed component can either be obtained from an external source, such as a supplier, or built internally by the organization's own developers or engineers. Both are valid depending on the situation.",
+  "id": 368
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Which practices support the Obtain/Build activity?",
+  "back": "Service design, supplier management, and software development and management. These practices help the organization decide how to source or build the components a service needs.",
+  "id": 369
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is the purpose of the Deliver and Support activity?",
+  "back": "Deliver and Support ensures that services are delivered and supported according to agreed specifications and stakeholder expectations, covering the day to day running of live services.",
+  "id": 370
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What kinds of work happen inside Deliver and Support?",
+  "back": "Handling incidents when something breaks, fulfilling routine service requests, and generally keeping live services running smoothly for users and customers.",
+  "id": 371
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Which practices are most closely tied to Deliver and Support?",
+  "back": "Incident management, service request management, service desk, monitoring and event management, and problem management. These practices keep live services running and supported.",
+  "id": 372
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is a value stream?",
+  "back": "A specific combination and sequence of the six Service Value Chain activities, chosen to respond to a particular type of demand, such as launching a new product or fulfilling a simple request.",
+  "id": 373
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Why might a password reset request use a shorter value stream than launching a new product?",
+  "back": "Because nothing new needs to be designed or built for a routine request, so the value stream can skip Design and Transition and Obtain/Build and move almost directly from Engage to Deliver and Support.",
+  "id": 374
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What makes the Service Value Chain a chain rather than a simple list of six items?",
+  "back": "Each activity has defined inputs and outputs, and the output of one activity commonly becomes the input of another, so the activities are all interconnected rather than independent.",
+  "id": 375
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Which activity answers the question, where are we going?",
+  "back": "Plan. It sets the shared direction and coordinated plans that guide the rest of the organization's work.",
+  "id": 376
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Which activity answers the question, what do stakeholders need?",
+  "back": "Engage. It focuses on understanding stakeholder needs and building strong ongoing relationships with everyone who has an interest in the organization's products and services.",
+  "id": 377
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Which activity answers the question, how do we build the right thing the right way?",
+  "back": "Design and Transition. It turns a requirement into a properly designed, tested, and safely released product or service.",
+  "id": 378
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Which activity answers the question, what components do we need to get or make?",
+  "back": "Obtain/Build. It sources or builds the physical, digital, or human resources a service needs before it can be delivered.",
+  "id": 379
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Which activity answers the question, how do we keep services running day to day?",
+  "back": "Deliver and Support. It covers ongoing operations, incident handling, and routine request fulfillment for live services.",
+  "id": 380
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Which activity answers the question, how do we make all of this better over time?",
+  "back": "Improve. It drives continual improvement across every other activity and across the whole Service Value System.",
+  "id": 381
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Can a single practice support more than one Service Value Chain activity?",
+  "back": "Yes. Most practices are not tied exclusively to one activity. For example, service level management can support both Engage and Deliver and Support depending on the situation.",
+  "id": 382
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What triggers the Plan activity in a typical value stream for a brand new product?",
+  "back": "A confirmed need often flows from Engage into Plan first, so leadership can confirm the new idea fits the organization's overall strategy and allocate budget and priority.",
+  "id": 383
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is a portfolio decision?",
+  "back": "A decision made through the Plan activity about which products and services the organization should invest in, continue, or retire.",
+  "id": 384
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What kind of information flows from Deliver and Support back into Improve and Plan?",
+  "back": "Performance data from running live services, such as recurring incident patterns or usage trends, which can reveal opportunities for improvement or bigger strategic changes.",
+  "id": 385
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Why is it a mistake to think Obtain/Build only applies to large IT systems?",
+  "back": "Because it applies just as much to something small, like procuring one new laptop for an employee, as it does to a major infrastructure purchase or a large internal software build.",
+  "id": 386
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is the relationship between Design and Transition and the practice of service validation and testing?",
+  "back": "Service validation and testing helps confirm that a new or changed service actually meets its requirements before Design and Transition allows it to move into live use.",
+  "id": 387
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Give an example of the Engage activity in action.",
+  "back": "An account manager holding a quarterly review meeting with a key customer to discuss satisfaction, upcoming needs, and the overall health of the relationship.",
+  "id": 388
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Give an example of the Deliver and Support activity in action.",
+  "back": "A service desk analyst resetting a locked user account or restoring a service after an unexpected outage, both routine parts of day to day operations.",
+  "id": 389
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Give an example of the Obtain/Build activity in action.",
+  "back": "A company purchasing software licenses from a vendor, or an internal team writing code for a new feature, either of which sources a needed component.",
+  "id": 390
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Give an example of the Improve activity in action.",
+  "back": "A team reviewing months of recurring incident data and proposing a permanent fix, rather than continuing to treat each incident as a separate one-off problem.",
+  "id": 391
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Give an example of the Plan activity in action.",
+  "back": "Senior leadership deciding which three new services the organization will invest in over the coming year, a classic portfolio decision.",
+  "id": 392
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Give an example of the Design and Transition activity in action.",
+  "back": "Testers validating that a new banking application meets its agreed requirements before it is released to real customers.",
+  "id": 393
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is architecture management's connection to the Service Value Chain?",
+  "back": "It supports the Plan activity by helping define the organization's overall technical structure and standards, which shapes future strategic decisions.",
+  "id": 394
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is change enablement's connection to the Service Value Chain?",
+  "back": "It supports the Design and Transition activity by assessing and managing the risk of a proposed change before it is allowed to move into live use.",
+  "id": 395
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is monitoring and event management's connection to the Service Value Chain?",
+  "back": "It supports the Deliver and Support activity by watching live systems in real time and detecting issues, such as low disk space, as they occur.",
+  "id": 396
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Why is Engage described as connecting to almost every other activity?",
+  "back": "Because most work starts with some form of stakeholder need, which Engage captures and then passes along to whichever activity is best suited to respond, whether that is Design and Transition or Deliver and Support directly.",
+  "id": 397
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What does it mean to say the Service Value Chain is flexible rather than rigid?",
+  "back": "It means the same six activities can be combined and sequenced in different ways to form different value streams, matching whatever type of demand the organization is responding to.",
+  "id": 398
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What common mistake do candidates make about the order of the six activities?",
+  "back": "Assuming they must always happen in the order Plan, Engage, Design and Transition, Obtain/Build, Deliver and Support, Improve, when in reality any activity can trigger any other one.",
+  "id": 399
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What common mistake do candidates make when confusing Obtain/Build with Deliver and Support?",
+  "back": "Thinking both activities describe running a live service, when Obtain/Build is actually about getting components ready before they are used, while Deliver and Support is about running the service once components are already in place.",
+  "id": 400
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is the best one-sentence summary of the entire Service Value Chain model?",
+  "back": "Six connected activities, Plan, Improve, Engage, Design and Transition, Obtain/Build, and Deliver and Support, work together flexibly to turn stakeholder demand into real value.",
+  "id": 401
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is step one of the Continual Improvement Model?",
+  "back": "What is the vision? This step establishes the organization's business vision, mission, goals, and objectives before any improvement work begins.",
+  "id": 402
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is step two of the Continual Improvement Model?",
+  "back": "Where are we now? This step is an honest assessment of the current state, often using baseline assessments or audits.",
+  "id": 403
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is step three of the Continual Improvement Model?",
+  "back": "Where do we want to be? This step defines measurable targets that turn the broad vision from step one into specific, checkable goals.",
+  "id": 404
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is step four of the Continual Improvement Model?",
+  "back": "How do we get there? This step defines the improvement plan itself, including the approach, timelines, and resources needed.",
+  "id": 405
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is step five of the Continual Improvement Model?",
+  "back": "Take action. This step is where the improvement plan created in step four is actually carried out.",
+  "id": 406
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is step six of the Continual Improvement Model?",
+  "back": "Did we get there? This step evaluates whether the actions taken actually achieved the measurable targets set in step three.",
+  "id": 407
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is step seven of the Continual Improvement Model?",
+  "back": "How do we keep the momentum going? This final step reinforces what worked, corrects what did not, and sustains progress going forward.",
+  "id": 408
+ },
+ {
+  "domain": "service_value_system",
+  "front": "List all seven steps of the Continual Improvement Model in exact order.",
+  "back": "What is the vision, where are we now, where do we want to be, how do we get there, take action, did we get there, and how do we keep the momentum going.",
+  "id": 409
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Does the Continual Improvement Model end after step seven?",
+  "back": "No. The model loops. Insights and momentum from step seven feed back into a fresh look at the vision in step one, starting a new cycle.",
+  "id": 410
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is the key difference between step two and step three of the model?",
+  "back": "Step two, where are we now, describes the current, real, honest state of things. Step three, where do we want to be, describes a future, measurable target. Confusing or reversing these is a classic exam trap.",
+  "id": 411
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is the continual improvement register, or CIR?",
+  "back": "A practical tool used to record and track improvement ideas throughout their entire life span, from initial idea through to completion.",
+  "id": 412
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What information does a continual improvement register typically capture?",
+  "back": "A description of the improvement opportunity, where it came from, its priority, its owner, its current status, and its expected or actual benefits.",
+  "id": 413
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Must an organization have only one continual improvement register?",
+  "back": "No. Different levels of the organization, such as a team, a department, or the whole enterprise, can each maintain their own register, as long as each one is genuinely kept current and used.",
+  "id": 414
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is the purpose of the continual improvement practice?",
+  "back": "To align an organization's practices and services with changing business needs through the ongoing improvement of products, services, practices, or any element involved in managing them.",
+  "id": 415
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Why is continual improvement described as everyone's responsibility, not just one team's job?",
+  "back": "Because people closest to daily work often notice inefficiencies first, and a single small improvement team cannot possibly review every process across a large organization on its own.",
+  "id": 416
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What risk can come from centralizing continual improvement in one specialist team?",
+  "back": "The rest of the organization can start to feel improvement is being done to them rather than something they are part of, which often causes quiet resistance to change.",
+  "id": 417
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Does having a coordinating improvement team contradict shared responsibility for improvement?",
+  "back": "No. A coordinating team can help organize efforts and share good practice between teams without replacing the responsibility every individual and team has to look for improvements in their own area.",
+  "id": 418
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Which guiding principle connects most closely to step two, where are we now?",
+  "back": "Start where you are. It reminds practitioners to honestly assess the current state before assuming a system needs to be rebuilt from scratch.",
+  "id": 419
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Which guiding principle connects most closely to the model's overall looping structure?",
+  "back": "Progress iteratively with feedback. Rather than one giant transformation, the model encourages smaller, iterative cycles checked against real feedback.",
+  "id": 420
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Which guiding principle connects most closely to steps one and three of the model?",
+  "back": "Focus on value. Both the vision and the measurable targets should be grounded in what actually delivers value to stakeholders.",
+  "id": 421
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Where does continual improvement appear across ITIL besides the dedicated practice?",
+  "back": "As one of the seven guiding principles, and as the Improve activity within the Service Value Chain, in addition to the continual improvement practice itself with its seven step model.",
+  "id": 422
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is the danger of setting a step three target before completing step two?",
+  "back": "Setting a target before honestly assessing the current state reverses the model's intended order and can lead to a target that is unrealistic or poorly grounded in reality.",
+  "id": 423
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What does step four, how do we get there, typically include?",
+  "back": "A practical approach, along with timelines and the resources needed to close the gap between the current state and the target state.",
+  "id": 424
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is the difference between step five, take action, and step six, did we get there?",
+  "back": "Take action is the doing step, where the plan is actually carried out. Did we get there is the evaluation step, where real results are checked against the earlier target.",
+  "id": 425
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Why is step seven, keeping the momentum going, easy for candidates to forget?",
+  "back": "Because it feels like an afterthought compared to the more concrete-sounding earlier steps, even though it is an official, numbered step that sustains and spreads a successful improvement.",
+  "id": 426
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What practice supplies much of the data used in steps two, three, and six of the model?",
+  "back": "Measurement and reporting. It provides the baseline data, supports setting measurable targets, and supplies the results used to evaluate whether targets were met.",
+  "id": 427
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What practice helps identify risks in a proposed improvement plan during step four?",
+  "back": "Risk management. It helps the organization understand what could go wrong before the plan is actually carried out in step five.",
+  "id": 428
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What practice helps people actually adopt a new way of working during step five?",
+  "back": "Organizational change management. Even a well designed plan can fail if people quietly continue using the old process instead of adopting the new one.",
+  "id": 429
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Give a worked example of step one in a customer support scenario.",
+  "back": "A support department confirms its vision is to be recognized for excellent customer service, aligning with the organization's broader goals before any specific improvement work begins.",
+  "id": 430
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Give a worked example of step two in a customer support scenario.",
+  "back": "The same department gathers real data on current average wait times, call volumes, and staffing levels rather than guessing how bad the problem actually is.",
+  "id": 431
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Give a worked example of step three in a customer support scenario.",
+  "back": "The department sets a measurable target of reducing average wait time from twelve minutes to under five minutes within one quarter.",
+  "id": 432
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Give a worked example of step four in a customer support scenario.",
+  "back": "The department plans specific actions, such as hiring additional staff, adding a callback option, and improving how calls are routed based on issue type.",
+  "id": 433
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Give a worked example of step five in a customer support scenario.",
+  "back": "The department actually hires the new staff and rolls out the callback option according to the plan defined in the previous step.",
+  "id": 434
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Give a worked example of step six in a customer support scenario.",
+  "back": "The department checks the real average wait time after the plan has run for the agreed period and compares it against the five minute target.",
+  "id": 435
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Give a worked example of step seven in a customer support scenario.",
+  "back": "The department documents which staffing changes worked best and considers applying the same lessons to a different support channel, sustaining the improvement going forward.",
+  "id": 436
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Why can even a successful improvement initiative eventually need a fresh cycle of the model?",
+  "back": "Because business needs are not static, and a service that performs well today may need realignment later as circumstances, technology, or customer expectations change.",
+  "id": 437
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is a common exam trap involving steps six and seven?",
+  "back": "Describing take action as though it were the final step, or treating corrective action as a separate eighth step, when the true seventh step is how do we keep the momentum going.",
+  "id": 438
+ },
+ {
+  "domain": "service_value_system",
+  "front": "How does the continual improvement register connect to the seven step model?",
+  "back": "Ideas captured while asking where are we now or did we get there often become new register entries, which then feed future cycles of the model when prioritizing what to improve next.",
+  "id": 439
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is the practical benefit of recording an idea's expected benefit in a continual improvement register?",
+  "back": "It helps the organization prioritize which improvement ideas to act on first, based on their likely impact rather than guesswork.",
+  "id": 440
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Why does a written register work better than relying on memory alone?",
+  "back": "Because ideas mentioned informally in meetings are easily forgotten if nobody writes them down, so the register gives every improvement idea a visible, trackable home.",
+  "id": 441
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Can the Continual Improvement Model be applied to a single individual's own habits?",
+  "back": "Yes. The seven steps work at any scale, from an entire enterprise transformation program down to one person reviewing and improving their own weekly work habits.",
+  "id": 442
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What best distinguishes the continual improvement practice from the Improve Service Value Chain activity?",
+  "back": "The practice provides the specific, formal seven step model and register as concrete tools, while Improve represents the broader mindset and function running through every other activity.",
+  "id": 443
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Why does step one ask about vision, mission, goals, and objectives together?",
+  "back": "Because together they give a fuller picture of both long-term direction and near-term goals, which guides all of the more specific steps that follow.",
+  "id": 444
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What happens if step three sets a vague, unmeasurable target?",
+  "back": "It becomes difficult for step six to later check honestly whether the target was actually achieved, undermining the evaluation part of the whole cycle.",
+  "id": 445
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is the relationship between the Continual Improvement Model and the wider Service Value System?",
+  "back": "The model is one practical tool within the broader Service Value System, supporting its goal of ongoing alignment between the organization's work and changing business needs.",
+  "id": 446
+ },
+ {
+  "domain": "service_value_system",
+  "front": "Why might different chapters or teams each keep their own continual improvement register?",
+  "back": "Because improvement opportunities are relevant at every level of the organization, and each register only provides real value if it is actually used and kept current by the team closest to that work.",
+  "id": 447
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What best summarizes why continual improvement is called continual rather than continuous?",
+  "back": "Continual means the improvement work happens again and again in a repeating cycle, rather than nonstop without any pause, matching the model's looping structure.",
+  "id": 448
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What is the simplest way to remember the correct order of the seven steps?",
+  "back": "Vision, current state, target state, plan, action, evaluate, and sustain momentum, always in that exact order, since the exam frequently tests this sequence directly.",
+  "id": 449
+ },
+ {
+  "domain": "service_value_system",
+  "front": "What kind of evidence shows continual improvement is genuinely embedded in an organization's culture?",
+  "back": "Staff at every level routinely suggesting and acting on small improvements without being told to, rather than improvement only being discussed once a year during a formal review.",
+  "id": 450
+ },
+ {
+  "domain": "value_streams",
+  "front": "What is a value stream?",
+  "back": "A value stream is a series of steps an organization uses to create and deliver products and services to a consumer. It combines service value chain activities and practices into one clear path toward one outcome.",
+  "id": 451
+ },
+ {
+  "domain": "value_streams",
+  "front": "How does a value stream differ from a process?",
+  "back": "A process is a set of activities that transform inputs into outputs for one activity or team. A value stream is the bigger, end to end journey delivering value to a consumer, often stitching several processes and practices together.",
+  "id": 452
+ },
+ {
+  "domain": "value_streams",
+  "front": "What is flow based thinking?",
+  "back": "Flow based thinking asks whether a piece of work is moving or sitting still. It treats waiting time, called delay, as the main enemy of good service and focuses attention on making that delay visible.",
+  "id": 453
+ },
+ {
+  "domain": "value_streams",
+  "front": "What is delay, in flow based thinking?",
+  "back": "Delay is the time a piece of work spends waiting rather than being actively worked on, such as sitting in a queue or waiting for an approval. Reducing delay is a central goal of value stream mapping.",
+  "id": 454
+ },
+ {
+  "domain": "value_streams",
+  "front": "What is value adding time?",
+  "back": "Value adding time is time spent doing something the consumer would actually be willing to pay for or wait for, such as diagnosing a genuine fault or writing needed code.",
+  "id": 455
+ },
+ {
+  "domain": "value_streams",
+  "front": "What is non value adding time?",
+  "back": "Non value adding time is time spent on things that do not benefit the consumer, such as rework caused by an earlier mistake or unnecessary approvals nobody reviews carefully.",
+  "id": 456
+ },
+ {
+  "domain": "value_streams",
+  "front": "What is demand, in ITIL terms?",
+  "back": "Demand is the need or trigger for products and services from internal and external consumers. It is the starting point used to identify which value stream needs to be mapped.",
+  "id": 457
+ },
+ {
+  "domain": "value_streams",
+  "front": "How should a team identify a value stream before mapping it?",
+  "back": "The team should look at a real demand, state the one clear outcome the consumer is waiting for in plain language, and name the value stream using the consumer's own words rather than internal jargon.",
+  "id": 458
+ },
+ {
+  "domain": "value_streams",
+  "front": "Why should a value stream be named in the consumer's language?",
+  "back": "Naming a value stream in the consumer's language, such as 'resolve a user's incident,' keeps the whole team focused on the real outcome the consumer needs, rather than hiding it behind internal jargon.",
+  "id": 459
+ },
+ {
+  "domain": "value_streams",
+  "front": "What does a value stream map typically show for each step?",
+  "back": "A value stream map typically shows the activity, who or what performs it, the process time the work itself takes, and the lead time the step waits before the next step picks it up.",
+  "id": 460
+ },
+ {
+  "domain": "value_streams",
+  "front": "What is process time, or touch time?",
+  "back": "Process time, also called touch time, is how long the actual work takes once someone starts working on a step. It measures effort, not waiting.",
+  "id": 461
+ },
+ {
+  "domain": "value_streams",
+  "front": "What is lead time?",
+  "back": "Lead time is how long an item sits before someone starts working on it. It measures waiting, and is often the largest hidden cost inside a value stream.",
+  "id": 462
+ },
+ {
+  "domain": "value_streams",
+  "front": "Why should a value stream map be built by walking the real journey rather than reading a policy manual?",
+  "back": "Walking the real journey with the people who do the work reveals queues, rework loops, and workarounds that a policy manual usually hides, giving a far more accurate picture of where time is really spent.",
+  "id": 463
+ },
+ {
+  "domain": "value_streams",
+  "front": "Why revisit a value stream map after it has already been drawn once?",
+  "back": "Value streams change as an organization automates steps, changes suppliers, or reorganizes teams, so an old map can stop matching reality, and a before and after map shows whether a change truly helped.",
+  "id": 464
+ },
+ {
+  "domain": "value_streams",
+  "front": "What three things should a value stream map connect together?",
+  "back": "A value stream map should connect the demand that triggered it, the practices and service value chain activities used along the way, and the value the consumer ultimately receives at the end.",
+  "id": 465
+ },
+ {
+  "domain": "value_streams",
+  "front": "In the worked incident example, what was the biggest source of delay?",
+  "back": "The biggest source of delay was a forty minute queue wait before a network specialist picked up the escalated ticket, larger than any single step of actual working time in the example.",
+  "id": 466
+ },
+ {
+  "domain": "value_streams",
+  "front": "In the worked incident example, what was the total end to end time?",
+  "back": "The total end to end time was one hour and forty two minutes, combining fifty five minutes of process time with forty seven minutes of lead time across five steps.",
+  "id": 467
+ },
+ {
+  "domain": "value_streams",
+  "front": "Why did the onboarding example take days while the incident example took under two hours?",
+  "back": "The onboarding value stream was dominated by calendar driven delays, such as weekends and a scheduled arrival date, while the incident value stream was dominated by a single queue wait measured in minutes.",
+  "id": 468
+ },
+ {
+  "domain": "value_streams",
+  "front": "Why does each type of demand generally need its own value stream map?",
+  "back": "Different demands lead to different steps, different practices, and a different definition of what value actually means to the consumer, so one map cannot safely be reused for a different demand.",
+  "id": 469
+ },
+ {
+  "domain": "value_streams",
+  "front": "What common mistake happens when a map stops at an internal 'ticket resolved' status?",
+  "back": "The map wrongly stops before checking whether the consumer has actually confirmed the outcome. A value stream should always end with the consumer's real experience, not an internal status field.",
+  "id": 470
+ },
+ {
+  "domain": "value_streams",
+  "front": "Which guiding principle keeps a value stream map anchored to the consumer's real outcome?",
+  "back": "Focus on value keeps a value stream map anchored to what the consumer actually receives, rather than letting the map drift toward describing internal activity for its own sake.",
+  "id": 471
+ },
+ {
+  "domain": "value_streams",
+  "front": "Which guiding principle applies once delay has been found on a value stream map?",
+  "back": "Optimize and automate applies once delay has been identified, guiding a team to remove unnecessary steps first and automate what remains afterward, rather than automating waste.",
+  "id": 472
+ },
+ {
+  "domain": "value_streams",
+  "front": "Which of the four dimensions of service management is directly named after this chapter's topic?",
+  "back": "Value streams and processes is itself one of the four dimensions of service management, alongside organizations and people, information and technology, and partners and suppliers.",
+  "id": 473
+ },
+ {
+  "domain": "value_streams",
+  "front": "How does continual improvement connect to value stream mapping?",
+  "back": "Continual improvement provides the structured approach for deciding what to do about delay found on a map, checking whether a fix worked, and deciding what to improve next.",
+  "id": 474
+ },
+ {
+  "domain": "value_streams",
+  "front": "What number should a team compare against total end to end time to see how much of a journey was waiting?",
+  "back": "The sum of every step's process time should be compared against the total end to end time. The gap between the two shows how much of the journey was pure waiting rather than working.",
+  "id": 475
+ },
+ {
+  "domain": "ai_and_other_frameworks",
+  "front": "How is artificial intelligence generally described in an ITIL service management context?",
+  "back": "AI refers to computer systems that can perform tasks normally requiring human intelligence, such as recognizing patterns, making predictions, or generating recommendations, used to support ITSM work.",
+  "id": 476
+ },
+ {
+  "domain": "ai_and_other_frameworks",
+  "front": "How can AI support monitoring and event management?",
+  "back": "AI can analyze large volumes of monitoring data and flag events that fall outside normal patterns, a technique often called anomaly detection, helping teams find real problems faster.",
+  "id": 477
+ },
+ {
+  "domain": "ai_and_other_frameworks",
+  "front": "How can AI help when a single fault generates many separate alerts?",
+  "back": "AI supported tools can correlate related alerts and present one grouped, prioritized issue instead of many separate alarms, letting a specialist start closer to the real root cause.",
+  "id": 478
+ },
+ {
+  "domain": "ai_and_other_frameworks",
+  "front": "How can AI support decision making without replacing the human decision maker?",
+  "back": "AI can suggest a likely cause, fix, or priority level based on patterns in past data, but a human still reviews the suggestion and decides whether it fits the actual situation.",
+  "id": 479
+ },
+ {
+  "domain": "ai_and_other_frameworks",
+  "front": "How can AI support the change enablement practice?",
+  "back": "AI supported tools can flag combinations of factors, such as timing or systems affected, that have previously led to problems, giving a human reviewer useful information before approving a change.",
+  "id": 480
+ },
+ {
+  "domain": "ai_and_other_frameworks",
+  "front": "How can AI support continual improvement work?",
+  "back": "AI can summarize trends across thousands of tickets, surveys, or metrics, giving the improvement team a useful starting point instead of requiring every record to be reviewed by hand.",
+  "id": 481
+ },
+ {
+  "domain": "ai_and_other_frameworks",
+  "front": "How can AI support demand and capacity planning?",
+  "back": "AI based forecasting can help predict busier periods based on past usage patterns, allowing an organization to plan staffing or capacity ahead of time rather than reacting afterward.",
+  "id": 482
+ },
+ {
+  "domain": "ai_and_other_frameworks",
+  "front": "What is the data quality risk of using AI in service management?",
+  "back": "An AI system is only as good as the data it learns from. Incomplete, outdated, or inconsistently recorded data can lead to confident sounding recommendations that are actually wrong.",
+  "id": 483
+ },
+ {
+  "domain": "ai_and_other_frameworks",
+  "front": "What is the bias risk of using AI in service management?",
+  "back": "If historical data reflects past mistakes or narrow patterns of use, an AI system trained on that data can repeat and even amplify those same patterns going forward.",
+  "id": 484
+ },
+ {
+  "domain": "ai_and_other_frameworks",
+  "front": "What is the transparency risk of using AI in service management?",
+  "back": "Some AI systems produce results without making clear why they reached that result, making it harder for a human reviewer to judge whether to trust the recommendation.",
+  "id": 485
+ },
+ {
+  "domain": "ai_and_other_frameworks",
+  "front": "What is the accountability risk of using AI in service management?",
+  "back": "AI can inform a decision, but it cannot itself be held accountable. Every use of AI needs a named human role who owns the outcome and the governance around it.",
+  "id": 486
+ },
+ {
+  "domain": "ai_and_other_frameworks",
+  "front": "What single principle do the four AI related risks lead to together?",
+  "back": "AI is used to augment human decision making, not replace it. Human oversight and governance remain essential wherever AI is involved in service management.",
+  "id": 487
+ },
+ {
+  "domain": "ai_and_other_frameworks",
+  "front": "How does ITIL Version 5 describe its relationship to other frameworks like DevOps and Agile?",
+  "back": "ITIL is a service management framework designed to integrate with these approaches, not compete with them. Organizations commonly blend several approaches, using each one where it is strongest.",
+  "id": 488
+ },
+ {
+  "domain": "ai_and_other_frameworks",
+  "front": "What is DevOps, and how does it relate to ITIL?",
+  "back": "DevOps brings development and operations teams together for frequent, automated, collaborative delivery. It provides fast, reliable ways of shipping technical changes within an ITIL described value stream.",
+  "id": 489
+ },
+ {
+  "domain": "ai_and_other_frameworks",
+  "front": "Which ITIL guiding principles line up naturally with DevOps values?",
+  "back": "Collaborate and promote visibility, and optimize and automate, both line up naturally with DevOps values around close teamwork and heavy automation of delivery work.",
+  "id": 490
+ },
+ {
+  "domain": "ai_and_other_frameworks",
+  "front": "What is Lean, and how does it relate to ITIL?",
+  "back": "Lean is an approach focused on eliminating waste and improving flow, originally from manufacturing. Its concept of waste maps closely onto ITIL's idea of non value adding time in a value stream.",
+  "id": 491
+ },
+ {
+  "domain": "ai_and_other_frameworks",
+  "front": "What recurring question does Lean ask about a step in a piece of work?",
+  "back": "Lean asks whether a step adds value for the customer, or whether it is waste that should be reduced or removed, keeping continuous focus on eliminating unnecessary delay.",
+  "id": 492
+ },
+ {
+  "domain": "ai_and_other_frameworks",
+  "front": "What is Agile, and how does it relate to ITIL?",
+  "back": "Agile delivers work in small, iterative steps, adapting plans as understanding changes. It often operates at the level of a specific team's delivery, while ITIL manages the wider, ongoing service around it.",
+  "id": 493
+ },
+ {
+  "domain": "ai_and_other_frameworks",
+  "front": "How does ITIL complement Agile once a piece of work is ready to go live?",
+  "back": "ITIL practices such as change enablement and release management bring Agile delivered work safely and consistently into live use, extending beyond where an Agile team's sprint responsibility ends.",
+  "id": 494
+ },
+ {
+  "domain": "ai_and_other_frameworks",
+  "front": "What is PRINCE2, and how does it relate to ITIL?",
+  "back": "PRINCE2 is a structured approach to managing projects, with defined processes, roles, and governance controls. PRINCE2 governs the temporary project, while ITIL governs the ongoing service that outlives it.",
+  "id": 495
+ },
+ {
+  "domain": "ai_and_other_frameworks",
+  "front": "What does PRINCE2 focus on that differs from Agile's typical focus?",
+  "back": "PRINCE2 focuses on the overall governance of a project, such as whether it remains justified and who is accountable for decisions, rather than the day to day rhythm of delivering work.",
+  "id": 496
+ },
+ {
+  "domain": "ai_and_other_frameworks",
+  "front": "In a blended framework scenario, what role might a steering group play using PRINCE2?",
+  "back": "A steering group can use PRINCE2 to define the business case, milestones, and governance for a project, deciding at each stage whether the project remains worth continuing.",
+  "id": 497
+ },
+ {
+  "domain": "ai_and_other_frameworks",
+  "front": "In a blended framework scenario, what happens once a new service goes live?",
+  "back": "Once a service goes live, ITIL practices such as monitoring and event management, incident management, and continual improvement take over responsibility for the ongoing service, often supported by AI tools under human governance.",
+  "id": 498
+ },
+ {
+  "domain": "ai_and_other_frameworks",
+  "front": "What is the overall lesson of combining PRINCE2, Agile, DevOps, Lean, and ITIL on one initiative?",
+  "back": "Each framework covers the part it is strongest at, and ITIL ties the project's output into a genuinely managed, ongoing service that continues long after the project itself has closed.",
+  "id": 499
+ },
+ {
+  "domain": "ai_and_other_frameworks",
+  "front": "Why does ITIL Version 5 emphasize governance so heavily when discussing AI?",
+  "back": "Every benefit AI brings, such as faster monitoring or better analysis, comes with a matching responsibility to manage real risks like data quality, bias, transparency, and accountability.",
+  "id": 500
+ }
+]
